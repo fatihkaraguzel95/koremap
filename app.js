@@ -108,20 +108,18 @@ function naverLinks(p, mode /* place | transit | car | walk */) {
   };
 }
 
-/** Once Naver uygulamasini dene; acilmazsa ~1.3 sn sonra web haritaya dus. */
+/** Once Naver uygulamasini dene; acilmazsa ~1.3 sn sonra web haritaya dus.
+   Yalnizca sayfanin gercekten arka plana dusmesi iptal sayilir — `blur` tek
+   basina guvenilir degil, deep link denemesi pencereyi anlik blur'layabiliyor. */
 function openNaver(appUrl, webUrl) {
-  const started = Date.now();
-  let done = false;
-  const cancel = () => { done = true; };
-  document.addEventListener('visibilitychange', cancel, { once: true });
-  window.addEventListener('pagehide', cancel, { once: true });
-  window.addEventListener('blur', cancel, { once: true });
+  let switched = false;
+  const cancel = () => { if (document.hidden) switched = true; };
+  document.addEventListener('visibilitychange', cancel);
+  window.addEventListener('pagehide', () => { switched = true; }, { once: true });
 
   setTimeout(() => {
     document.removeEventListener('visibilitychange', cancel);
-    if (!done && !document.hidden && Date.now() - started < 3000) {
-      window.location.href = webUrl;
-    }
+    if (!switched && !document.hidden) window.location.href = webUrl;
   }, 1300);
 
   window.location.href = appUrl;
@@ -433,11 +431,15 @@ function selectPlace(id, fromList) {
   highlightMarker();
   if (p && Number.isFinite(p.lat)) {
     setSheet('half');
-    // panelin ustunde kalan alanin ortasina hizala
-    const off = (sheet.offsetHeight - snap.half) / 4;
+    /* Pin'i ekranin degil, panelin ustunde kalan gorunur alanin ortasina hizala.
+       setView + panBy animasyonlari birbirini kesiyordu; bunun yerine harita
+       merkezini dogrudan piksel uzayinda kaydirip tek setView yapiyoruz. */
     const center = () => {
-      map.setView([p.lat, p.lng], Math.max(map.getZoom(), 15), { animate: true });
-      map.panBy([0, off], { animate: true });
+      const z = Math.max(map.getZoom(), 15);
+      const visible = window.innerHeight - (sheet.offsetHeight - snap.half);
+      const shift = window.innerHeight / 2 - visible / 2;   // pin bu kadar yukari cikmali
+      const pt = map.project([p.lat, p.lng], z).add([0, shift]);
+      map.setView(map.unproject(pt, z), z, { animate: true });
       highlightMarker();
     };
     const m = markers.get(id);
@@ -722,6 +724,12 @@ function initEvents() {
   $('#fileInput').addEventListener('change', (e) => { importFiles(e.target.files); e.target.value = ''; });
   $('#pickBtn').addEventListener('click', () => $('#fileInput').click());
   $('#demoBtn').addEventListener('click', addDemo);
+  $('#seedBtn').addEventListener('click', async () => {
+    const n = await loadSeed(true);
+    $('#scrim').hidden = true;
+    render(); fitAll(); setSheet('peek');
+    toast(n ? `${n} yer geri yüklendi.` : 'Kayıtlı listedeki her şey zaten ekli.');
+  });
   $('#clearAll').addEventListener('click', () => {
     if (!state.places.length) return toast('Zaten boş.');
     if (!confirm(`${state.places.length} yerin tamamı silinsin mi?`)) return;
@@ -795,6 +803,33 @@ function addDemo() {
   toast('Demo veri yüklendi.');
 }
 
+/* ================= gomulu liste ================= */
+
+/* data/places.json uygulamayla birlikte geliyor — Google Takeout'tan cozulmus
+   Kore listeleri. Ilk aciliste (ve surum degistiginde) otomatik yuklenir.
+   "Tumunu sil" surumu koruyor, boylece silinen liste kendiliginden geri gelmez. */
+const SEED_URL = './data/places.json';
+const SEED_KEY = 'koremap.seed.v1';
+
+async function loadSeed(force = false) {
+  let data;
+  try {
+    const r = await fetch(SEED_URL, { cache: 'no-cache' });
+    if (!r.ok) return 0;
+    data = await r.json();
+  } catch { return 0; }
+  if (!data || !Array.isArray(data.places) || !data.places.length) return 0;
+
+  const ver = String(data.version ?? '1');
+  if (!force && localStorage.getItem(SEED_KEY) === ver) return 0;
+
+  const before = state.places.length;
+  state.places = dedupe([...state.places, ...data.places]);
+  try { localStorage.setItem(SEED_KEY, ver); } catch { /* onemli degil */ }
+  save();
+  return state.places.length - before;
+}
+
 /* ================= baslangic ================= */
 
 load();
@@ -802,8 +837,20 @@ initMap();
 initSheetDrag();
 initEvents();
 render();
-if (state.places.length) { fitAll(); setSheet('peek', false); }
-else { setSheet('half', false); $('#scrim').hidden = false; }
+setSheet(state.places.length ? 'peek' : 'half', false);
+if (state.places.length) fitAll();
+
+(async () => {
+  const added = await loadSeed();
+  if (added) {
+    render();
+    fitAll();
+    setSheet('peek');
+    toast(`${added} kayıtlı Kore yeri yüklendi.`, 3200);
+  } else if (!state.places.length) {
+    $('#scrim').hidden = false;   // gomulu liste yoksa ice aktarmayi teklif et
+  }
+})();
 
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
   navigator.serviceWorker.register('./sw.js').catch(() => { /* onemli degil */ });

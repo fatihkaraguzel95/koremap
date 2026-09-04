@@ -21,6 +21,30 @@ Google Takeout  →  Koremap (liste + harita)  →  nmap:// deep link  →  Nave
 Kaydetme adımı ortadan kalkıyor, zaman kaybının asıl kaynağı olan
 "Naver'da doğru yeri arama" işi bitiyor.
 
+## İçindeki liste
+
+`data/places.json` uygulamayla birlikte geliyor: Google Takeout'taki Kore
+listelerinden çözülmüş **438 yer**. İlk açılışta kendiliğinden yüklenir, telefonda
+dosya seçmeye gerek yok.
+
+| Kategori | Adet | | Bölge | Adet |
+|---|--:|---|---|--:|
+| Gezilecek | 95 | | Seul | 356 |
+| Aktivite | 86 | | Busan | 74 |
+| Yemek | 86 | | Diğer | 8 |
+| Alışveriş | 69 | | | |
+| Kafe | 57 | | | |
+| KPOP | 23 | | | |
+| Cami | 10 | | | |
+| Otel | 6 | | | |
+| Etkinlik | 6 | | | |
+
+Takeout'un liste CSV'lerinde koordinat yok — yalnızca Google `ftid`'si var. Bunlar
+başsız tarayıcıyla tek tek çözüldü (Google Maps yer URL'i `!3d<lat>!4d<lng>` hâline
+gelene kadar beklenip okundu), adresler de aynı geçişte alındı. 438 kaydın 431'inde
+adres var. Kore dışındaki kayıtlar (Japonya, Hollanda, Almanya listeleri) koordinat
+filtresiyle elendi.
+
 ## Özellikler
 
 - **İçe aktarma** — Takeout `.zip`'ini olduğu gibi at; içindeki CSV / JSON / KML / GPX

@@ -1,9 +1,9 @@
 /* Koremap service worker — kabuk icin cache-first, harita karolari icin stale-while-revalidate. */
 
-const VERSION = 'koremap-v1';
+const VERSION = 'koremap-v2';
 const SHELL = [
   './', './index.html', './app.css', './app.js', './parse.js',
-  './manifest.webmanifest',
+  './data/places.json', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png',
   'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js',
   'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css',
