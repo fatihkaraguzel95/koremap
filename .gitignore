@@ -1,0 +1,11 @@
+# Kisisel konum verisi — repo herkese acik oldugu icin disarida birakiliyor
+favori/
+*.zip
+
+# Arac ciktilari
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Yerel Claude Code ayarlari
+.claude/settings.local.json

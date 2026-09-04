@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,maximum-scale=1">
+<title>Koremap</title>
+<meta name="description" content="Google Maps favorilerini Kore haritasında gör, tek dokunuşla Naver Map'te aç.">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme:light)">
+<meta name="theme-color" content="#0f1115" media="(prefers-color-scheme:dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Koremap">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./icons/favicon-64.png">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+<link rel="stylesheet" href="./app.css">
+</head>
+<body>
+
+<div id="map"></div>
+
+<div class="top">
+  <div class="searchbar">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+         stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>
+    <input id="search" type="search" placeholder="Yer ara…" autocomplete="off" enterkeyhint="search">
+    <button class="icon-btn" id="clearBtn" hidden aria-label="Aramayı temizle">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+           stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <button class="icon-btn" id="importBtn" aria-label="İçe aktar">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1"
+           stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3m0 12l-4-4m4 4l4-4"/>
+           <path d="M4 15v3a2 2 0 002 2h12a2 2 0 002-2v-3"/></svg></button>
+  </div>
+  <div class="chips" id="chips"></div>
+</div>
+
+<div class="fabs" id="fabs">
+  <button class="fab" id="fitBtn" aria-label="Tüm yerlere sığdır">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1"
+         stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 9V5a1 1 0 011-1h4M15 4h4a1 1 0 011 1v4M20 15v4a1 1 0 01-1 1h-4M9 20H5a1 1 0 01-1-1v-4"/></svg></button>
+  <button class="fab" id="locateBtn" aria-label="Konumum">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1"
+         stroke-linecap="round"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2.4" fill="currentColor" stroke="none"/>
+         <path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3"/></svg></button>
+</div>
+
+<section class="sheet" id="sheet" aria-label="Yer listesi">
+  <div class="grab" id="grab"><i></i></div>
+  <div class="sheet-body" id="sheetBody"></div>
+</section>
+
+<div class="scrim" id="scrim" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <h1 id="modalTitle">Favorilerini içe aktar</h1>
+    <p class="lede">Google Takeout dosyanı seç. Zip'i doğrudan atabilirsin — içindeki
+      CSV / JSON / KML dosyalarını kendim bulurum. Veriler yalnızca bu telefonda saklanır.</p>
+
+    <button class="drop" id="drop">
+      <b>Dosya seç veya buraya sürükle</b>
+      <small>.zip · Saved Places.json · liste CSV'leri · .kml · .gpx</small>
+    </button>
+    <input type="file" id="fileInput" multiple hidden
+           accept=".zip,.json,.geojson,.csv,.kml,.gpx,application/zip,application/json,text/csv">
+
+    <label class="opt">
+      <input type="checkbox" id="krOnly" checked>
+      <span><b>Sadece Kore'deki yerleri al</b>
+        <small>Diğer ülkelerdeki kayıtlar atlanır. Koordinatı olmayanlar yine de alınır.</small></span>
+    </label>
+
+    <div class="row-btns">
+      <button class="btn" id="pickBtn">Dosya seç</button>
+      <button class="btn ghost" id="demoBtn">Demo veri</button>
+    </div>
+
+    <ol class="steps">
+      <li><b>takeout.google.com</b> → "Tümünün seçimini kaldır"</li>
+      <li><b>Saved</b> (Kaydedilenler) kutusunu işaretle — favori listelerin
+          <b>burada</b>. "Maps (your places)" tek başına yetmez, o eski
+          yıldızlı kayıtları verir.</li>
+      <li>Dışa aktar → e-postana gelen .zip'i indir</li>
+      <li>Zip'i olduğu gibi buraya at</li>
+    </ol>
+
+    <div class="row-btns">
+      <button class="btn ghost" id="clearAll">Tümünü sil</button>
+      <button class="btn ghost" id="closeModal">Kapat</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
