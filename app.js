@@ -35,16 +35,33 @@ const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s).replace(/[&<>"']/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
+/* Id'ler harita marker'larini ve secimi adresliyor; iki kayit ayni id'yi
+   tasirsa yanlis yer aciliyor. Farkli kaynaklardan (depo + gomulu liste +
+   ice aktarma) birlesen kayitlarda buna karsi son bir kontrol. */
+function ensureUniqueIds(places) {
+  const seen = new Set();
+  for (const p of places) {
+    if (!p.id || seen.has(p.id)) {
+      let i = 2, base = p.id || 'p';
+      while (seen.has(base + '~' + i)) i++;
+      p.id = base + '~' + i;
+    }
+    seen.add(p.id);
+  }
+  return places;
+}
+
 /* ================= depolama ================= */
 
 function load() {
   try {
     const raw = localStorage.getItem(STORE_KEY);
-    if (raw) state.places = JSON.parse(raw);
+    if (raw) state.places = ensureUniqueIds(JSON.parse(raw));
   } catch { state.places = []; }
   try {
     const p = JSON.parse(localStorage.getItem(PREF_KEY) || '{}');
-    if (p.sort) state.sort = p.sort;
+    // 'dist' yalnizca konum varken anlamli; oturum basinda konum henuz yok.
+    if (p.sort && p.sort !== 'dist') state.sort = p.sort;
   } catch { /* yoksay */ }
 }
 function save() {
@@ -58,10 +75,15 @@ function save() {
 
 /* ================= yardimcilar ================= */
 
+const colorCache = new Map();
 function colorFor(cat) {
+  let c = colorCache.get(cat);
+  if (c) return c;
   let h = 0;
   for (let i = 0; i < cat.length; i++) h = (h * 31 + cat.charCodeAt(i)) >>> 0;
-  return PALETTE[h % PALETTE.length];
+  c = PALETTE[h % PALETTE.length];
+  colorCache.set(cat, c);
+  return c;
 }
 
 function distance(a, b) {
@@ -82,10 +104,19 @@ function toast(msg, ms = 2600) {
   toastTimer = setTimeout(() => { el.hidden = true; }, ms);
 }
 
-const pinSvg = (color, cls = 'pin') => `<svg class="${cls}" viewBox="0 0 30 38" aria-hidden="true">
-  <path d="M15 1.5C8 1.5 2.5 7 2.5 14c0 8.7 12.5 22.5 12.5 22.5S27.5 22.7 27.5 14C27.5 7 22 1.5 15 1.5z"
-        fill="${color}" stroke="#fff" stroke-width="2.2"/>
-  <circle cx="15" cy="14" r="4.4" fill="#fff"/></svg>`;
+const pinCache = new Map();
+const pinSvg = (color, cls = 'pin') => {
+  const k = cls + '|' + color;
+  let v = pinCache.get(k);
+  if (v === undefined) {
+    v = `<svg class="${cls}" viewBox="0 0 30 38" aria-hidden="true">` +
+        `<path d="M15 1.5C8 1.5 2.5 7 2.5 14c0 8.7 12.5 22.5 12.5 22.5S27.5 22.7 27.5 14C27.5 7 22 1.5 15 1.5z" ` +
+        `fill="${color}" stroke="#fff" stroke-width="2.2"/>` +
+        `<circle cx="15" cy="14" r="4.4" fill="#fff"/></svg>`;
+    pinCache.set(k, v);
+  }
+  return v;
+};
 
 /* ================= Naver baglantilari ================= */
 
@@ -111,7 +142,11 @@ function naverLinks(p, mode /* place | transit | car | walk */) {
 /** Once Naver uygulamasini dene; acilmazsa ~1.3 sn sonra web haritaya dus.
    Yalnizca sayfanin gercekten arka plana dusmesi iptal sayilir — `blur` tek
    basina guvenilir degil, deep link denemesi pencereyi anlik blur'layabiliyor. */
+let naverPending = false;
 function openNaver(appUrl, webUrl) {
+  if (naverPending) return;              // cift dokunusta iki yonlendirme olmasin
+  naverPending = true;
+  setTimeout(() => { naverPending = false; }, 1600);
   let switched = false;
   const cancel = () => { if (document.hidden) switched = true; };
   document.addEventListener('visibilitychange', cancel);
@@ -126,7 +161,7 @@ function openNaver(appUrl, webUrl) {
 }
 
 // Telefonda sorun ayiklamak icin (konsoldan: KOREMAP.naverLinks(KOREMAP.state.places[0],'transit'))
-window.KOREMAP = { naverLinks, state };
+window.KOREMAP = { naverLinks, state, render: () => render(), visible: () => visible() };
 
 /* ================= harita ================= */
 
@@ -170,10 +205,22 @@ function iconFor(p) {
   });
 }
 
-function renderMarkers() {
+/* Pin'leri yeniden cizmek 4x yavas CPU'da ~100 ms suruyor ve render() cogu zaman
+   ayni pin kumesiyle cagriliyor (siralama degisimi, GPS guncellemesi...).
+   Imza ayniysa dokunma; secim vurgusu zaten ayri guncelleniyor. */
+let markerSig = null;
+function renderMarkers(list = visible()) {
+  let sig = list.length + '#';
+  for (const p of list) {
+    if (Number.isFinite(p.lat)) sig += `${p.id}@${p.lat},${p.lng}${p.approx ? 'a' : ''};`;
+  }
+  if (sig === markerSig) { highlightMarker(); return; }
+  markerSig = sig;
+
   layer.clearLayers();
   markers.clear();
-  for (const p of visible().filter(x => Number.isFinite(x.lat))) {
+  for (const p of list) {
+    if (!Number.isFinite(p.lat)) continue;
     const m = L.marker([p.lat, p.lng], { icon: iconFor(p), title: p.name });
     m.on('click', () => selectPlace(p.id, false));
     markers.set(p.id, m);
@@ -195,8 +242,8 @@ function highlightMarker() {
   lastSelected = state.selected;
 }
 
-function fitAll() {
-  const pts = visible().filter(p => Number.isFinite(p.lat)).map(p => [p.lat, p.lng]);
+function fitAll(list = visible()) {
+  const pts = list.filter(p => Number.isFinite(p.lat)).map(p => [p.lat, p.lng]);
   if (!pts.length) return;
   if (pts.length === 1) map.setView(pts[0], 15);
   else map.fitBounds(L.latLngBounds(pts), { padding: [50, 50], maxZoom: 15 });
@@ -295,17 +342,25 @@ function initSheetDrag() {
 /* ================= gorunumler ================= */
 
 function render() {
+  const list = visible();           // filtre + siralama render basina bir kez
   renderChips();
-  renderMarkers();
+  renderMarkers(list);
   if (state.view === 'detail' && state.selected) renderDetail();
-  else renderList();
+  else renderList(list);
 }
 
+let chipSig = null;
 function renderChips() {
   const counts = new Map();
   for (const p of state.places) counts.set(p.category, (counts.get(p.category) || 0) + 1);
   const cats = [...counts.keys()].sort((a, b) => a.localeCompare(b, 'tr'));
   const box = $('#chips');
+
+  // Yeniden yazmak seridin yatay kaydirmasini basa aliyor — icerik ayniysa dokunma.
+  const sig = cats.map(c => `${c}:${counts.get(c)}:${state.cats.has(c) ? 1 : 0}`).join('|');
+  if (sig === chipSig) return;
+  chipSig = sig;
+
   if (cats.length < 2) { box.innerHTML = ''; return; }
   box.innerHTML = cats.map(c => `
     <button class="chip ${state.cats.has(c) ? 'on' : ''}" data-cat="${esc(c)}">
@@ -314,11 +369,11 @@ function renderChips() {
     </button>`).join('');
 }
 
-function renderList() {
+let listSig = null, listScroll = 0;
+function renderList(list = visible()) {
   state.view = 'list';
-  const list = visible();
-  const nCoord = state.places.filter(needsCoord).length;
-  const nName = state.places.filter(needsName).length;
+  let nCoord = 0, nName = 0;
+  for (const p of state.places) { if (needsCoord(p)) nCoord++; else if (needsName(p)) nName++; }
   const sortLabel = { name: 'A → Z', dist: 'Yakınlık', cat: 'Liste' }[state.sort];
   const issue = [
     nCoord ? `${nCoord} yerin konumu` : '',
@@ -327,14 +382,23 @@ function renderList() {
 
   const body = $('#sheetBody');
   if (!state.places.length) {
+    listSig = 'empty';
     body.innerHTML = `<div class="empty"><b>Henüz yer yok</b>
-      Google Takeout dosyanı içe aktar ya da demo veriyle dene.
+      Kayıtlı Kore listeni geri yükle ya da yeni bir Takeout dosyası aktar.
       <div class="row-btns" style="margin-top:16px">
-        <button class="btn naver" id="openImport">Dosya içe aktar</button>
-        <button class="btn" id="loadDemo">Demo veri</button>
+        <button class="btn naver" id="restoreSeed">Kayıtlı listem</button>
+        <button class="btn" id="openImport">İçe aktar</button>
       </div></div>`;
     return;
   }
+
+  /* Ayni liste yeniden ciziliyorsa (GPS guncellemesi, uzaklik tazeleme...)
+     kullanicinin kaydirma konumunu koru; liste degistiyse basa don. */
+  // list bos olabilir (arama hicbir sey bulmadiginda) — indisli erisim korumali.
+  const sig = `${state.sort}|${list.length}|${list[0]?.id ?? ""}|${list[list.length - 1]?.id ?? ""}|${nCoord},${nName}`;
+  const keepScroll = sig === listSig;
+  listSig = sig;
+  if (!keepScroll) listScroll = 0;
 
   body.innerHTML = `
     <div class="list-head">
@@ -358,6 +422,12 @@ function renderList() {
         ${d !== null ? `<span class="dist">${fmtDist(d)}</span>` : ''}
       </button>`;
     }).join('') || `<div class="empty"><b>Eşleşme yok</b>Aramayı veya filtreyi değiştir.</div>`}`;
+
+  /* scrollTop'a yazmak 451 satirlik listede zorunlu reflow tetikliyor (~90 ms).
+     Liste degistiyse basa almak sart; ayni liste yeniden ciziliyorsa yalnizca
+     geri yuklenecek gercek bir konum varsa dokun. */
+  if (!keepScroll) body.scrollTop = 0;
+  else if (listScroll) body.scrollTop = listScroll;
 }
 
 function renderDetail() {
@@ -453,12 +523,12 @@ function selectPlace(id, fromList) {
 
 /* ================= konum ================= */
 
-let watchId = null;
+let watchId = null, lastFix = null, lastFixAt = 0;
 function toggleLocate() {
   const btn = $('#locateBtn');
   if (watchId !== null) {
     navigator.geolocation.clearWatch(watchId);
-    watchId = null; state.me = null;
+    watchId = null; state.me = null; lastFix = null;
     if (meMarker) { map.removeLayer(meMarker); meMarker = null; }
     btn.classList.remove('on');
     if (state.sort === 'dist') { state.sort = 'name'; save(); }
@@ -483,8 +553,17 @@ function toggleLocate() {
         state.sort = 'dist'; save();
         toast(inKorea(state.me.lat, state.me.lng) ? 'Konum bulundu — yakınlığa göre sıralandı.'
                                                   : 'Konum bulundu (Kore dışındasın).');
+        lastFix = { ...state.me }; lastFixAt = Date.now();
+        render();
+        return;
       }
-      render();
+      // Her GPS tikinda listeyi bastan kurmak gereksiz: kayda deger bir mesafe
+      // yuruyunce ya da en gec 8 sn'de bir yenile.
+      const moved = !lastFix || distance(lastFix, state.me) > 25;
+      if (moved || Date.now() - lastFixAt > 8000) {
+        lastFix = { ...state.me }; lastFixAt = Date.now();
+        if (state.view !== 'detail') render();
+      }
     },
     () => { btn.classList.remove('on'); watchId = null; toast('Konum alınamadı. İzin verildi mi?'); },
     { enableHighAccuracy: true, maximumAge: 15000, timeout: 12000 }
@@ -576,7 +655,7 @@ async function importFiles(fileList) {
   }
 
   const before = state.places.length;
-  state.places = dedupe([...state.places, ...found]);
+  state.places = ensureUniqueIds(dedupe([...state.places, ...found]));
   const added = state.places.length - before;
   save();
 
@@ -696,11 +775,17 @@ async function fixPlaces(only) {
 /* ================= olaylar ================= */
 
 function initEvents() {
+  /* Yazarken her harfte tum pin'ler yeniden ciziliyordu (orta seviye telefonda
+     ~200 ms takilma). Girdi aninda tepki veriyor, agir kisim geciktiriliyor. */
+  let searchTimer;
   $('#search').addEventListener('input', (e) => {
     state.q = e.target.value;
     $('#clearBtn').hidden = !state.q;
-    if (state.view === 'detail') showList(); else render();
     if (state.q && snapName === 'peek') setSheet('half');
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      if (state.view === 'detail') showList(); else render();
+    }, 140);
   });
   $('#clearBtn').addEventListener('click', () => {
     state.q = ''; $('#search').value = ''; $('#clearBtn').hidden = true; render();
@@ -724,12 +809,7 @@ function initEvents() {
   $('#fileInput').addEventListener('change', (e) => { importFiles(e.target.files); e.target.value = ''; });
   $('#pickBtn').addEventListener('click', () => $('#fileInput').click());
   $('#demoBtn').addEventListener('click', addDemo);
-  $('#seedBtn').addEventListener('click', async () => {
-    const n = await loadSeed(true);
-    $('#scrim').hidden = true;
-    render(); fitAll(); setSheet('peek');
-    toast(n ? `${n} yer geri yüklendi.` : 'Kayıtlı listedeki her şey zaten ekli.');
-  });
+  $('#seedBtn').addEventListener('click', restoreSeed);
   $('#clearAll').addEventListener('click', () => {
     if (!state.places.length) return toast('Zaten boş.');
     if (!confirm(`${state.places.length} yerin tamamı silinsin mi?`)) return;
@@ -746,6 +826,12 @@ function initEvents() {
   }));
   drop.addEventListener('drop', (e) => importFiles(e.dataTransfer.files));
 
+  // Liste kaydirmasini ayri tut: detaydan geri donunce detayin kaydirmasi degil,
+  // listenin birakildigi yer geri gelmeli.
+  $('#sheetBody').addEventListener('scroll', (e) => {
+    if (state.view === 'list') listScroll = e.target.scrollTop;
+  }, { passive: true });
+
   // panel govdesi — olay delegasyonu
   $('#sheetBody').addEventListener('click', (e) => {
     const row = e.target.closest('.row');
@@ -760,7 +846,7 @@ function initEvents() {
     }
     if (id === 'fixBtn') return fixPlaces();
     if (id === 'openImport') { $('#scrim').hidden = false; return; }
-    if (id === 'loadDemo') return addDemo();
+    if (id === 'restoreSeed') return restoreSeed();
 
     const p = state.places.find(x => x.id === state.selected);
     if (!p) return;
@@ -796,7 +882,7 @@ function addDemo() {
     id: 'demo' + i, name: d.name, note: d.note || '', address: '',
     category: d.category, lat: d.lat, lng: d.lng, url: '', geocoded: false,
   }));
-  state.places = dedupe([...state.places, ...now]);
+  state.places = ensureUniqueIds(dedupe([...state.places, ...now]));
   save();
   $('#scrim').hidden = true;
   render(); fitAll(); setSheet('half');
@@ -811,6 +897,16 @@ function addDemo() {
 const SEED_URL = './data/places.json';
 const SEED_KEY = 'koremap.seed.v1';
 
+async function restoreSeed() {
+  const n = await loadSeed(true);
+  $('#scrim').hidden = true;
+  state.q = ''; $('#search').value = ''; $('#clearBtn').hidden = true;
+  state.cats.clear();
+  render();
+  if (n) { fitAll(); setSheet('peek'); }
+  toast(n ? `${n} yer geri yüklendi.` : 'Kayıtlı listedeki her şey zaten ekli.');
+}
+
 async function loadSeed(force = false) {
   let data;
   try {
@@ -824,7 +920,7 @@ async function loadSeed(force = false) {
   if (!force && localStorage.getItem(SEED_KEY) === ver) return 0;
 
   const before = state.places.length;
-  state.places = dedupe([...state.places, ...data.places]);
+  state.places = ensureUniqueIds(dedupe([...state.places, ...data.places]));
   try { localStorage.setItem(SEED_KEY, ver); } catch { /* onemli degil */ }
   save();
   return state.places.length - before;

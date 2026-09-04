@@ -1,5 +1,5 @@
 {
- "version": "1",
+ "version": "2",
  "generated": "2026-09-04",
  "source": "Google Takeout / Saved lists",
  "places": [
@@ -13,7 +13,31 @@
    "url": "https://www.google.com/maps/place/50PAGE/data=!4m2!3m1!1s0x357c996cadaaeccd:0x48ebf811f63f5ac5",
    "unnamed": false,
    "geocoded": false,
-   "id": "s1"
+   "id": "gmib976"
+  },
+  {
+   "name": "Acorn Caricature",
+   "note": "",
+   "address": "5 Yeonmujang 7-gil, Seongdong-gu, Seoul, South Korea",
+   "category": "Aktivite",
+   "lat": 37.543285,
+   "lng": 127.054533,
+   "url": "https://www.google.com/maps/place/Acorn+Caricature/data=!4m2!3m1!1s0x357ca5007f1f60f7:0xab34f2906377e1e0",
+   "unnamed": false,
+   "geocoded": false,
+   "id": "gcdc4ac"
+  },
+  {
+   "name": "Acorn Caricature",
+   "note": "",
+   "address": "32 Hongik-ro 3-gil, Mapo-gu, Seoul, South Korea",
+   "category": "Aktivite",
+   "lat": 37.552961,
+   "lng": 126.921532,
+   "url": "https://www.google.com/maps/place/Acorn+Caricature/data=!4m2!3m1!1s0x357c990053f56c65:0xaaec7a55ff93fd1e",
+   "unnamed": false,
+   "geocoded": false,
+   "id": "gtn2be8"
   },
   {
    "name": "Acorn Caricature",
@@ -25,7 +49,7 @@
    "url": "https://www.google.com/maps/place/Acorn+Caricature/data=!4m2!3m1!1s0x357c99ede4485fa9:0x1bb3d1aa9bfa1618",
    "unnamed": false,
    "geocoded": false,
-   "id": "s2"
+   "id": "g70bc6z"
   },
   {
    "name": "Acorn Caricature Insadong Branch",
@@ -37,7 +61,7 @@
    "url": "https://www.google.com/maps/place/Acorn+Caricature+Insadong+Branch/data=!4m2!3m1!1s0x357ca347f4880cfd:0x846f3cf1f9a4ad6a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s3"
+   "id": "g191kgd6"
   },
   {
    "name": "ARTE MUSEUM Busan",
@@ -49,7 +73,7 @@
    "url": "https://www.google.com/maps/place/ARTE+MUSEUM+Busan/data=!4m2!3m1!1s0x3568ef0043d27fbd:0x5365f915e1126f4b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s4"
+   "id": "g15qf2sf"
   },
   {
    "name": "Banpo Hangang Park",
@@ -61,7 +85,7 @@
    "url": "https://www.google.com/maps/place/Banpo+Hangang+Park/data=!4m2!3m1!1s0x357b4515dd278e39:0xedac66f15585f616",
    "unnamed": false,
    "geocoded": false,
-   "id": "s5"
+   "id": "g71fvy8"
   },
   {
    "name": "Beautiful Caricature",
@@ -73,7 +97,7 @@
    "url": "https://www.google.com/maps/place/Beautiful+Caricature/data=!4m2!3m1!1s0x357ca3007f9b4675:0x89489d12a4569c87",
    "unnamed": false,
    "geocoded": false,
-   "id": "s6"
+   "id": "gplsvwl"
   },
   {
    "name": "Beauty Play Hongdae",
@@ -85,7 +109,7 @@
    "url": "https://www.google.com/maps/place/Beauty+Play+Hongdae/data=!4m2!3m1!1s0x357c99001223fb9d:0x1b49acc9adb67d5b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s7"
+   "id": "gucuob1"
   },
   {
    "name": "Bicycle Rental",
@@ -97,7 +121,7 @@
    "url": "https://www.google.com/maps/place/Bicycle+Rental/data=!4m2!3m1!1s0x357c9f466d9a61fb:0xaeecdd1f602bb136",
    "unnamed": false,
    "geocoded": false,
-   "id": "s8"
+   "id": "g16j18v"
   },
   {
    "name": "Cheongwadae Sarangchae",
@@ -109,7 +133,7 @@
    "url": "https://www.google.com/maps/place/Cheongwadae+Sarangchae/data=!4m2!3m1!1s0x357ca3001bab1f5d:0x22df903eae4055b9",
    "unnamed": false,
    "geocoded": false,
-   "id": "s9"
+   "id": "gbz9lpp"
   },
   {
    "name": "Daebbang Arcade Myeongdong",
@@ -121,7 +145,7 @@
    "url": "https://www.google.com/maps/place/Daebbang+Arcade+Myeongdong/data=!4m2!3m1!1s0x357ca300607f3235:0x5d14f9543f4ad64b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s10"
+   "id": "g1nynbw8"
   },
   {
    "name": "Diamond Bay Yacht Cruise",
@@ -133,7 +157,7 @@
    "url": "https://www.google.com/maps/place/Diamond+Bay+Yacht+Cruise/data=!4m2!3m1!1s0x3568edad9c61725f:0x7b69714267846553",
    "unnamed": false,
    "geocoded": false,
-   "id": "s11"
+   "id": "gbyunio"
   },
   {
    "name": "Dr. Evers Clinic Hongdae",
@@ -145,7 +169,7 @@
    "url": "https://www.google.com/maps/place/Dr.+Evers+Clinic+Hongdae/data=!4m2!3m1!1s0x357c9900289c4c23:0x27bfa8b0f03af18b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s12"
+   "id": "g12jj6pl"
   },
   {
    "name": "flipbookstudio(움직이는사진상점)",
@@ -157,7 +181,7 @@
    "url": "https://www.google.com/maps/place/flipbookstudio(%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94%EC%82%AC%EC%A7%84%EC%83%81%EC%A0%90)/data=!4m2!3m1!1s0x3568e967ea764b31:0xa7c9a3ac7842c87c",
    "unnamed": false,
    "geocoded": false,
-   "id": "s13"
+   "id": "gexxhqt"
   },
   {
    "name": "G-Plex",
@@ -169,7 +193,7 @@
    "url": "https://www.google.com/maps/place/G-Plex/data=!4m2!3m1!1s0x357c9894068bc603:0xc70b1cd6b77f2658",
    "unnamed": false,
    "geocoded": false,
-   "id": "s14"
+   "id": "g1a4vqas"
   },
   {
    "name": "Game Plaza",
@@ -181,7 +205,7 @@
    "url": "https://www.google.com/maps/place/Game+Plaza/data=!4m2!3m1!1s0x357ca3247d0d7765:0xbc53c6449dff8745",
    "unnamed": false,
    "geocoded": false,
-   "id": "s15"
+   "id": "gqqmh2l"
   },
   {
    "name": "Gametopia",
@@ -193,7 +217,7 @@
    "url": "https://www.google.com/maps/place/Gametopia/data=!4m2!3m1!1s0x357c98d0163e90b1:0x528512b4ea184925",
    "unnamed": false,
    "geocoded": false,
-   "id": "s16"
+   "id": "g1njvpwm"
   },
   {
    "name": "Gimhae Nakdong River Rail Park",
@@ -205,7 +229,7 @@
    "url": "https://www.google.com/maps/place/Gimhae+Nakdong+River+Rail+Park/data=!4m2!3m1!1s0x3568ba7607500647:0x9b3c4dc064a40344",
    "unnamed": false,
    "geocoded": false,
-   "id": "s17"
+   "id": "gsezygg"
   },
   {
    "name": "Haeundae Blueline Park - Cheongsapo Station",
@@ -217,7 +241,7 @@
    "url": "https://www.google.com/maps/place/Haeundae+Blueline+Park+-+Cheongsapo+Station/data=!4m2!3m1!1s0x35688dd211fb03b3:0x49f97f0666b5e6c3",
    "unnamed": false,
    "geocoded": false,
-   "id": "s18"
+   "id": "g1lovk9h"
   },
   {
    "name": "Haeundae Blueline Park - Gudeokpo Station",
@@ -229,7 +253,7 @@
    "url": "https://www.google.com/maps/place/Haeundae+Blueline+Park+-+Gudeokpo+Station/data=!4m2!3m1!1s0x35688d0ff936966f:0xcd651004c4f01e80",
    "unnamed": false,
    "geocoded": false,
-   "id": "s19"
+   "id": "g807bxv"
   },
   {
    "name": "Haeundae Blueline Park - Mipo Station",
@@ -241,7 +265,7 @@
    "url": "https://www.google.com/maps/place/Haeundae+Blueline+Park+-+Mipo+Station/data=!4m2!3m1!1s0x35688d0b5b18d27d:0x480a23d5aa9e1f0f",
    "unnamed": false,
    "geocoded": false,
-   "id": "s20"
+   "id": "gu2se7s"
   },
   {
    "name": "Haeundae Blueline Park - Songjeong Station",
@@ -253,7 +277,7 @@
    "url": "https://www.google.com/maps/place/Haeundae+Blueline+Park+-+Songjeong+Station/data=!4m2!3m1!1s0x35688d9388ba497d:0x5acfbd1a03e95127",
    "unnamed": false,
    "geocoded": false,
-   "id": "s21"
+   "id": "gkrzsq3"
   },
   {
    "name": "HAUM",
@@ -265,7 +289,7 @@
    "url": "https://www.google.com/maps/place/HAUM/data=!4m2!3m1!1s0x357ca3c024a1550f:0x5d04be4b78439148",
    "unnamed": false,
    "geocoded": false,
-   "id": "s22"
+   "id": "gqiyzo9"
   },
   {
    "name": "HiKR GROUND",
@@ -277,7 +301,7 @@
    "url": "https://www.google.com/maps/place/HiKR+GROUND/data=!4m2!3m1!1s0x357ca3dffd9210ff:0xdf75f7a1eb65ac82",
    "unnamed": false,
    "geocoded": false,
-   "id": "s23"
+   "id": "geneqqd"
   },
   {
    "name": "Hongdae Batting Cage",
@@ -289,7 +313,7 @@
    "url": "https://www.google.com/maps/place/Hongdae+Batting+Cage/data=!4m2!3m1!1s0x357c9901b55f9659:0x50ced09b7d377279",
    "unnamed": false,
    "geocoded": false,
-   "id": "s24"
+   "id": "gp5i81z"
   },
   {
    "name": "Hongdae Seoul Korea Lashlift LASHB Eyelash Shop",
@@ -301,7 +325,7 @@
    "url": "https://www.google.com/maps/place/Hongdae+Seoul+Korea+Lashlift+LASHB+Eyelash+Shop/data=!4m2!3m1!1s0x357c999cc8419cd1:0x65cde853c37d6a52",
    "unnamed": false,
    "geocoded": false,
-   "id": "s25"
+   "id": "gsvcb31"
   },
   {
    "name": "Hyundai Motor Studio Goyang",
@@ -313,7 +337,7 @@
    "url": "https://www.google.com/maps/place/Hyundai+Motor+Studio+Goyang/data=!4m2!3m1!1s0x357c857716116959:0x74f0223b451049ea",
    "unnamed": false,
    "geocoded": false,
-   "id": "s26"
+   "id": "g9jmzka"
   },
   {
    "name": "Hyundai Motorstudio Seoul",
@@ -325,7 +349,7 @@
    "url": "https://www.google.com/maps/place/Hyundai+Motorstudio+Seoul/data=!4m2!3m1!1s0x357ca38c772830d9:0xe7a2f21b152aabbc",
    "unnamed": false,
    "geocoded": false,
-   "id": "s27"
+   "id": "gsi3n4j"
   },
   {
    "name": "Igidae Coastal Trail",
@@ -337,7 +361,7 @@
    "url": "https://www.google.com/maps/place/Igidae+Coastal+Trail/data=!4m2!3m1!1s0x3568ed1ac550c0af:0xa6672be7b7e79fc5",
    "unnamed": false,
    "geocoded": false,
-   "id": "s28"
+   "id": "goiwftv"
   },
   {
    "name": "K-Culture Museum",
@@ -349,7 +373,7 @@
    "url": "https://www.google.com/maps/place/K-Culture+Museum/data=!4m2!3m1!1s0x357b9b8487fdd155:0x3b31edf0e2222876",
    "unnamed": false,
    "geocoded": false,
-   "id": "s29"
+   "id": "g1yqcteq"
   },
   {
    "name": "K-POP SQUARE Hongdae",
@@ -361,7 +385,7 @@
    "url": "https://www.google.com/maps/place/K-POP+SQUARE+Hongdae/data=!4m2!3m1!1s0x357c99e071f9a631:0x1f82073317fdce08",
    "unnamed": false,
    "geocoded": false,
-   "id": "s30"
+   "id": "gx90o2v"
   },
   {
    "name": "Leeum Museum of Art",
@@ -373,7 +397,7 @@
    "url": "https://www.google.com/maps/place/Leeum+Museum+of+Art/data=!4m2!3m1!1s0x357ca31be3dcde53:0xfbec8b809878a1bb",
    "unnamed": false,
    "geocoded": false,
-   "id": "s31"
+   "id": "gx3xlfv"
   },
   {
    "name": "LoL Park",
@@ -385,7 +409,7 @@
    "url": "https://www.google.com/maps/place/LoL+Park/data=!4m2!3m1!1s0x357ca33003172e9f:0x921737779afed375",
    "unnamed": false,
    "geocoded": false,
-   "id": "s32"
+   "id": "g12wu8wv"
   },
   {
    "name": "Lotte World",
@@ -397,7 +421,7 @@
    "url": "https://www.google.com/maps/place/Lotte+World/data=!4m2!3m1!1s0x357ca5a7250efe81:0x433df2c1fec03b98",
    "unnamed": false,
    "geocoded": false,
-   "id": "s33"
+   "id": "ggxsvl8"
   },
   {
    "name": "Lumiere Parfum 성수향수공방 뤼미에르퍼퓸 성수",
@@ -409,7 +433,7 @@
    "url": "https://www.google.com/maps/place/Lumiere+Parfum+%EC%84%B1%EC%88%98%ED%96%A5%EC%88%98%EA%B3%B5%EB%B0%A9+%EB%A4%BC%EB%AF%B8%EC%97%90%EB%A5%B4%ED%8D%BC%ED%93%B8+%EC%84%B1%EC%88%98/data=!4m2!3m1!1s0x357ca4914943b55d:0x564b626f962b3a81",
    "unnamed": false,
    "geocoded": false,
-   "id": "s34"
+   "id": "g1atw5fz"
   },
   {
    "name": "Mercedes-Benz Studio Seoul",
@@ -421,7 +445,7 @@
    "url": "https://www.google.com/maps/place/Mercedes-Benz+Studio+Seoul/data=!4m2!3m1!1s0x357ca50060d22df5:0x49f6161c4b99a8f6",
    "unnamed": false,
    "geocoded": false,
-   "id": "s35"
+   "id": "g88hd93"
   },
   {
    "name": "Moony Gongbang Music Box (무늬공방 도자기 오르골)",
@@ -433,7 +457,7 @@
    "url": "https://www.google.com/maps/place/Moony+Gongbang+Music+Box+(%EB%AC%B4%EB%8A%AC%EA%B3%B5%EB%B0%A9+%EB%8F%84%EC%9E%90%EA%B8%B0+%EC%98%A4%EB%A5%B4%EA%B3%A8)/data=!4m2!3m1!1s0x357ca32fe2b0ac35:0x7d24613193e54803",
    "unnamed": false,
    "geocoded": false,
-   "id": "s36"
+   "id": "g17d3ycq"
   },
   {
    "name": "N Seoul Tower",
@@ -445,7 +469,7 @@
    "url": "https://www.google.com/maps/place/N+Seoul+Tower/data=!4m2!3m1!1s0x357ca257a88e6aa9:0x5cf8577c2e7982a5",
    "unnamed": false,
    "geocoded": false,
-   "id": "s37"
+   "id": "geaksxf"
   },
   {
    "name": "National Maritime Museum of Korea",
@@ -457,7 +481,7 @@
    "url": "https://www.google.com/maps/place/National+Maritime+Museum+of+Korea/data=!4m2!3m1!1s0x3568eec8f2ff9d1b:0x2b4ace7c7920b847",
    "unnamed": false,
    "geocoded": false,
-   "id": "s38"
+   "id": "g2yx4rj"
   },
   {
    "name": "National Museum of Korea",
@@ -469,7 +493,7 @@
    "url": "https://www.google.com/maps/place/National+Museum+of+Korea/data=!4m2!3m1!1s0x357ca2ed7e746c37:0x616286c7a66e50e7",
    "unnamed": false,
    "geocoded": false,
-   "id": "s39"
+   "id": "g155bczm"
   },
   {
    "name": "National Museum of Korean Contemporary History",
@@ -481,7 +505,7 @@
    "url": "https://www.google.com/maps/place/National+Museum+of+Korean+Contemporary+History/data=!4m2!3m1!1s0x357ca2eaf9cae6fd:0xa5b5e464af574bbf",
    "unnamed": false,
    "geocoded": false,
-   "id": "s40"
+   "id": "g16ebla3"
   },
   {
    "name": "NYUNYU GIFTSHOP",
@@ -493,7 +517,7 @@
    "url": "https://www.google.com/maps/place/NYUNYU+GIFTSHOP/data=!4m2!3m1!1s0x357ca300391ab5d5:0x19b9c03edf78a6f0",
    "unnamed": false,
    "geocoded": false,
-   "id": "s41"
+   "id": "g9nhn7f"
   },
   {
    "name": "oneday hanbok",
@@ -505,7 +529,7 @@
    "url": "https://www.google.com/maps/place/oneday+hanbok/data=!4m2!3m1!1s0x357ca2c4e8c15e01:0x821956a1778b7418",
    "unnamed": false,
    "geocoded": false,
-   "id": "s42"
+   "id": "gsyzji7"
   },
   {
    "name": "OZ PC CAFE Reserve Gangnam Station",
@@ -517,7 +541,7 @@
    "url": "https://www.google.com/maps/place/OZ+PC+CAFE+Reserve+Gangnam+Station/data=!4m2!3m1!1s0x357ca1fea85b0b39:0xda11f4fa69855df3",
    "unnamed": false,
    "geocoded": false,
-   "id": "s43"
+   "id": "g1kw7l2"
   },
   {
    "name": "Photo + Library Magwon",
@@ -529,7 +553,7 @@
    "url": "https://www.google.com/maps/place/Photo+%2B+Library+Magwon/data=!4m2!3m1!1s0x357c99001cf77527:0x49b8a7c47056ae1c",
    "unnamed": false,
    "geocoded": false,
-   "id": "s44"
+   "id": "g1veeugx"
   },
   {
    "name": "PHOTO LAB +",
@@ -541,7 +565,7 @@
    "url": "https://www.google.com/maps/place/PHOTO+LAB+%2B/data=!4m2!3m1!1s0x357ca308dcd5af93:0x2b9b62699b5fbf12",
    "unnamed": false,
    "geocoded": false,
-   "id": "s45"
+   "id": "g12xk1bz"
   },
   {
    "name": "PIXX",
@@ -553,7 +577,7 @@
    "url": "https://www.google.com/maps/place/PIXX/data=!4m2!3m1!1s0x357c994ca6684c5f:0x19fac1fbeff08286",
    "unnamed": false,
    "geocoded": false,
-   "id": "s46"
+   "id": "g1bljpjq"
   },
   {
    "name": "Pick 'em up(픽뎀업)",
@@ -565,7 +589,7 @@
    "url": "https://www.google.com/maps/place/Pick+'em+up(%ED%94%BD%EB%8E%80%EC%97%85)/data=!4m2!3m1!1s0x357c99cc26f1b35f:0x7a73ed149e3c0af9",
    "unnamed": false,
    "geocoded": false,
-   "id": "s47"
+   "id": "gs14mtm"
   },
   {
    "name": "Realworld Seongsu",
@@ -577,7 +601,7 @@
    "url": "https://www.google.com/maps/place/Realworld+Seongsu/data=!4m2!3m1!1s0x357ca5f54725ed99:0x8168f357b57c32f7",
    "unnamed": false,
    "geocoded": false,
-   "id": "s48"
+   "id": "g1ew9c86"
   },
   {
    "name": "RETTRE SEOULSUP",
@@ -589,7 +613,7 @@
    "url": "https://www.google.com/maps/place/RETTRE+SEOULSUP/data=!4m2!3m1!1s0x357ca50071c2695b:0x1ab1dd5e5c651836",
    "unnamed": false,
    "geocoded": false,
-   "id": "s49"
+   "id": "g1kh93l1"
   },
   {
    "name": "Riverside Spa Land",
@@ -601,7 +625,7 @@
    "url": "https://www.google.com/maps/place/Riverside+Spa+Land/data=!4m2!3m1!1s0x357ca5228f967ff1:0xe7c9d5de7d9d92ed",
    "unnamed": false,
    "geocoded": false,
-   "id": "s50"
+   "id": "g18kwk4e"
   },
   {
    "name": "Running Man Busan",
@@ -613,7 +637,7 @@
    "url": "https://www.google.com/maps/place/Running+Man+Busan/data=!4m2!3m1!1s0x3568eb945ca81b13:0x921b0a8066b14d97",
    "unnamed": false,
    "geocoded": false,
-   "id": "s51"
+   "id": "gg0xaou"
   },
   {
    "name": "Samho Gungjeon Sauna",
@@ -625,7 +649,7 @@
    "url": "https://www.google.com/maps/place/Samho+Gungjeon+Sauna/data=!4m2!3m1!1s0x357ca6ca0b06346f:0xd45a79b46614932c",
    "unnamed": false,
    "geocoded": false,
-   "id": "s52"
+   "id": "gce47i4"
   },
   {
    "name": "Seoul Museum of Craft Art",
@@ -637,7 +661,7 @@
    "url": "https://www.google.com/maps/place/Seoul+Museum+of+Craft+Art/data=!4m2!3m1!1s0x357ca3dd85cee963:0x2cd07e1919686dfe",
    "unnamed": false,
    "geocoded": false,
-   "id": "s53"
+   "id": "g8kjufk"
   },
   {
    "name": "Seoul Museum of History",
@@ -649,7 +673,7 @@
    "url": "https://www.google.com/maps/place/Seoul+Museum+of+History/data=!4m2!3m1!1s0x357ca2921f32fae5:0xc6d43bc47f76e657",
    "unnamed": false,
    "geocoded": false,
-   "id": "s54"
+   "id": "g10h2zjy"
   },
   {
    "name": "SFACTORY (D)",
@@ -661,7 +685,7 @@
    "url": "https://www.google.com/maps/place/SFACTORY+(D)/data=!4m2!3m1!1s0x357ca5520a197eb1:0xac4043f496a6241d",
    "unnamed": false,
    "geocoded": false,
-   "id": "s55"
+   "id": "g1dmdodb"
   },
   {
    "name": "Skyline Luge Busan",
@@ -673,7 +697,7 @@
    "url": "https://www.google.com/maps/place/Skyline+Luge+Busan/data=!4m2!3m1!1s0x35688d175ab39ffb:0x4f1602087d5cf8e7",
    "unnamed": false,
    "geocoded": false,
-   "id": "s56"
+   "id": "gb3rhfe"
   },
   {
    "name": "Smob",
@@ -685,7 +709,7 @@
    "url": "https://www.google.com/maps/place/Smob/data=!4m2!3m1!1s0x357b43005c308961:0xac61de4487033a91",
    "unnamed": false,
    "geocoded": false,
-   "id": "s57"
+   "id": "gisdt27"
   },
   {
    "name": "Songdo Bay Station (Songdo Cable Car)",
@@ -697,7 +721,7 @@
    "url": "https://www.google.com/maps/place/Songdo+Bay+Station+(Songdo+Cable+Car)/data=!4m2!3m1!1s0x3568e8446944e841:0x969909822f93b053",
    "unnamed": false,
    "geocoded": false,
-   "id": "s58"
+   "id": "gpcwcdu"
   },
   {
    "name": "Soo Eyelash",
@@ -709,7 +733,7 @@
    "url": "https://www.google.com/maps/place/Soo+Eyelash/data=!4m2!3m1!1s0x357c98c31eed70b5:0xb93a58e41f8bc4fc",
    "unnamed": false,
    "geocoded": false,
-   "id": "s59"
+   "id": "g1v2rgxs"
   },
   {
    "name": "SPA LAND Centum City",
@@ -721,7 +745,7 @@
    "url": "https://www.google.com/maps/place/SPA+LAND+Centum+City/data=!4m2!3m1!1s0x356892c6bff93f0d:0x1f1aa6bb112b6f5d",
    "unnamed": false,
    "geocoded": false,
-   "id": "s60"
+   "id": "g1e2rsfp"
   },
   {
    "name": "SPAREX Jjimjilbang GoodMorning City",
@@ -733,7 +757,7 @@
    "url": "https://www.google.com/maps/place/SPAREX+Jjimjilbang+GoodMorning+City/data=!4m2!3m1!1s0x357ca322d1a6f229:0x2c57a4119b108520",
    "unnamed": false,
    "geocoded": false,
-   "id": "s61"
+   "id": "g1npxjve"
   },
   {
    "name": "Sports Monster Goyang",
@@ -745,7 +769,7 @@
    "url": "https://www.google.com/maps/place/Sports+Monster+Goyang/data=!4m2!3m1!1s0x357c9714feb85147:0xa25a9bc5a09d7fa8",
    "unnamed": false,
    "geocoded": false,
-   "id": "s62"
+   "id": "g8air53"
   },
   {
    "name": "T1 Base Camp",
@@ -757,7 +781,7 @@
    "url": "https://www.google.com/maps/place/T1+Base+Camp/data=!4m2!3m1!1s0x357c9969d4a5b591:0x255dade6d8caae92",
    "unnamed": false,
    "geocoded": false,
-   "id": "s63"
+   "id": "g14hefeb"
   },
   {
    "name": "Table view",
@@ -769,7 +793,7 @@
    "url": "https://www.google.com/maps/place/Table+view/data=!4m2!3m1!1s0x357c9f3b5d48216d:0xd8710666528c90ec",
    "unnamed": false,
    "geocoded": false,
-   "id": "s64"
+   "id": "gfqcpz7"
   },
   {
    "name": "The Park Spa Land",
@@ -781,7 +805,7 @@
    "url": "https://www.google.com/maps/place/The+Park+Spa+Land/data=!4m2!3m1!1s0x357c9eec45279099:0xcf38adbfd2e06aa8",
    "unnamed": false,
    "geocoded": false,
-   "id": "s65"
+   "id": "g1qe0ogy"
   },
   {
    "name": "War Memorial of Korea",
@@ -793,7 +817,7 @@
    "url": "https://www.google.com/maps/place/War+Memorial+of+Korea/data=!4m2!3m1!1s0x357ca23fb451c4f1:0xe196919c152a17a0",
    "unnamed": false,
    "geocoded": false,
-   "id": "s66"
+   "id": "g9iwsa"
   },
   {
    "name": "Yeouido Hangang Park",
@@ -805,7 +829,7 @@
    "url": "https://www.google.com/maps/place/Yeouido+Hangang+Park/data=!4m2!3m1!1s0x357c9f3b03c4b7ef:0xa4d8869ebf8d452c",
    "unnamed": false,
    "geocoded": false,
-   "id": "s67"
+   "id": "g1w4g1km"
   },
   {
    "name": "ZZANG GAMES Jongno",
@@ -817,7 +841,7 @@
    "url": "https://www.google.com/maps/place/ZZANG+GAMES+Jongno/data=!4m2!3m1!1s0x357ca2e631786227:0xde98c63c45e6febe",
    "unnamed": false,
    "geocoded": false,
-   "id": "s68"
+   "id": "gbaag8z"
   },
   {
    "name": "Zzang Games Mapo",
@@ -829,7 +853,7 @@
    "url": "https://www.google.com/maps/place/Zzang+Games+Mapo/data=!4m2!3m1!1s0x357c98dab8398d91:0xda4a92b425616356",
    "unnamed": false,
    "geocoded": false,
-   "id": "s69"
+   "id": "gie1iir"
   },
   {
    "name": "도토리 캐리커쳐 성수점",
@@ -841,7 +865,7 @@
    "url": "https://www.google.com/maps/place/%EB%8F%84%ED%86%A0%EB%A6%AC+%EC%BA%90%EB%A6%AC%EC%BB%A4%EC%B3%90+%EC%84%B1%EC%88%98%EC%A0%90/data=!4m2!3m1!1s0x357ca58ecccfe9a5:0x94d53ad5877287e6",
    "unnamed": false,
    "geocoded": false,
-   "id": "s70"
+   "id": "g1bnt8sp"
   },
   {
    "name": "도토리캐리커쳐 부산해운대점",
@@ -853,7 +877,7 @@
    "url": "https://www.google.com/maps/place/%EB%8F%84%ED%86%A0%EB%A6%AC%EC%BA%90%EB%A6%AC%EC%BB%A4%EC%B3%90+%EB%B6%80%EC%82%B0%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90/data=!4m2!3m1!1s0x35688d7eda42afeb:0xfa23de2dc3bff86",
    "unnamed": false,
    "geocoded": false,
-   "id": "s71"
+   "id": "ghij9zd"
   },
   {
    "name": "뚝섬텐트대여 더텐트 뚝섬점",
@@ -865,7 +889,7 @@
    "url": "https://www.google.com/maps/place/%EB%9A%9D%EC%84%AC%ED%85%90%ED%8A%B8%EB%8C%80%EC%97%AC+%EB%8D%94%ED%85%90%ED%8A%B8+%EB%9A%9D%EC%84%AC%EC%A0%90/data=!4m2!3m1!1s0x357ca51d26744ff7:0xfabc0788fbd13da3",
    "unnamed": false,
    "geocoded": false,
-   "id": "s72"
+   "id": "g1hdw3fe"
   },
   {
    "name": "뚝섬한강텐트대여 별빛텐트&피크닉",
@@ -877,7 +901,7 @@
    "url": "https://www.google.com/maps/place/%EB%9A%9D%EC%84%AC%ED%95%9C%EA%B0%95%ED%85%90%ED%8A%B8%EB%8C%80%EC%97%AC+%EB%B3%84%EB%B9%9B%ED%85%90%ED%8A%B8%26%ED%94%BC%ED%81%AC%EB%8B%89/data=!4m2!3m1!1s0x357ca570813dfc9f:0xc85adb75c5e13ea0",
    "unnamed": false,
    "geocoded": false,
-   "id": "s73"
+   "id": "g3sfkvm"
   },
   {
    "name": "뚝섬한강텐트대여 인생텐트",
@@ -889,7 +913,7 @@
    "url": "https://www.google.com/maps/place/%EB%9A%9D%EC%84%AC%ED%95%9C%EA%B0%95%ED%85%90%ED%8A%B8%EB%8C%80%EC%97%AC+%EC%9D%B8%EC%83%9D%ED%85%90%ED%8A%B8/data=!4m2!3m1!1s0x357ca5f598720351:0xf38156cea4b9d278",
    "unnamed": false,
    "geocoded": false,
-   "id": "s74"
+   "id": "g1icrjnh"
   },
   {
    "name": "리슬 홍대점(leesle Store Hongdae)",
@@ -901,7 +925,7 @@
    "url": "https://www.google.com/maps/place/%EB%A6%AC%EC%8A%AC+%ED%99%8D%EB%8C%80%EC%A0%90(leesle+Store+Hongdae)/data=!4m2!3m1!1s0x357c9993631d2b37:0xa95288267e7c3013",
    "unnamed": false,
    "geocoded": false,
-   "id": "s75"
+   "id": "g1x9x51j"
   },
   {
    "name": "모모스테이션 인형뽑기방 Momo Station 홍대점",
@@ -913,7 +937,7 @@
    "url": "https://www.google.com/maps/place/%EB%AA%A8%EB%AA%A8%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98+%EC%9D%B8%ED%98%95%EB%BD%91%EA%B8%B0%EB%B0%A9+Momo+Station+%ED%99%8D%EB%8C%80%EC%A0%90/data=!4m2!3m1!1s0x357c99003ca8f5d7:0x1bbfc34267d1341d",
    "unnamed": false,
    "geocoded": false,
-   "id": "s76"
+   "id": "g1629kwg"
   },
   {
    "name": "신촌 레드포스 PC방",
@@ -925,7 +949,7 @@
    "url": "https://www.google.com/maps/place/%EC%8B%A0%EC%B4%8C+%EB%A0%88%EB%93%9C%ED%8F%AC%EC%8A%A4+PC%EB%B0%A9/data=!4m2!3m1!1s0x357c990074fc2c39:0xe0eece2c81b14d33",
    "unnamed": false,
    "geocoded": false,
-   "id": "s77"
+   "id": "g1snu7p6"
   },
   {
    "name": "써니텐트",
@@ -937,7 +961,7 @@
    "url": "https://www.google.com/maps/place/%EC%8D%A8%EB%8B%88%ED%85%90%ED%8A%B8/data=!4m2!3m1!1s0x357c9fde405e9ef7:0x2c133f5732429340",
    "unnamed": false,
    "geocoded": false,
-   "id": "s78"
+   "id": "g3oyihw"
   },
   {
    "name": "써니텐트뚝섬",
@@ -949,7 +973,7 @@
    "url": "https://www.google.com/maps/place/%EC%8D%A8%EB%8B%88%ED%85%90%ED%8A%B8%EB%9A%9D%EC%84%AC/data=!4m2!3m1!1s0x357ca511bd3528b3:0xe0c69f7f975a933",
    "unnamed": false,
    "geocoded": false,
-   "id": "s79"
+   "id": "gbmx9n5"
   },
   {
    "name": "어썸코인노래연습장 홍대점",
@@ -961,7 +985,7 @@
    "url": "https://www.google.com/maps/place/%EC%96%B4%EC%8D%B8%EC%BD%94%EC%9D%B8%EB%85%B8%EB%9E%98%EC%97%B0%EC%8A%B5%EC%9E%A5+%ED%99%8D%EB%8C%80%EC%A0%90/data=!4m2!3m1!1s0x357c99927f9350eb:0x4a6e07c5205a68cc",
    "unnamed": false,
    "geocoded": false,
-   "id": "s80"
+   "id": "gebgkf1"
   },
   {
    "name": "웰니스하우스서울 [Wellness House Seoul]",
@@ -973,7 +997,7 @@
    "url": "https://www.google.com/maps/place/%EC%9B%B0%EB%8B%88%EC%8A%A4%ED%95%98%EC%9A%B0%EC%8A%A4%EC%84%9C%EC%9A%B8+%5BWellness+House+Seoul%5D/data=!4m2!3m1!1s0x357ca15acb503549:0xabc31f8003c720db",
    "unnamed": false,
    "geocoded": false,
-   "id": "s81"
+   "id": "g1xg2he1"
   },
   {
    "name": "조향공간 움틈_UMTM",
@@ -985,7 +1009,7 @@
    "url": "https://www.google.com/maps/place/%EC%A1%B0%ED%96%A5%EA%B3%B5%EA%B0%84+%EC%9B%80%ED%8B%88_UMTM/data=!4m2!3m1!1s0x357ca3000f8440cd:0x30adf6cfdad6091e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s82"
+   "id": "gfz8a5v"
   },
   {
    "name": "최강오락실 / The Strongest Arcade / 最强游乐室 / 最強ゲームセンター",
@@ -997,7 +1021,7 @@
    "url": "https://www.google.com/maps/place/%EC%B5%9C%EA%B0%95%EC%98%A4%EB%9D%BD%EC%8B%A4+%2F+The+Strongest+Arcade+%2F+%E6%9C%80%E5%BC%BA%E6%B8%B8%E4%B9%90%E5%AE%A4+%2F+%E6%9C%80%E5%BC%B7%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/data=!4m2!3m1!1s0x357c99003ad829af:0xa2732d7a4f2edfa2",
    "unnamed": false,
    "geocoded": false,
-   "id": "s83"
+   "id": "gh7dy60"
   },
   {
    "name": "커스텀필름 성수 셀프사진관 Customfilm Seongsu Selfphotostudio",
@@ -1009,7 +1033,7 @@
    "url": "https://www.google.com/maps/place/%EC%BB%A4%EC%8A%A4%ED%85%80%ED%95%84%EB%A6%84+%EC%84%B1%EC%88%98+%EC%85%80%ED%94%84%EC%82%AC%EC%A7%84%EA%B4%80+Customfilm+Seongsu+Selfphotostudio/data=!4m2!3m1!1s0x357ca54865a2b45b:0xd8d3b605ea0ac3d4",
    "unnamed": false,
    "geocoded": false,
-   "id": "s84"
+   "id": "gxzqyf8"
   },
   {
    "name": "한강텐트대여 노블피크닉 여의도 물빛광장",
@@ -1021,7 +1045,7 @@
    "url": "https://www.google.com/maps/place/%ED%95%9C%EA%B0%95%ED%85%90%ED%8A%B8%EB%8C%80%EC%97%AC+%EB%85%B8%EB%B8%94%ED%94%BC%ED%81%AC%EB%8B%89+%EC%97%AC%EC%9D%98%EB%8F%84+%EB%AC%BC%EB%B9%9B%EA%B4%91%EC%9E%A5/data=!4m2!3m1!1s0x357c9f46c62b2919:0x2b62d2324c97d678",
    "unnamed": false,
    "geocoded": false,
-   "id": "s85"
+   "id": "g1yms941"
   },
   {
    "name": "한강텐트대여 하루텐트 여의도본점 ( harutent Yeouido )",
@@ -1033,7 +1057,19 @@
    "url": "https://www.google.com/maps/place/%ED%95%9C%EA%B0%95%ED%85%90%ED%8A%B8%EB%8C%80%EC%97%AC+%ED%95%98%EB%A3%A8%ED%85%90%ED%8A%B8+%EC%97%AC%EC%9D%98%EB%8F%84%EB%B3%B8%EC%A0%90+(+harutent+Yeouido+)/data=!4m2!3m1!1s0x357c9f03297c8493:0xd7b8395c7a5f6dcb",
    "unnamed": false,
    "geocoded": false,
-   "id": "s86"
+   "id": "gutg3fb"
+  },
+  {
+   "name": "홍대파티룸 어반클래식 홍대 5,6호점",
+   "note": "",
+   "address": "South Korea, Seoul, Mapo-gu, Yanghwa-ro 16-gil, 26 4층",
+   "category": "Aktivite",
+   "lat": 37.5529719,
+   "lng": 126.9209741,
+   "url": "https://www.google.com/maps/place/%ED%99%8D%EB%8C%80%ED%8C%8C%ED%8B%B0%EB%A3%B8+%EC%96%B4%EB%B0%98%ED%81%B4%EB%9E%98%EC%8B%9D+%ED%99%8D%EB%8C%80+5,6%ED%98%B8%EC%A0%90/data=!4m2!3m1!1s0x357c993a831e8ead:0x60284b44e26f97f9",
+   "unnamed": false,
+   "geocoded": false,
+   "id": "gd9xbuw"
   },
   {
    "name": "09WOMEN",
@@ -1045,7 +1081,7 @@
    "url": "https://www.google.com/maps/place/09WOMEN/data=!4m2!3m1!1s0x357c993b9fabae5f:0x7b3b22d8f5789964",
    "unnamed": false,
    "geocoded": false,
-   "id": "s87"
+   "id": "g182r6m9"
   },
   {
    "name": "AK PLAZA Hongdae",
@@ -1057,7 +1093,7 @@
    "url": "https://www.google.com/maps/place/AK+PLAZA+Hongdae/data=!4m2!3m1!1s0x357c991df7f1abf5:0x6097721bf566a711",
    "unnamed": false,
    "geocoded": false,
-   "id": "s88"
+   "id": "gaqcc4a"
   },
   {
    "name": "Animate Hongdae",
@@ -1069,7 +1105,7 @@
    "url": "https://www.google.com/maps/place/Animate+Hongdae/data=!4m2!3m1!1s0x357c9945db482e21:0x60d9bc89b20a8af7",
    "unnamed": false,
    "geocoded": false,
-   "id": "s89"
+   "id": "g1ojzd71"
   },
   {
    "name": "Blue elephant",
@@ -1081,7 +1117,7 @@
    "url": "https://www.google.com/maps/place/Blue+elephant/data=!4m2!3m1!1s0x357ca30892a4c5a7:0x728ae81dfa5d17b2",
    "unnamed": false,
    "geocoded": false,
-   "id": "s90"
+   "id": "galiylz"
   },
   {
    "name": "CU 충무로점",
@@ -1093,7 +1129,7 @@
    "url": "https://www.google.com/maps/place/CU+%EC%B6%A9%EB%AC%B4%EB%A1%9C%EC%A0%90/data=!4m2!3m1!1s0x357ca2e35c169181:0x97d184d8b84b930a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s91"
+   "id": "g1bf1qqz"
   },
   {
    "name": "Davich Optical Chain Myeongdong",
@@ -1105,7 +1141,7 @@
    "url": "https://www.google.com/maps/place/Davich+Optical+Chain+Myeongdong/data=!4m2!3m1!1s0x357ca2f1486379cb:0xe60e186f21032674",
    "unnamed": false,
    "geocoded": false,
-   "id": "s92"
+   "id": "g1b0lj9v"
   },
   {
    "name": "DON'T LXXK UP Hongdae",
@@ -1117,7 +1153,7 @@
    "url": "https://www.google.com/maps/place/DON'T+LXXK+UP+Hongdae/data=!4m2!3m1!1s0x357c99ac9986b595:0x51571deafc69d5e0",
    "unnamed": false,
    "geocoded": false,
-   "id": "s93"
+   "id": "g1wchc9m"
   },
   {
    "name": "fwee Agit - Seongsu",
@@ -1129,7 +1165,7 @@
    "url": "https://www.google.com/maps/place/fwee+Agit+-+Seongsu/data=!4m2!3m1!1s0x357ca5ae540a575d:0x8dbfbe9d2f392481",
    "unnamed": false,
    "geocoded": false,
-   "id": "s94"
+   "id": "g1tba296"
   },
   {
    "name": "Garosu-gil Street",
@@ -1141,7 +1177,7 @@
    "url": "https://www.google.com/maps/place/Garosu-gil+Street/data=!4m2!3m1!1s0x357ca3d126133031:0x5d8d2af0a60327df",
    "unnamed": false,
    "geocoded": false,
-   "id": "s95"
+   "id": "gccp60q"
   },
   {
    "name": "Goto Mall",
@@ -1153,7 +1189,7 @@
    "url": "https://www.google.com/maps/place/Goto+Mall/data=!4m2!3m1!1s0x357ca1918e5c4145:0x7b8307b609846119",
    "unnamed": false,
    "geocoded": false,
-   "id": "s96"
+   "id": "g1ey5ijx"
   },
   {
    "name": "Gundam Base Coex Mall",
@@ -1165,7 +1201,7 @@
    "url": "https://www.google.com/maps/place/Gundam+Base+Coex+Mall/data=!4m2!3m1!1s0x357ca46a7139fded:0x42997c2213ce41a3",
    "unnamed": false,
    "geocoded": false,
-   "id": "s97"
+   "id": "g15fyo4g"
   },
   {
    "name": "Gwangbok-ro Fashion Street",
@@ -1177,7 +1213,7 @@
    "url": "https://www.google.com/maps/place/Gwangbok-ro+Fashion+Street/data=!4m2!3m1!1s0x3568e93502d28f79:0x62e090428e2c0bb1",
    "unnamed": false,
    "geocoded": false,
-   "id": "s98"
+   "id": "g1ajoowy"
   },
   {
    "name": "Haeridan-gil Street",
@@ -1189,7 +1225,7 @@
    "url": "https://www.google.com/maps/place/Haeridan-gil+Street/data=!4m2!3m1!1s0x35688d45cc258fcb:0xdcc849fa79ab1f46",
    "unnamed": false,
    "geocoded": false,
-   "id": "s99"
+   "id": "gxww8r7"
   },
   {
    "name": "Hidden Blind Box Minimart",
@@ -1201,7 +1237,7 @@
    "url": "https://www.google.com/maps/place/Hidden+Blind+Box+Minimart/data=!4m2!3m1!1s0x357ca50024729011:0x3c4f46dcd09ea152",
    "unnamed": false,
    "geocoded": false,
-   "id": "s100"
+   "id": "gd75f18"
   },
   {
    "name": "Hongdae Shopping Street",
@@ -1213,7 +1249,7 @@
    "url": "https://www.google.com/maps/place/Hongdae+Shopping+Street/data=!4m2!3m1!1s0x357c98db34e95463:0xc723337f7c07eada",
    "unnamed": false,
    "geocoded": false,
-   "id": "s101"
+   "id": "g1p8ee6n"
   },
   {
    "name": "I'Park Mall",
@@ -1225,7 +1261,7 @@
    "url": "https://www.google.com/maps/place/I'Park+Mall/data=!4m2!3m1!1s0x357ca36c934c2823:0x9c1711252621dbd0",
    "unnamed": false,
    "geocoded": false,
-   "id": "s102"
+   "id": "gevt7v0"
   },
   {
    "name": "Insa-dong",
@@ -1237,7 +1273,7 @@
    "url": "https://www.google.com/maps/place/Insa-dong/data=!4m2!3m1!1s0x357ca2e80ef04ca1:0x4dbdf00ad06265a4",
    "unnamed": false,
    "geocoded": false,
-   "id": "s103"
+   "id": "gzkgrhd"
   },
   {
    "name": "Jongno 3(sam)-ga Pocha Street",
@@ -1249,7 +1285,7 @@
    "url": "https://www.google.com/maps/place/Jongno+3(sam)-ga+Pocha+Street/data=!4m2!3m1!1s0x357ca3c95ce3c495:0xdcfda857d0bd8763",
    "unnamed": false,
    "geocoded": false,
-   "id": "s104"
+   "id": "ghurn73"
   },
   {
    "name": "JOYHOBBY",
@@ -1261,7 +1297,7 @@
    "url": "https://www.google.com/maps/place/JOYHOBBY/data=!4m2!3m1!1s0x357c9e5d42d7f29d:0x7011a92eb4ed956",
    "unnamed": false,
    "geocoded": false,
-   "id": "s105"
+   "id": "gh3n2zd"
   },
   {
    "name": "juuneedu myeongdong (쥬니쥬 명동점)",
@@ -1273,7 +1309,7 @@
    "url": "https://www.google.com/maps/place/juuneedu+myeongdong+(%EC%A5%AC%EB%8B%88%EC%A5%AC+%EB%AA%85%EB%8F%99%EC%A0%90)/data=!4m2!3m1!1s0x357ca317c4bc13d7:0xc13d1c200f404c34",
    "unnamed": false,
    "geocoded": false,
-   "id": "s106"
+   "id": "gc6c21l"
   },
   {
    "name": "Kim Hyun Kwan Bukchon Pen Drawing",
@@ -1285,7 +1321,19 @@
    "url": "https://www.google.com/maps/place/Kim+Hyun+Kwan+Bukchon+Pen+Drawing/data=!4m2!3m1!1s0x357ca30008507af1:0xa9049a6f5ffd0121",
    "unnamed": false,
    "geocoded": false,
-   "id": "s107"
+   "id": "g1h1c0ep"
+  },
+  {
+   "name": "Kukje Electronics Center",
+   "note": "",
+   "address": "Seoul, South Korea",
+   "category": "Alışveriş",
+   "lat": 37.485479,
+   "lng": 127.017874,
+   "url": "https://www.google.com/maps/place/Kukje+Electronics+Center/data=!4m2!3m1!1s0x357ca11570fac529:0x2d9afbc013467a7b",
+   "unnamed": false,
+   "geocoded": false,
+   "id": "gc2866h"
   },
   {
    "name": "Kukje Electronics Center",
@@ -1297,7 +1345,7 @@
    "url": "https://www.google.com/maps/place/Kukje+Electronics+Center/data=!4m2!3m1!1s0x357ca143b01a1743:0x1013f31bf72829ca",
    "unnamed": false,
    "geocoded": false,
-   "id": "s108"
+   "id": "gdkvj62"
   },
   {
    "name": "LOTTE Department Store Main Store",
@@ -1309,7 +1357,7 @@
    "url": "https://www.google.com/maps/place/LOTTE+Department+Store+Main+Store/data=!4m2!3m1!1s0x357ca2f1f9155af7:0x77d801cbcd221ab4",
    "unnamed": false,
    "geocoded": false,
-   "id": "s109"
+   "id": "g3qo0v3"
   },
   {
    "name": "MIMILINE",
@@ -1321,7 +1369,7 @@
    "url": "https://www.google.com/maps/place/MIMILINE/data=!4m2!3m1!1s0x357ca3850c5d5b55:0xa00225bcdaf4f930",
    "unnamed": false,
    "geocoded": false,
-   "id": "s110"
+   "id": "g1gklebh"
   },
   {
    "name": "Music Korea",
@@ -1333,7 +1381,7 @@
    "url": "https://www.google.com/maps/place/Music+Korea/data=!4m2!3m1!1s0x357ca2f0f37b5d0b:0x9b53f8209dccdb37",
    "unnamed": false,
    "geocoded": false,
-   "id": "s111"
+   "id": "gbu66ts"
   },
   {
    "name": "Myeongdong Shopping Street",
@@ -1345,7 +1393,7 @@
    "url": "https://www.google.com/maps/place/Myeongdong+Shopping+Street/data=!4m2!3m1!1s0x357ca2f1c7af3d5f:0x50d5593269776722",
    "unnamed": false,
    "geocoded": false,
-   "id": "s112"
+   "id": "gukkee8"
   },
   {
    "name": "Namdaemun Market",
@@ -1357,7 +1405,7 @@
    "url": "https://www.google.com/maps/place/Namdaemun+Market/data=!4m2!3m1!1s0x357ca2f516e5887d:0xcd371b16a3ec2061",
    "unnamed": false,
    "geocoded": false,
-   "id": "s113"
+   "id": "g1prvzm0"
   },
   {
    "name": "Nampo",
@@ -1369,7 +1417,7 @@
    "url": "https://www.google.com/maps/place/Nampo/data=!4m2!3m1!1s0x3568e90ca014835f:0x80067f443adb307e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s114"
+   "id": "g17xlq6r"
   },
   {
    "name": "nampo dong",
@@ -1381,7 +1429,7 @@
    "url": "https://www.google.com/maps/place/nampo+dong/data=!4m2!3m1!1s0x3568e97c6556ea25:0xd9abc2b5f319e42f",
    "unnamed": false,
    "geocoded": false,
-   "id": "s115"
+   "id": "g1u0iq37"
   },
   {
    "name": "Nyunyu Wholesale Dongdaemun",
@@ -1393,7 +1441,7 @@
    "url": "https://www.google.com/maps/place/Nyunyu+Wholesale+Dongdaemun/data=!4m2!3m1!1s0x357ca3cf38f322ff:0x4093d1e8263f2f76",
    "unnamed": false,
    "geocoded": false,
-   "id": "s116"
+   "id": "g9skaqy"
   },
   {
    "name": "Off Beauty",
@@ -1405,7 +1453,7 @@
    "url": "https://www.google.com/maps/place/Off+Beauty/data=!4m2!3m1!1s0x357ca3f0f96662bd:0x853f09c753eb154d",
    "unnamed": false,
    "geocoded": false,
-   "id": "s117"
+   "id": "g1grfgwf"
   },
   {
    "name": "Olive Young Myeongdong Town",
@@ -1417,7 +1465,7 @@
    "url": "https://www.google.com/maps/place/Olive+Young+Myeongdong+Town/data=!4m2!3m1!1s0x357ca2efe0d570f5:0x1ed61ca1e03d322a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s118"
+   "id": "gq3i6q8"
   },
   {
    "name": "Ongo",
@@ -1429,7 +1477,7 @@
    "url": "https://www.google.com/maps/place/Ongo/data=!4m2!3m1!1s0x357ca542970ee41d:0x3581f816f04466fe",
    "unnamed": false,
    "geocoded": false,
-   "id": "s119"
+   "id": "g79b38w"
   },
   {
    "name": "OPTICLIFE",
@@ -1441,7 +1489,7 @@
    "url": "https://www.google.com/maps/place/OPTICLIFE/data=!4m2!3m1!1s0x357ca2f0ff160d2d:0x88696134c115cdbf",
    "unnamed": false,
    "geocoded": false,
-   "id": "s120"
+   "id": "gaff739"
   },
   {
    "name": "Pokemon Card Shop",
@@ -1453,7 +1501,7 @@
    "url": "https://www.google.com/maps/place/Pokemon+Card+Shop/data=!4m2!3m1!1s0x357ca30027d3e40f:0xcb71ed7a9ae09b2b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s121"
+   "id": "gya4f4h"
   },
   {
    "name": "Pop Mart",
@@ -1465,7 +1513,7 @@
    "url": "https://www.google.com/maps/place/Pop+Mart/data=!4m2!3m1!1s0x357ca3c21b2fbc03:0xea3eee775f4e11f2",
    "unnamed": false,
    "geocoded": false,
-   "id": "s122"
+   "id": "g16ijhu3"
   },
   {
    "name": "Pop Mart Flagship Store (Hongdae)",
@@ -1477,7 +1525,7 @@
    "url": "https://www.google.com/maps/place/Pop+Mart+Flagship+Store+(Hongdae)/data=!4m2!3m1!1s0x357c992aa29e3997:0xabf52848419851a0",
    "unnamed": false,
    "geocoded": false,
-   "id": "s123"
+   "id": "g3hurt1"
   },
   {
    "name": "Pop Mart Roboshop",
@@ -1489,7 +1537,7 @@
    "url": "https://www.google.com/maps/place/Pop+Mart+Roboshop/data=!4m2!3m1!1s0x357c99128c1ce4f1:0x266d872d681838c6",
    "unnamed": false,
    "geocoded": false,
-   "id": "s124"
+   "id": "g1bp9q4a"
   },
   {
    "name": "Popmart Myeongdong",
@@ -1501,7 +1549,7 @@
    "url": "https://www.google.com/maps/place/Popmart+Myeongdong/data=!4m2!3m1!1s0x357ca3006585fb0f:0x43357001745198f5",
    "unnamed": false,
    "geocoded": false,
-   "id": "s125"
+   "id": "g1nlo2eb"
   },
   {
    "name": "Richmood Plus Size Clothing",
@@ -1513,7 +1561,7 @@
    "url": "https://www.google.com/maps/place/Richmood+Plus+Size+Clothing/data=!4m2!3m1!1s0x357ca56f6a1eb9a5:0x830af534f7620bec",
    "unnamed": false,
    "geocoded": false,
-   "id": "s126"
+   "id": "g1cy84zn"
   },
   {
    "name": "ROMISTORY",
@@ -1525,7 +1573,7 @@
    "url": "https://www.google.com/maps/place/ROMISTORY/data=!4m2!3m1!1s0x357ca2f1fc15d861:0x8c5aad00df6adb93",
    "unnamed": false,
    "geocoded": false,
-   "id": "s127"
+   "id": "gbm20xb"
   },
   {
    "name": "ROOT HONGDAE",
@@ -1537,7 +1585,7 @@
    "url": "https://www.google.com/maps/place/ROOT+HONGDAE/data=!4m2!3m1!1s0x357c99c90a370327:0xed3eae306d89bc91",
    "unnamed": false,
    "geocoded": false,
-   "id": "s128"
+   "id": "ghvma2w"
   },
   {
    "name": "Sindorim Techno Mart",
@@ -1549,7 +1597,7 @@
    "url": "https://www.google.com/maps/place/Sindorim+Techno+Mart/data=!4m2!3m1!1s0x357c9e5d42d7f29d:0xffe4fde23c3b0f9c",
    "unnamed": false,
    "geocoded": false,
-   "id": "s129"
+   "id": "gq7q6b7"
   },
   {
    "name": "Ssamziegil",
@@ -1561,7 +1609,19 @@
    "url": "https://www.google.com/maps/place/Ssamziegil/data=!4m2!3m1!1s0x357ca2c295ad1b41:0x7e5926f6501aca88",
    "unnamed": false,
    "geocoded": false,
-   "id": "s130"
+   "id": "gwip8pm"
+  },
+  {
+   "name": "Tamiya Plamodel Factory",
+   "note": "",
+   "address": "Seoul, South Korea",
+   "category": "Alışveriş",
+   "lat": 37.4810911,
+   "lng": 127.0418509,
+   "url": "https://www.google.com/maps/place/Tamiya+Plamodel+Factory/data=!4m2!3m1!1s0x357ca6b4e39c0815:0x60c9ec169a847e3d",
+   "unnamed": false,
+   "geocoded": false,
+   "id": "g1uuk82l"
   },
   {
    "name": "Tamiya Plamodel Factory",
@@ -1573,7 +1633,7 @@
    "url": "https://www.google.com/maps/place/Tamiya+Plamodel+Factory/data=!4m2!3m1!1s0x357ca3d024c5f909:0x94d6e74db8421597",
    "unnamed": false,
    "geocoded": false,
-   "id": "s131"
+   "id": "gt614ez"
   },
   {
    "name": "The Hyundai Seoul",
@@ -1585,7 +1645,19 @@
    "url": "https://www.google.com/maps/place/The+Hyundai+Seoul/data=!4m2!3m1!1s0x357c9f39456be49b:0xa065cfcde501c9de",
    "unnamed": false,
    "geocoded": false,
-   "id": "s132"
+   "id": "gg2gorn"
+  },
+  {
+   "name": "UNIQLO",
+   "note": "",
+   "address": "South Korea, Seoul, Jung District, Eulji-ro, 264 던던 동대문점 1층",
+   "category": "Alışveriş",
+   "lat": 37.5657118,
+   "lng": 127.0070878,
+   "url": "https://www.google.com/maps/place/UNIQLO/data=!4m2!3m1!1s0x357ca300705709d9:0xfea721f8e7c74a44",
+   "unnamed": false,
+   "geocoded": false,
+   "id": "g1ejzte6"
   },
   {
    "name": "UNIQLO",
@@ -1597,7 +1669,7 @@
    "url": "https://www.google.com/maps/place/UNIQLO/data=!4m2!3m1!1s0x357ca46bb4aa7e2f:0xd5ef4d1d9d1268e3",
    "unnamed": false,
    "geocoded": false,
-   "id": "s133"
+   "id": "g5l0qzk"
   },
   {
    "name": "UNIQLO Gwanghwamun D-Tower",
@@ -1609,7 +1681,7 @@
    "url": "https://www.google.com/maps/place/UNIQLO+Gwanghwamun+D-Tower/data=!4m2!3m1!1s0x357ca2ec773b7251:0x2746964fd36fe6c3",
    "unnamed": false,
    "geocoded": false,
-   "id": "s134"
+   "id": "ga8pj83"
   },
   {
    "name": "UNIQLO Myeongdong",
@@ -1621,7 +1693,7 @@
    "url": "https://www.google.com/maps/place/UNIQLO+Myeongdong/data=!4m2!3m1!1s0x357ca3005c4a5b89:0x127428c8e14c8892",
    "unnamed": false,
    "geocoded": false,
-   "id": "s135"
+   "id": "ge1awsw"
   },
   {
    "name": "UNIQLO Seoul Express Bus Terminal",
@@ -1633,7 +1705,7 @@
    "url": "https://www.google.com/maps/place/UNIQLO+Seoul+Express+Bus+Terminal/data=!4m2!3m1!1s0x357ca1001ea520e5:0xd541a2cc53349a96",
    "unnamed": false,
    "geocoded": false,
-   "id": "s136"
+   "id": "g1vrd6lp"
   },
   {
    "name": "UNIQLO Sinsa",
@@ -1645,7 +1717,7 @@
    "url": "https://www.google.com/maps/place/UNIQLO+Sinsa/data=!4m2!3m1!1s0x357ca3ec733ac7f7:0x5780cc0056d94f25",
    "unnamed": false,
    "geocoded": false,
-   "id": "s137"
+   "id": "geupmxu"
   },
   {
    "name": "UNIQLO U-Plex Sinchon",
@@ -1657,7 +1729,7 @@
    "url": "https://www.google.com/maps/place/UNIQLO+U-Plex+Sinchon/data=!4m2!3m1!1s0x357c9940a98945d7:0x93b0136e1a216d3e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s138"
+   "id": "g2uakr2"
   },
   {
    "name": "UNIQLO Yongsan I'Park Mall",
@@ -1669,7 +1741,7 @@
    "url": "https://www.google.com/maps/place/UNIQLO+Yongsan+I'Park+Mall/data=!4m2!3m1!1s0x357ca2035a632c2b:0x718b688a2dbce7ee",
    "unnamed": false,
    "geocoded": false,
-   "id": "s139"
+   "id": "gv3rno9"
   },
   {
    "name": "Wappen house",
@@ -1681,7 +1753,7 @@
    "url": "https://www.google.com/maps/place/Wappen+house/data=!4m2!3m1!1s0x357ca30033ac616d:0x9836014095dfc083",
    "unnamed": false,
    "geocoded": false,
-   "id": "s140"
+   "id": "g1e4wop"
   },
   {
    "name": "Wappen House",
@@ -1693,7 +1765,7 @@
    "url": "https://www.google.com/maps/place/Wappen+House/data=!4m2!3m1!1s0x357ca50057ba01e5:0xebd2b70587c9f1d5",
    "unnamed": false,
    "geocoded": false,
-   "id": "s141"
+   "id": "g1cgcgzl"
   },
   {
    "name": "WithMuu",
@@ -1705,7 +1777,7 @@
    "url": "https://www.google.com/maps/place/WithMuu/data=!4m2!3m1!1s0x357c998edf5b6f85:0xcbb45c071a2de9e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s142"
+   "id": "gyut8nk"
   },
   {
    "name": "다비치안경 홍대점(DAVICH OPTICAL HONG DAE)",
@@ -1717,7 +1789,7 @@
    "url": "https://www.google.com/maps/place/%EB%8B%A4%EB%B9%84%EC%B9%98%EC%95%88%EA%B2%BD+%ED%99%8D%EB%8C%80%EC%A0%90(DAVICH+OPTICAL+HONG+DAE)/data=!4m2!3m1!1s0x357c98e9c016ddbf:0xb8d88f2b2fe2da94",
    "unnamed": false,
    "geocoded": false,
-   "id": "s143"
+   "id": "g1sw0a7c"
   },
   {
    "name": "뭍 성수점 [MUUT SEONGSU (optical store)]",
@@ -1729,7 +1801,7 @@
    "url": "https://www.google.com/maps/place/%EB%AD%8D+%EC%84%B1%EC%88%98%EC%A0%90+%5BMUUT+SEONGSU+(optical+store)%5D/data=!4m2!3m1!1s0x357ca524528b0b79:0x381b0c53d908c0a6",
    "unnamed": false,
    "geocoded": false,
-   "id": "s144"
+   "id": "g3as6b"
   },
   {
    "name": "비밀정원 건대점",
@@ -1741,7 +1813,7 @@
    "url": "https://www.google.com/maps/place/%EB%B9%84%EB%B0%80%EC%A0%95%EC%9B%90+%EA%B1%B4%EB%8C%80%EC%A0%90/data=!4m2!3m1!1s0x357ca5e18e4404b1:0xf060fa765d154ef3",
    "unnamed": false,
    "geocoded": false,
-   "id": "s145"
+   "id": "g1q8vvjb"
   },
   {
    "name": "시공간 건대점",
@@ -1753,7 +1825,7 @@
    "url": "https://www.google.com/maps/place/%EC%8B%9C%EA%B3%B5%EA%B0%84+%EA%B1%B4%EB%8C%80%EC%A0%90/data=!4m2!3m1!1s0x357ca59d5802cabf:0x43becb608f3c34f1",
    "unnamed": false,
    "geocoded": false,
-   "id": "s146"
+   "id": "gpikoyz"
   },
   {
    "name": "오모차랜드 홍대점",
@@ -1765,7 +1837,7 @@
    "url": "https://www.google.com/maps/place/%EC%98%A4%EB%AA%A8%EC%B0%A8%EB%9E%9C%EB%93%9C+%ED%99%8D%EB%8C%80%EC%A0%90/data=!4m2!3m1!1s0x357c999ad935c6c7:0xca529288733b647e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s147"
+   "id": "g2s3mgd"
   },
   {
    "name": "오프뷰티 명동스퀘어점",
@@ -1777,7 +1849,7 @@
    "url": "https://www.google.com/maps/place/%EC%98%A4%ED%94%84%EB%B7%B0%ED%8B%B0+%EB%AA%85%EB%8F%99%EC%8A%A4%ED%80%98%EC%96%B4%EC%A0%90/data=!4m2!3m1!1s0x357ca350d3ef7791:0x2a34b3c85b89d482",
    "unnamed": false,
    "geocoded": false,
-   "id": "s148"
+   "id": "g1nq7kqw"
   },
   {
    "name": "올리브영 인사동점",
@@ -1789,7 +1861,7 @@
    "url": "https://www.google.com/maps/place/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81+%EC%9D%B8%EC%82%AC%EB%8F%99%EC%A0%90/data=!4m2!3m1!1s0x357ca3ff2da14659:0x5d5a3f197de1a96",
    "unnamed": false,
    "geocoded": false,
-   "id": "s149"
+   "id": "g1usm77s"
   },
   {
    "name": "으뜸50안경 명동점",
@@ -1801,7 +1873,7 @@
    "url": "https://www.google.com/maps/place/%EC%9C%BC%EB%9C%B850%EC%95%88%EA%B2%BD+%EB%AA%85%EB%8F%99%EC%A0%90/data=!4m2!3m1!1s0x357ca2f016f14177:0xe0d32e9c7890655b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s150"
+   "id": "g1j8bqo3"
   },
   {
    "name": "으뜸50안경 홍대점",
@@ -1813,7 +1885,7 @@
    "url": "https://www.google.com/maps/place/%EC%9C%BC%EB%9C%B850%EC%95%88%EA%B2%BD+%ED%99%8D%EB%8C%80%EC%A0%90/data=!4m2!3m1!1s0x357c993e07d908bd:0x89a7aef984d3e214",
    "unnamed": false,
    "geocoded": false,
-   "id": "s151"
+   "id": "g1n1dmma"
   },
   {
    "name": "케이메카(K-MECCA)",
@@ -1825,7 +1897,7 @@
    "url": "https://www.google.com/maps/place/%EC%BC%80%EC%9D%B4%EB%A9%94%EC%B9%B4(K-MECCA)/data=!4m2!3m1!1s0x357ca3da91876d8b:0x5ca5635bed725a83",
    "unnamed": false,
    "geocoded": false,
-   "id": "s152"
+   "id": "gve5n4c"
   },
   {
    "name": "케이메카(K-MECCA) Dongdaemun Store",
@@ -1837,7 +1909,7 @@
    "url": "https://www.google.com/maps/place/%EC%BC%80%EC%9D%B4%EB%A9%94%EC%B9%B4(K-MECCA)+Dongdaemun+Store/data=!4m2!3m1!1s0x357ca35396da1c7d:0x7c8079a925904c97",
    "unnamed": false,
    "geocoded": false,
-   "id": "s153"
+   "id": "ghuwfpm"
   },
   {
    "name": "팝마트 코엑스몰점",
@@ -1849,7 +1921,7 @@
    "url": "https://www.google.com/maps/place/%ED%8C%9D%EB%A7%88%ED%8A%B8+%EC%BD%94%EC%97%91%EC%8A%A4%EB%AA%B0%EC%A0%90/data=!4m2!3m1!1s0x357ca46b26c1760b:0x8b334abadf39e0f4",
    "unnamed": false,
    "geocoded": false,
-   "id": "s154"
+   "id": "g1n2j5wc"
   },
   {
    "name": "페이퍼테일러 paper tailor",
@@ -1861,7 +1933,7 @@
    "url": "https://www.google.com/maps/place/%ED%8E%98%EC%9D%B4%ED%8D%BC%ED%85%8C%EC%9D%BC%EB%9F%AC+paper+tailor/data=!4m2!3m1!1s0x357ca30056b7e22f:0xd403aa1d1eecea2a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s155"
+   "id": "g198u5k1"
   },
   {
    "name": "Gangdong Mosque",
@@ -1873,7 +1945,7 @@
    "url": "https://www.google.com/maps/place/Gangdong+Mosque/data=!4m2!3m1!1s0x357cb10041d45553:0xa3b007cfab793dd9",
    "unnamed": false,
    "geocoded": false,
-   "id": "s156"
+   "id": "g2y2guv"
   },
   {
    "name": "GULZAR-E-MADINA ISLAMIC CENTER",
@@ -1885,7 +1957,7 @@
    "url": "https://www.google.com/maps/place/GULZAR-E-MADINA+ISLAMIC+CENTER/data=!4m2!3m1!1s0x357b7de41b012b19:0x1d7cfca7d70d42d7",
    "unnamed": false,
    "geocoded": false,
-   "id": "s157"
+   "id": "g1xmqkkz"
   },
   {
    "name": "Heojabjil",
@@ -1897,7 +1969,7 @@
    "url": "https://www.google.com/maps/place/Heojabjil/data=!4m2!3m1!1s0x357ca577592396dd:0xc08141192f343599",
    "unnamed": false,
    "geocoded": false,
-   "id": "s158"
+   "id": "grsxgwm"
   },
   {
    "name": "Masjid Al-Falah, Seoul",
@@ -1909,7 +1981,7 @@
    "url": "https://www.google.com/maps/place/Masjid+Al-Falah,+Seoul/data=!4m2!3m1!1s0x357c9fac1f111155:0xf4318f993e7b7c2a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s159"
+   "id": "g1yyi8ez"
   },
   {
    "name": "Masjid Noor Seoul",
@@ -1921,7 +1993,7 @@
    "url": "https://www.google.com/maps/place/Masjid+Noor+Seoul/data=!4m2!3m1!1s0x357ca5dcea64f617:0x8f8c0d6fd4ac9bee",
    "unnamed": false,
    "geocoded": false,
-   "id": "s160"
+   "id": "g140pbof"
   },
   {
    "name": "Prayer Room Namdaemun abuu huraira masque",
@@ -1933,7 +2005,7 @@
    "url": "https://www.google.com/maps/place/Prayer+Room+Namdaemun+abuu+huraira+masque/data=!4m2!3m1!1s0x357ca3308b08196f:0xe39c274a793c3ba9",
    "unnamed": false,
    "geocoded": false,
-   "id": "s161"
+   "id": "g3r8eku"
   },
   {
    "name": "Sartiani",
@@ -1945,7 +2017,7 @@
    "url": "https://www.google.com/maps/place/Sartiani/data=!4m2!3m1!1s0x357c9f007a17846b:0x246445b4b88a105d",
    "unnamed": false,
    "geocoded": false,
-   "id": "s162"
+   "id": "g1erxgfl"
   },
   {
    "name": "Seoul Central Mosque",
@@ -1957,7 +2029,7 @@
    "url": "https://www.google.com/maps/place/Seoul+Central+Mosque/data=!4m2!3m1!1s0x357ca3b531e7d8cf:0x2c2a62bd5810c24",
    "unnamed": false,
    "geocoded": false,
-   "id": "s163"
+   "id": "gmsahwu"
   },
   {
    "name": "Sinchon Masjid and Islamic Center",
@@ -1969,7 +2041,7 @@
    "url": "https://www.google.com/maps/place/Sinchon+Masjid+and+Islamic+Center/data=!4m2!3m1!1s0x357c99ad53054d53:0xfccdca6f8e9dcccb",
    "unnamed": false,
    "geocoded": false,
-   "id": "s164"
+   "id": "g1q3erip"
   },
   {
    "name": "مصلى بالدور الثالث",
@@ -1981,7 +2053,7 @@
    "url": "https://www.google.com/maps/place/%D9%85%D8%B5%D9%84%D9%89+%D8%A8%D8%A7%D9%84%D8%AF%D9%88%D8%B1+%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%E2%80%AD/data=!4m2!3m1!1s0x357ca3002e71dcf3:0xa9c3842f53f95ccd",
    "unnamed": false,
    "geocoded": false,
-   "id": "s165"
+   "id": "g1iwwd2t"
   },
   {
    "name": "Han River Paradise",
@@ -1993,7 +2065,7 @@
    "url": "https://www.google.com/maps/place/Han+River+Paradise/data=!4m2!3m1!1s0x357c9f4f56a622f1:0xcd1481c61dc96f6",
    "unnamed": false,
    "geocoded": false,
-   "id": "s166"
+   "id": "g1jzuegp"
   },
   {
    "name": "Hangang Park",
@@ -2005,7 +2077,7 @@
    "url": "https://www.google.com/maps/place/Hangang+Park/data=!4m2!3m1!1s0x357ca39fb21d7c1b:0xaf3df5695bf17d0e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s167"
+   "id": "g1ti3xx5"
   },
   {
    "name": "Ichon Hangang Park",
@@ -2017,7 +2089,7 @@
    "url": "https://www.google.com/maps/place/Ichon+Hangang+Park/data=!4m2!3m1!1s0x357ca18cadbeb22d:0xd408ea3e1cd48f28",
    "unnamed": false,
    "geocoded": false,
-   "id": "s168"
+   "id": "g1yzcmxg"
   },
   {
    "name": "Mangwon Hangang Park",
@@ -2029,7 +2101,7 @@
    "url": "https://www.google.com/maps/place/Mangwon+Hangang+Park/data=!4m2!3m1!1s0x357c992fdaf2fa91:0xb4c77c1a784f4c76",
    "unnamed": false,
    "geocoded": false,
-   "id": "s169"
+   "id": "g1euwqc1"
   },
   {
    "name": "Nodeul Island",
@@ -2041,7 +2113,7 @@
    "url": "https://www.google.com/maps/place/Nodeul+Island/data=!4m2!3m1!1s0x357ca107bd0eb5d1:0xa1a994a949cf6697",
    "unnamed": false,
    "geocoded": false,
-   "id": "s170"
+   "id": "g1cmsvj3"
   },
   {
    "name": "Ttukseom Hangang Park",
@@ -2053,7 +2125,7 @@
    "url": "https://www.google.com/maps/place/Ttukseom+Hangang+Park/data=!4m2!3m1!1s0x357ca57eccc96a27:0x89367b6700b91513",
    "unnamed": false,
    "geocoded": false,
-   "id": "s171"
+   "id": "gbpq3c3"
   },
   {
    "name": "63 Skypicnic",
@@ -2065,7 +2137,7 @@
    "url": "https://www.google.com/maps/place/63+Skypicnic/data=!4m2!3m1!1s0x357c9f000272a165:0x312c1f3668ee64a4",
    "unnamed": false,
    "geocoded": false,
-   "id": "s172"
+   "id": "g1er81hb"
   },
   {
    "name": "7-Eleven",
@@ -2077,7 +2149,7 @@
    "url": "https://www.google.com/maps/place/7-Eleven/data=!4m2!3m1!1s0x357ca29a88ca073b:0x9cdff98a628cf9f0",
    "unnamed": false,
    "geocoded": false,
-   "id": "s173"
+   "id": "gde3v1e"
   },
   {
    "name": "Baekbin Railroad Crossing (Drama ‘My Mister’ filming location)",
@@ -2089,7 +2161,7 @@
    "url": "https://www.google.com/maps/place/Baekbin+Railroad+Crossing+(Drama+%E2%80%98My+Mister%E2%80%99+filming+location)/data=!4m2!3m1!1s0x357ca12f1c21ceeb:0xff5d09342acc3825",
    "unnamed": false,
    "geocoded": false,
-   "id": "s174"
+   "id": "g1n7fe7l"
   },
   {
    "name": "Banpo-dong",
@@ -2101,7 +2173,7 @@
    "url": "https://www.google.com/maps/place/Banpo-dong/data=!4m2!3m1!1s0x357ca1797f24ea05:0x236b6f7365b2365a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s175"
+   "id": "g2v7vrk"
   },
   {
    "name": "BIFF Square",
@@ -2113,7 +2185,7 @@
    "url": "https://www.google.com/maps/place/BIFF+Square/data=!4m2!3m1!1s0x3568e9a0831c5b2f:0x9e191659831974c5",
    "unnamed": false,
    "geocoded": false,
-   "id": "s176"
+   "id": "g1ptpghp"
   },
   {
    "name": "Bongeunsa Temple",
@@ -2125,7 +2197,7 @@
    "url": "https://www.google.com/maps/place/Bongeunsa+Temple/data=!4m2!3m1!1s0x357ca46941fa9981:0x45689c57c2e44d69",
    "unnamed": false,
    "geocoded": false,
-   "id": "s177"
+   "id": "g1hqlijz"
   },
   {
    "name": "BTS Bus Stop",
@@ -2137,7 +2209,7 @@
    "url": "https://www.google.com/maps/place/BTS+Bus+Stop/data=!4m2!3m1!1s0x3561fd2bed10b28d:0xb5ff23ee04c3d96b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s178"
+   "id": "g1ub0t8g"
   },
   {
    "name": "Bukchon Hanok Village",
@@ -2149,7 +2221,7 @@
    "url": "https://www.google.com/maps/place/Bukchon+Hanok+Village/data=!4m2!3m1!1s0x357ca2daaff8c14f:0xcdbcbaa9ffc9e59a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s179"
+   "id": "g4upas3"
   },
   {
    "name": "Bukchon Yukgyeong (Photo Spot)",
@@ -2161,7 +2233,7 @@
    "url": "https://www.google.com/maps/place/Bukchon+Yukgyeong+(Photo+Spot)/data=!4m2!3m1!1s0x357ca3da96386fa5:0x37272908504d21eb",
    "unnamed": false,
    "geocoded": false,
-   "id": "s180"
+   "id": "gdczdo1"
   },
   {
    "name": "Bukhansan",
@@ -2173,7 +2245,7 @@
    "url": "https://www.google.com/maps/place/Bukhansan/data=!4m2!3m1!1s0x357cbdd5b945eccf:0xfb9486536d6d79f9",
    "unnamed": false,
    "geocoded": false,
-   "id": "s181"
+   "id": "ghahjbv"
   },
   {
    "name": "BUSAN X the SKY",
@@ -2185,7 +2257,7 @@
    "url": "https://www.google.com/maps/place/BUSAN+X+the+SKY/data=!4m2!3m1!1s0x35688d0d9c3eb89d:0xa2c51c88bebf32dc",
    "unnamed": false,
    "geocoded": false,
-   "id": "s182"
+   "id": "g1u2lrqv"
   },
   {
    "name": "Changdeokgung",
@@ -2197,7 +2269,7 @@
    "url": "https://www.google.com/maps/place/Changdeokgung/data=!4m2!3m1!1s0x357ca25bce7408e3:0xff296b97da565068",
    "unnamed": false,
    "geocoded": false,
-   "id": "s183"
+   "id": "g1c49y43"
   },
   {
    "name": "Changdeokgung Palace General Tourism Support Center",
@@ -2209,7 +2281,7 @@
    "url": "https://www.google.com/maps/place/Changdeokgung+Palace+General+Tourism+Support+Center/data=!4m2!3m1!1s0x357ca3ea31898e0b:0xe2072f228624249a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s184"
+   "id": "gpjju3"
   },
   {
    "name": "Cheonggyecheon",
@@ -2221,7 +2293,7 @@
    "url": "https://www.google.com/maps/place/Cheonggyecheon/data=!4m2!3m1!1s0x357ca2ece3930023:0xbd86fa6e88b74ed4",
    "unnamed": false,
    "geocoded": false,
-   "id": "s185"
+   "id": "grnyeqg"
   },
   {
    "name": "Cheonggyecheon stream",
@@ -2233,7 +2305,7 @@
    "url": "https://www.google.com/maps/place/Cheonggyecheon+stream/data=!4m2!3m1!1s0x357ca3004b72aa6d:0xab6060d59d1aac17",
    "unnamed": false,
    "geocoded": false,
-   "id": "s186"
+   "id": "gy4b76s"
   },
   {
    "name": "Cheongsapo Daritdol Observatory Information Center",
@@ -2245,7 +2317,7 @@
    "url": "https://www.google.com/maps/place/Cheongsapo+Daritdol+Observatory+Information+Center/data=!4m2!3m1!1s0x35688daa821d4fed:0x99970a4319b28fa4",
    "unnamed": false,
    "geocoded": false,
-   "id": "s187"
+   "id": "gdx4jb8"
   },
   {
    "name": "Cheongsapo Twins Lighthouse",
@@ -2257,7 +2329,7 @@
    "url": "https://www.google.com/maps/place/Cheongsapo+Twins+Lighthouse/data=!4m2!3m1!1s0x35688ddfc190a99b:0xf07b061d710c8cb1",
    "unnamed": false,
    "geocoded": false,
-   "id": "s188"
+   "id": "gsxoo2y"
   },
   {
    "name": "COEX Convention & Exhibition Center",
@@ -2269,7 +2341,7 @@
    "url": "https://www.google.com/maps/place/COEX+Convention+%26+Exhibition+Center/data=!4m2!3m1!1s0x357ca536e4738c97:0x336c7537649c9fe4",
    "unnamed": false,
    "geocoded": false,
-   "id": "s189"
+   "id": "gxmggl7"
   },
   {
    "name": "Dadaepo Beach",
@@ -2281,7 +2353,7 @@
    "url": "https://www.google.com/maps/place/Dadaepo+Beach/data=!4m2!3m1!1s0x3568dd135a34fc47:0xdd030811c62c5196",
    "unnamed": false,
    "geocoded": false,
-   "id": "s190"
+   "id": "g17m4tqi"
   },
   {
    "name": "Dakbatgol Mural Village",
@@ -2293,7 +2365,7 @@
    "url": "https://www.google.com/maps/place/Dakbatgol+Mural+Village/data=!4m2!3m1!1s0x3568e98484c8ed17:0xf08f4a6a2f1c2b0a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s191"
+   "id": "gfipgmr"
   },
   {
    "name": "Deoksugung Palace",
@@ -2305,7 +2377,7 @@
    "url": "https://www.google.com/maps/place/Deoksugung+Palace/data=!4m2!3m1!1s0x357ca28d3199c531:0x7a2d35df0efd2d8",
    "unnamed": false,
    "geocoded": false,
-   "id": "s192"
+   "id": "g1wtjstt"
   },
   {
    "name": "Dongdaemun Design Plaza (DDP)",
@@ -2317,7 +2389,7 @@
    "url": "https://www.google.com/maps/place/Dongdaemun+Design+Plaza+(DDP)/data=!4m2!3m1!1s0x357b456faf5814f3:0x5c22a91dab450bdc",
    "unnamed": false,
    "geocoded": false,
-   "id": "s193"
+   "id": "g1b8thh"
   },
   {
    "name": "Donggwanwangmyo (Dongmyo) Shrine of General Guan Yu",
@@ -2329,7 +2401,7 @@
    "url": "https://www.google.com/maps/place/Donggwanwangmyo+(Dongmyo)+Shrine+of+General+Guan+Yu/data=!4m2!3m1!1s0x357ca33625fef633:0x9958e18c50e1c7e4",
    "unnamed": false,
    "geocoded": false,
-   "id": "s194"
+   "id": "guir38m"
   },
   {
    "name": "Euljiro Nogari Alley",
@@ -2341,7 +2413,7 @@
    "url": "https://www.google.com/maps/place/Euljiro+Nogari+Alley/data=!4m2!3m1!1s0x357ca38624f05e03:0x456e7cf375ff1639",
    "unnamed": false,
    "geocoded": false,
-   "id": "s195"
+   "id": "gxfgvu"
   },
   {
    "name": "Eunpyeong Hanok Village",
@@ -2353,7 +2425,7 @@
    "url": "https://www.google.com/maps/place/Eunpyeong+Hanok+Village/data=!4m2!3m1!1s0x357c97cc14f395d1:0x6751df797ce9de66",
    "unnamed": false,
    "geocoded": false,
-   "id": "s196"
+   "id": "g412qjr"
   },
   {
    "name": "Gallery Garden",
@@ -2365,7 +2437,7 @@
    "url": "https://www.google.com/maps/place/Gallery+Garden/data=!4m2!3m1!1s0x357ca54b7537a525:0xb09e707297729a0c",
    "unnamed": false,
    "geocoded": false,
-   "id": "s197"
+   "id": "g143bvme"
   },
   {
    "name": "Gamcheon Culture Village",
@@ -2377,7 +2449,7 @@
    "url": "https://www.google.com/maps/place/Gamcheon+Culture+Village/data=!4m2!3m1!1s0x3568e9b7a3113a51:0x977e01d7224cf6a3",
    "unnamed": false,
    "geocoded": false,
-   "id": "s198"
+   "id": "g1udiclf"
   },
   {
    "name": "Gangnam Style Sculpture",
@@ -2389,7 +2461,7 @@
    "url": "https://www.google.com/maps/place/Gangnam+Style+Sculpture/data=!4m2!3m1!1s0x357ca5af40861fe5:0x42cc1956193634b3",
    "unnamed": false,
    "geocoded": false,
-   "id": "s199"
+   "id": "g1zqnog"
   },
   {
    "name": "Geunjeongjeon",
@@ -2401,7 +2473,7 @@
    "url": "https://www.google.com/maps/place/Geunjeongjeon/data=!4m2!3m1!1s0x357ca35f9698b965:0x34606333d799ee0",
    "unnamed": false,
    "geocoded": false,
-   "id": "s200"
+   "id": "g1mn1nr8"
   },
   {
    "name": "Gwangalli Beach",
@@ -2413,7 +2485,7 @@
    "url": "https://www.google.com/maps/place/Gwangalli+Beach/data=!4m2!3m1!1s0x3568ed2f27c70ec7:0xff6df0e14d9216fb",
    "unnamed": false,
    "geocoded": false,
-   "id": "s201"
+   "id": "g1o1cpwj"
   },
   {
    "name": "Gwanghwamun Gate",
@@ -2425,7 +2497,7 @@
    "url": "https://www.google.com/maps/place/Gwanghwamun+Gate/data=!4m2!3m1!1s0x357ca37454f683b1:0xfa19c5217c6a0bc0",
    "unnamed": false,
    "geocoded": false,
-   "id": "s202"
+   "id": "g1lhk6k6"
   },
   {
    "name": "Gyeongbokgung Palace",
@@ -2437,7 +2509,7 @@
    "url": "https://www.google.com/maps/place/Gyeongbokgung+Palace/data=!4m2!3m1!1s0x357ca2c74aeddea1:0x8b3046532cc715f6",
    "unnamed": false,
    "geocoded": false,
-   "id": "s203"
+   "id": "g1c7zl03"
   },
   {
    "name": "Gyeongju-si",
@@ -2449,7 +2521,7 @@
    "url": "https://www.google.com/maps/place/Gyeongju-si/data=!4m2!3m1!1s0x35664e46f80d031d:0x371596eecfd0c809",
    "unnamed": false,
    "geocoded": false,
-   "id": "s204"
+   "id": "gs2oz8h"
   },
   {
    "name": "Haedong Yonggungsa Temple",
@@ -2461,7 +2533,7 @@
    "url": "https://www.google.com/maps/place/Haedong+Yonggungsa+Temple/data=!4m2!3m1!1s0x35688c1bbbdea6c1:0xa141406d6f112e5c",
    "unnamed": false,
    "geocoded": false,
-   "id": "s205"
+   "id": "g1kwux5z"
   },
   {
    "name": "Haeundae Beach",
@@ -2473,7 +2545,7 @@
    "url": "https://www.google.com/maps/place/Haeundae+Beach/data=!4m2!3m1!1s0x35688d5c0efe075f:0x9963b1d5c163ac98",
    "unnamed": false,
    "geocoded": false,
-   "id": "s206"
+   "id": "genmguq"
   },
   {
    "name": "Hannam-dong",
@@ -2485,7 +2557,7 @@
    "url": "https://www.google.com/maps/place/Hannam-dong/data=!4m2!3m1!1s0x357ca3afcfc70d47:0xdc211958c45ed3f",
    "unnamed": false,
    "geocoded": false,
-   "id": "s207"
+   "id": "gkkaicv"
   },
   {
    "name": "Hanyang Doseong (Fortress Walls) Historic Site Museum",
@@ -2497,7 +2569,7 @@
    "url": "https://www.google.com/maps/place/Hanyang+Doseong+(Fortress+Walls)+Historic+Site+Museum/data=!4m2!3m1!1s0x357ca30aa4057337:0x36e3db1b1f36283d",
    "unnamed": false,
    "geocoded": false,
-   "id": "s208"
+   "id": "g1v2vg9m"
   },
   {
    "name": "Hongdae Street",
@@ -2509,7 +2581,7 @@
    "url": "https://www.google.com/maps/place/Hongdae+Street/data=!4m2!3m1!1s0x357c98c52a22c0eb:0xd5c6adb2b4dc943a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s209"
+   "id": "gffn4fz"
   },
   {
    "name": "Hongje Yuyeon",
@@ -2521,7 +2593,7 @@
    "url": "https://www.google.com/maps/place/Hongje+Yuyeon/data=!4m2!3m1!1s0x357c9900107ef73b:0x3586cc44668b7bf8",
    "unnamed": false,
    "geocoded": false,
-   "id": "s210"
+   "id": "g1swlwqn"
   },
   {
    "name": "Huinnyeoul Culture Village",
@@ -2533,7 +2605,7 @@
    "url": "https://www.google.com/maps/place/Huinnyeoul+Culture+Village/data=!4m2!3m1!1s0x3568e91e7eace1b1:0x30a2d5049622068a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s211"
+   "id": "g1p9uw6a"
   },
   {
    "name": "Hwangnyeongsan Observatory",
@@ -2545,7 +2617,7 @@
    "url": "https://www.google.com/maps/place/Hwangnyeongsan+Observatory/data=!4m2!3m1!1s0x3568ed8d239bd9c1:0x94e324298d49e0af",
    "unnamed": false,
    "geocoded": false,
-   "id": "s212"
+   "id": "g1o4o43y"
   },
   {
    "name": "Ihwa-dong Mural Village",
@@ -2557,7 +2629,7 @@
    "url": "https://www.google.com/maps/place/Ihwa-dong+Mural+Village/data=!4m2!3m1!1s0x357ca32e456773eb:0x3b5f23a29c9fe7b7",
    "unnamed": false,
    "geocoded": false,
-   "id": "s213"
+   "id": "g1uxbvi8"
   },
   {
    "name": "Ikseon-dong",
@@ -2569,7 +2641,7 @@
    "url": "https://www.google.com/maps/place/Ikseon-dong/data=!4m2!3m1!1s0x357ca2dc503b48c5:0xfd111929d3dfb78e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s214"
+   "id": "g9atj3y"
   },
   {
    "name": "Ikseon-dong Hanok Village",
@@ -2581,7 +2653,7 @@
    "url": "https://www.google.com/maps/place/Ikseon-dong+Hanok+Village/data=!4m2!3m1!1s0x357ca2dda25b827b:0x8c6a32ecaea135db",
    "unnamed": false,
    "geocoded": false,
-   "id": "s215"
+   "id": "gbkjrjy"
   },
   {
    "name": "Insa-dong Culture Street",
@@ -2593,7 +2665,7 @@
    "url": "https://www.google.com/maps/place/Insa-dong+Culture+Street/data=!4m2!3m1!1s0x357ca2e7f9c7f07b:0xb277f48a0573a31f",
    "unnamed": false,
    "geocoded": false,
-   "id": "s216"
+   "id": "gmg8t06"
   },
   {
    "name": "Itaewon-dong",
@@ -2605,7 +2677,7 @@
    "url": "https://www.google.com/maps/place/Itaewon-dong/data=!4m2!3m1!1s0x357ca24c0510be8f:0x1ad07db728bb9103",
    "unnamed": false,
    "geocoded": false,
-   "id": "s217"
+   "id": "g3ewv80"
   },
   {
    "name": "Jesuhap",
@@ -2617,7 +2689,7 @@
    "url": "https://www.google.com/maps/place/Jesuhap/data=!4m2!3m1!1s0x357ca35c813365d1:0xc710c4452c35bf0",
    "unnamed": false,
    "geocoded": false,
-   "id": "s218"
+   "id": "g1uzie6i"
   },
   {
    "name": "Jogyesa Temple",
@@ -2629,7 +2701,7 @@
    "url": "https://www.google.com/maps/place/Jogyesa+Temple/data=!4m2!3m1!1s0x357ca2e9e449881d:0x5694ba3fd890e430",
    "unnamed": false,
    "geocoded": false,
-   "id": "s219"
+   "id": "g1fanz3z"
   },
   {
    "name": "Jonggak Avenue of Youth",
@@ -2641,7 +2713,7 @@
    "url": "https://www.google.com/maps/place/Jonggak+Avenue+of+Youth/data=!4m2!3m1!1s0x357ca2ef521e30bf:0xdcab953d23c98719",
    "unnamed": false,
    "geocoded": false,
-   "id": "s220"
+   "id": "gxptfnz"
   },
   {
    "name": "Jongmyo Shrine",
@@ -2653,7 +2725,7 @@
    "url": "https://www.google.com/maps/place/Jongmyo+Shrine/data=!4m2!3m1!1s0x357ca2d85a1cbacf:0x24dfda0247e6e153",
    "unnamed": false,
    "geocoded": false,
-   "id": "s221"
+   "id": "gxb002s"
   },
   {
    "name": "KBS Media Center",
@@ -2665,7 +2737,7 @@
    "url": "https://www.google.com/maps/place/KBS+Media+Center/data=!4m2!3m1!1s0x357c9913142f3505:0x7a7945a67f78faf4",
    "unnamed": false,
    "geocoded": false,
-   "id": "s222"
+   "id": "g1h35kce"
   },
   {
    "name": "Kyung Hee University, Seoul Campus",
@@ -2677,7 +2749,7 @@
    "url": "https://www.google.com/maps/place/Kyung+Hee+University,+Seoul+Campus/data=!4m2!3m1!1s0x35634d9612236bc7:0xd1cbc40c602e436b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s223"
+   "id": "gaw7ggu"
   },
   {
    "name": "Love Lock of Seoul Tower",
@@ -2689,7 +2761,7 @@
    "url": "https://www.google.com/maps/place/Love+Lock+of+Seoul+Tower/data=!4m2!3m1!1s0x357ca30e3738f3d7:0x53e14ad3be49633d",
    "unnamed": false,
    "geocoded": false,
-   "id": "s224"
+   "id": "giluzwj"
   },
   {
    "name": "Maebong Mountain Park",
@@ -2701,7 +2773,7 @@
    "url": "https://www.google.com/maps/place/Maebong+Mountain+Park/data=!4m2!3m1!1s0x357ca3a87c379a03:0x7ba9e35afa60b02a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s225"
+   "id": "g1q4jecf"
   },
   {
    "name": "MBC",
@@ -2713,7 +2785,7 @@
    "url": "https://www.google.com/maps/place/MBC/data=!4m2!3m1!1s0x357c990d1ff252e7:0xa8ad416606eb4945",
    "unnamed": false,
    "geocoded": false,
-   "id": "s226"
+   "id": "g1ns23o0"
   },
   {
    "name": "Naksan Park",
@@ -2725,7 +2797,7 @@
    "url": "https://www.google.com/maps/place/Naksan+Park/data=!4m2!3m1!1s0x357ca32d72d213e9:0x9f6263b27f9d345d",
    "unnamed": false,
    "geocoded": false,
-   "id": "s227"
+   "id": "g12f6ghs"
   },
   {
    "name": "Namsan Baekbeom Square",
@@ -2737,7 +2809,7 @@
    "url": "https://www.google.com/maps/place/Namsan+Baekbeom+Square/data=!4m2!3m1!1s0x357ca25f448f7c0d:0x3faa17722df5e2a3",
    "unnamed": false,
    "geocoded": false,
-   "id": "s228"
+   "id": "g16pvkei"
   },
   {
    "name": "Namsan Dulle-gil Trail",
@@ -2749,7 +2821,7 @@
    "url": "https://www.google.com/maps/place/Namsan+Dulle-gil+Trail/data=!4m2!3m1!1s0x357ca256d56ef445:0xd755d5cb2f86c37",
    "unnamed": false,
    "geocoded": false,
-   "id": "s229"
+   "id": "g1obhisw"
   },
   {
    "name": "Namsangol Hanok Village",
@@ -2761,7 +2833,7 @@
    "url": "https://www.google.com/maps/place/Namsangol+Hanok+Village/data=!4m2!3m1!1s0x357ca2fcfa6a299b:0x79c3be57e1edbdfe",
    "unnamed": false,
    "geocoded": false,
-   "id": "s230"
+   "id": "g1gvow7f"
   },
   {
    "name": "New Little Prince Statue",
@@ -2773,7 +2845,7 @@
    "url": "https://www.google.com/maps/place/New+Little+Prince+Statue/data=!4m2!3m1!1s0x3568e9005cbf4475:0x6ca368a6a20d4009",
    "unnamed": false,
    "geocoded": false,
-   "id": "s231"
+   "id": "gakwkzy"
   },
   {
    "name": "North Port Waterfront Park",
@@ -2785,7 +2857,7 @@
    "url": "https://www.google.com/maps/place/North+Port+Waterfront+Park/data=!4m2!3m1!1s0x3568eb426c4aa26b:0x3661fc506bea99cc",
    "unnamed": false,
    "geocoded": false,
-   "id": "s232"
+   "id": "g18rxl92"
   },
   {
    "name": "Petite France",
@@ -2797,7 +2869,7 @@
    "url": "https://www.google.com/maps/place/Petite+France/data=!4m2!3m1!1s0x3563253f15656e01:0x2b921ba7d2ad829a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s233"
+   "id": "g10ikdhk"
   },
   {
    "name": "Pocheon Art Valley",
@@ -2809,7 +2881,7 @@
    "url": "https://www.google.com/maps/place/Pocheon+Art+Valley/data=!4m2!3m1!1s0x357cd595c3388bc5:0x11a4e6805d112215",
    "unnamed": false,
    "geocoded": false,
-   "id": "s234"
+   "id": "g1o1gvjh"
   },
   {
    "name": "Samgwangsa",
@@ -2821,7 +2893,7 @@
    "url": "https://www.google.com/maps/place/Samgwangsa/data=!4m2!3m1!1s0x3568eb3bf59c8cfb:0xe5d2054021c8b8a2",
    "unnamed": false,
    "geocoded": false,
-   "id": "s235"
+   "id": "g1avxt5p"
   },
   {
    "name": "SBS Prism Tower",
@@ -2833,7 +2905,7 @@
    "url": "https://www.google.com/maps/place/SBS+Prism+Tower/data=!4m2!3m1!1s0x357c99dd21a5c6cf:0x5e3be975a666c289",
    "unnamed": false,
    "geocoded": false,
-   "id": "s236"
+   "id": "gg3btom"
   },
   {
    "name": "Seokjojeon (Korean Empire History Museum)",
@@ -2845,7 +2917,7 @@
    "url": "https://www.google.com/maps/place/Seokjojeon+(Korean+Empire+History+Museum)/data=!4m2!3m1!1s0x357ca28d1c4d8fab:0x875095eb749b4641",
    "unnamed": false,
    "geocoded": false,
-   "id": "s237"
+   "id": "gduukcm"
   },
   {
    "name": "Seolleung and Jeongneung Royal Tombs",
@@ -2857,7 +2929,7 @@
    "url": "https://www.google.com/maps/place/Seolleung+and+Jeongneung+Royal+Tombs/data=!4m2!3m1!1s0x357ca578ebd042f7:0xf2acb73aa069131e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s238"
+   "id": "g14fyh4v"
   },
   {
    "name": "Seongsu Pedestrian Overpass",
@@ -2869,7 +2941,7 @@
    "url": "https://www.google.com/maps/place/Seongsu+Pedestrian+Overpass/data=!4m2!3m1!1s0x357ca5d9a9d5459d:0xa4ea357bb06522b1",
    "unnamed": false,
    "geocoded": false,
-   "id": "s239"
+   "id": "gjmtcas"
   },
   {
    "name": "Seoul Botanic Park",
@@ -2881,7 +2953,7 @@
    "url": "https://www.google.com/maps/place/Seoul+Botanic+Park/data=!4m2!3m1!1s0x357c9d01503c1eeb:0x947516d30347709a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s240"
+   "id": "gscb3fd"
   },
   {
    "name": "Seoul Forest - Deer Corral",
@@ -2893,7 +2965,7 @@
    "url": "https://www.google.com/maps/place/Seoul+Forest+-+Deer+Corral/data=!4m2!3m1!1s0x357ca3e50e44be89:0xbf079978a88fec9c",
    "unnamed": false,
    "geocoded": false,
-   "id": "s241"
+   "id": "g1msscj5"
   },
   {
    "name": "Seoul Forest Park",
@@ -2905,7 +2977,7 @@
    "url": "https://www.google.com/maps/place/Seoul+Forest+Park/data=!4m2!3m1!1s0x357ca37d51f4f62b:0xdd9b9865be0f469a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s242"
+   "id": "g1dfeb93"
   },
   {
    "name": "Seoul Forest Visitor's Center",
@@ -2917,7 +2989,7 @@
    "url": "https://www.google.com/maps/place/Seoul+Forest+Visitor's+Center/data=!4m2!3m1!1s0x357ca59f9179eee5:0x39e93e336019af3a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s243"
+   "id": "g1w1n8p6"
   },
   {
    "name": "Seoullo 7017",
@@ -2929,7 +3001,7 @@
    "url": "https://www.google.com/maps/place/Seoullo+7017/data=!4m2!3m1!1s0x357ca2607008c5c3:0xa35240ec632d4307",
    "unnamed": false,
    "geocoded": false,
-   "id": "s244"
+   "id": "gej5rs0"
   },
   {
    "name": "Sewoon Arcade (Makercity Sewoon)",
@@ -2941,7 +3013,7 @@
    "url": "https://www.google.com/maps/place/Sewoon+Arcade+(Makercity+Sewoon)/data=!4m2!3m1!1s0x357ca2dfd9b650cb:0x1e476c1b6bfe1460",
    "unnamed": false,
    "geocoded": false,
-   "id": "s245"
+   "id": "g1e4moid"
   },
   {
    "name": "Sky Harbor Observatory",
@@ -2953,7 +3025,7 @@
    "url": "https://www.google.com/maps/place/Sky+Harbor+Observatory/data=!4m2!3m1!1s0x3568e9914d7c46d9:0xeb40e50003876eb8",
    "unnamed": false,
    "geocoded": false,
-   "id": "s246"
+   "id": "gubsul9"
   },
   {
    "name": "Songdo Yonggung Suspension Bridge",
@@ -2965,7 +3037,7 @@
    "url": "https://www.google.com/maps/place/Songdo+Yonggung+Suspension+Bridge/data=!4m2!3m1!1s0x3568e9c8851f07a3:0xe41fdf11ba47b5d9",
    "unnamed": false,
    "geocoded": false,
-   "id": "s247"
+   "id": "g10hlxir"
   },
   {
    "name": "Stairs to See Stars 별 보러 가는 계단",
@@ -2977,7 +3049,7 @@
    "url": "https://www.google.com/maps/place/Stairs+to+See+Stars+%EB%B3%84+%EB%B3%B4%EB%9F%AC+%EA%B0%80%EB%8A%94+%EA%B3%84%EB%8B%A8/data=!4m2!3m1!1s0x3568e98848eaa5f9:0xda2c361ea937789e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s248"
+   "id": "g1acnrfo"
   },
   {
    "name": "Starfield Library",
@@ -2989,7 +3061,7 @@
    "url": "https://www.google.com/maps/place/Starfield+Library/data=!4m2!3m1!1s0x357ca415daa091bb:0x2b9e455aec4db397",
    "unnamed": false,
    "geocoded": false,
-   "id": "s249"
+   "id": "gpkysyf"
   },
   {
    "name": "Street Artist Road",
@@ -3001,7 +3073,7 @@
    "url": "https://www.google.com/maps/place/Street+Artist+Road/data=!4m2!3m1!1s0x357c99bd0a885f1f:0xc7299254aa2236bc",
    "unnamed": false,
    "geocoded": false,
-   "id": "s250"
+   "id": "g15c7i4y"
   },
   {
    "name": "Ttukseom Music Fountain",
@@ -3013,7 +3085,7 @@
    "url": "https://www.google.com/maps/place/Ttukseom+Music+Fountain/data=!4m2!3m1!1s0x357ca55dea59f92d:0xdcbd6ea388a70c8e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s251"
+   "id": "g16vfz9g"
   },
   {
    "name": "UN Memorial Cemetery in Korea",
@@ -3025,7 +3097,7 @@
    "url": "https://www.google.com/maps/place/UN+Memorial+Cemetery+in+Korea/data=!4m2!3m1!1s0x3568ec11b86d60d5:0xa56870070693071f",
    "unnamed": false,
    "geocoded": false,
-   "id": "s252"
+   "id": "g15vq9fi"
   },
   {
    "name": "UN 조각공원",
@@ -3037,7 +3109,7 @@
    "url": "https://www.google.com/maps/place/UN+%EC%A1%B0%EA%B0%81%EA%B3%B5%EC%9B%90/data=!4m2!3m1!1s0x3568ec60a2937233:0xbccb7a8255d5ca8a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s253"
+   "id": "gy5xicf"
   },
   {
    "name": "United Nations Peace Memorial Hall",
@@ -3049,7 +3121,7 @@
    "url": "https://www.google.com/maps/place/United+Nations+Peace+Memorial+Hall/data=!4m2!3m1!1s0x3568ec5d1331bfa9:0x3adca6591cf8b00e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s254"
+   "id": "g1f1c9"
   },
   {
    "name": "Yongma Waterfall Park",
@@ -3061,7 +3133,7 @@
    "url": "https://www.google.com/maps/place/Yongma+Waterfall+Park/data=!4m2!3m1!1s0x357cbae6fe617109:0x91768114c7165230",
    "unnamed": false,
    "geocoded": false,
-   "id": "s255"
+   "id": "g1a0gzr7"
   },
   {
    "name": "Yongmasan Skywalk",
@@ -3073,7 +3145,7 @@
    "url": "https://www.google.com/maps/place/Yongmasan+Skywalk/data=!4m2!3m1!1s0x357cbb00215d94e9:0xfff05aa49ca1b876",
    "unnamed": false,
    "geocoded": false,
-   "id": "s256"
+   "id": "g6p7ctf"
   },
   {
    "name": "Yoonseul: Manridong Reflecting Seoul",
@@ -3085,7 +3157,7 @@
    "url": "https://www.google.com/maps/place/Yoonseul:+Manridong+Reflecting+Seoul/data=!4m2!3m1!1s0x357ca3bab64a5e71:0x62af36dfceef0bb6",
    "unnamed": false,
    "geocoded": false,
-   "id": "s257"
+   "id": "get6aub"
   },
   {
    "name": "동대문디자인플라자 알림터",
@@ -3097,7 +3169,7 @@
    "url": "https://www.google.com/maps/place/%EB%8F%99%EB%8C%80%EB%AC%B8%EB%94%94%EC%9E%90%EC%9D%B8%ED%94%8C%EB%9D%BC%EC%9E%90+%EC%95%8C%EB%A6%BC%ED%84%B0/data=!4m2!3m1!1s0x357ca3ed71da8719:0x1392c3b0abe054f9",
    "unnamed": false,
    "geocoded": false,
-   "id": "s258"
+   "id": "gi6cv93"
   },
   {
    "name": "롯데면세점 스타에비뉴(Lotte Duty Free Star Avenue)",
@@ -3109,7 +3181,7 @@
    "url": "https://www.google.com/maps/place/%EB%A1%AF%EB%8D%B0%EB%A9%B4%EC%84%B8%EC%A0%90+%EC%8A%A4%ED%83%80%EC%97%90%EB%B9%84%EB%89%B4(Lotte+Duty+Free+Star+Avenue)/data=!4m2!3m1!1s0x357ca3f6d03a4661:0xf8a2b604edc91dd",
    "unnamed": false,
    "geocoded": false,
-   "id": "s259"
+   "id": "g1tcvlk4"
   },
   {
    "name": "부천원미공원",
@@ -3121,7 +3193,7 @@
    "url": "https://www.google.com/maps/place/%EB%B6%80%EC%B2%9C%EC%9B%90%EB%AF%B8%EA%B3%B5%EC%9B%90/data=!4m2!3m1!1s0x357b62bbf94d0313:0x8fa22cb872da7177",
    "unnamed": false,
    "geocoded": false,
-   "id": "s260"
+   "id": "g1lgbx7f"
   },
   {
    "name": "서울빛초롱축제",
@@ -3133,7 +3205,7 @@
    "url": "https://www.google.com/maps/place/%EC%84%9C%EC%9A%B8%EB%B9%9B%EC%B4%88%EB%A1%B1%EC%B6%95%EC%A0%9C/data=!4m2!3m1!1s0x357ca30017796f45:0x75c2e2f1374c3e37",
    "unnamed": false,
    "geocoded": false,
-   "id": "s261"
+   "id": "g6z6wa1"
   },
   {
    "name": "소망계단 경사형모노레일",
@@ -3145,7 +3217,7 @@
    "url": "https://www.google.com/maps/place/%EC%86%8C%EB%A7%9D%EA%B3%84%EB%8B%A8+%EA%B2%BD%EC%82%AC%ED%98%95%EB%AA%A8%EB%85%B8%EB%A0%88%EC%9D%BC/data=!4m2!3m1!1s0x3568e9a050edb721:0xcecb8c152d8d924b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s262"
+   "id": "gfk1kmk"
   },
   {
    "name": "자매공원(앙카라공원)",
@@ -3157,7 +3229,7 @@
    "url": "https://www.google.com/maps/place/%EC%9E%90%EB%A7%A4%EA%B3%B5%EC%9B%90(%EC%95%99%EC%B9%B4%EB%9D%BC%EA%B3%B5%EC%9B%90)/data=!4m2!3m1!1s0x357c9f150e27bbb5:0x820b0a025e186df8",
    "unnamed": false,
    "geocoded": false,
-   "id": "s263"
+   "id": "gq5xtij"
   },
   {
    "name": "전망대",
@@ -3169,7 +3241,7 @@
    "url": "https://www.google.com/maps/place/%EC%A0%84%EB%A7%9D%EB%8C%80/data=!4m2!3m1!1s0x3568e9e112ba140d:0x9566ae71a3589287",
    "unnamed": false,
    "geocoded": false,
-   "id": "s264"
+   "id": "g18hs4bf"
   },
   {
    "name": "포항 해상 스카이워크",
@@ -3181,7 +3253,7 @@
    "url": "https://www.google.com/maps/place/%ED%8F%AC%ED%95%AD+%ED%95%B4%EC%83%81+%EC%8A%A4%EC%B9%B4%EC%9D%B4%EC%9B%8C%ED%81%AC/data=!4m2!3m1!1s0x3567056ebbd4829b:0x373e84620607b976",
    "unnamed": false,
    "geocoded": false,
-   "id": "s265"
+   "id": "gcrnm27"
   },
   {
    "name": "화명생태공원",
@@ -3193,7 +3265,7 @@
    "url": "https://www.google.com/maps/place/%ED%99%94%EB%AA%85%EC%83%9D%ED%83%9C%EA%B3%B5%EC%9B%90/data=!4m2!3m1!1s0x35689569678c8cf7:0xdc403ed7946de12",
    "unnamed": false,
    "geocoded": false,
-   "id": "s266"
+   "id": "g19ago7j"
   },
   {
    "name": "Aqua garden cafe Lotte World Tower",
@@ -3205,7 +3277,7 @@
    "url": "https://www.google.com/maps/place/Aqua+garden+cafe+Lotte+World+Tower/data=!4m2!3m1!1s0x357ca56a9e0ff261:0xa6d573ac3b21f7c2",
    "unnamed": false,
    "geocoded": false,
-   "id": "s267"
+   "id": "g16vwvpk"
   },
   {
    "name": "Blue House on The Stairs",
@@ -3217,7 +3289,7 @@
    "url": "https://www.google.com/maps/place/Blue+House+on+The+Stairs/data=!4m2!3m1!1s0x3568e9b7eb73b37f:0x158653ec6ccae4f0",
    "unnamed": false,
    "geocoded": false,
-   "id": "s268"
+   "id": "g1ltpgz7"
   },
   {
    "name": "Butty Sandwich House",
@@ -3229,7 +3301,7 @@
    "url": "https://www.google.com/maps/place/Butty+Sandwich+House/data=!4m2!3m1!1s0x357ca514a1c111f1:0xb22f2464eff87524",
    "unnamed": false,
    "geocoded": false,
-   "id": "s269"
+   "id": "gisn90h"
   },
   {
    "name": "Cafe Flo Lounge",
@@ -3241,7 +3313,7 @@
    "url": "https://www.google.com/maps/place/Cafe+Flo+Lounge/data=!4m2!3m1!1s0x357c99bd76882aa5:0x54bc1860f1d5311e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s270"
+   "id": "gfqkvz"
   },
   {
    "name": "Cafe ID__t.",
@@ -3253,7 +3325,7 @@
    "url": "https://www.google.com/maps/place/Cafe+ID__t./data=!4m2!3m1!1s0x35688d005d3c13b9:0x4f645da28ed4b078",
    "unnamed": false,
    "geocoded": false,
-   "id": "s271"
+   "id": "g15gj0sm"
   },
   {
    "name": "Cafe Layered Bukchon",
@@ -3265,7 +3337,7 @@
    "url": "https://www.google.com/maps/place/Cafe+Layered+Bukchon/data=!4m2!3m1!1s0x357ca2c4aeca59af:0x95356512afa50d82",
    "unnamed": false,
    "geocoded": false,
-   "id": "s272"
+   "id": "g1mgeq5x"
   },
   {
    "name": "Cafe O'sirang",
@@ -3277,7 +3349,7 @@
    "url": "https://www.google.com/maps/place/Cafe+O'sirang/data=!4m2!3m1!1s0x35688f54f143f581:0xa0955c5617c7c517",
    "unnamed": false,
    "geocoded": false,
-   "id": "s273"
+   "id": "g1s0szve"
   },
   {
    "name": "Cafe Onion Anguk",
@@ -3289,7 +3361,7 @@
    "url": "https://www.google.com/maps/place/Cafe+Onion+Anguk/data=!4m2!3m1!1s0x357ca3f806f6722d:0x471908f414d83a99",
    "unnamed": false,
    "geocoded": false,
-   "id": "s274"
+   "id": "g51vmv"
   },
   {
    "name": "Cafe Onion Seongsu",
@@ -3301,7 +3373,7 @@
    "url": "https://www.google.com/maps/place/Cafe+Onion+Seongsu/data=!4m2!3m1!1s0x357ca495a472bd1d:0xe396cb285c78676f",
    "unnamed": false,
    "geocoded": false,
-   "id": "s275"
+   "id": "gszjy69"
   },
   {
    "name": "Cafe Pokpo",
@@ -3313,7 +3385,7 @@
    "url": "https://www.google.com/maps/place/Cafe+Pokpo/data=!4m2!3m1!1s0x357c99d933b747a5:0x602b595b6dfa9cac",
    "unnamed": false,
    "geocoded": false,
-   "id": "s276"
+   "id": "g1pt1ln6"
   },
   {
    "name": "Cheongsapo Hanok Lounge",
@@ -3325,7 +3397,7 @@
    "url": "https://www.google.com/maps/place/Cheongsapo+Hanok+Lounge/data=!4m2!3m1!1s0x35688d0a3f0e9107:0xdda83dfbae7a6077",
    "unnamed": false,
    "geocoded": false,
-   "id": "s277"
+   "id": "g1gwc27e"
   },
   {
    "name": "Coffee It House",
@@ -3337,7 +3409,7 @@
    "url": "https://www.google.com/maps/place/Coffee+It+House/data=!4m2!3m1!1s0x3568e9b64bb5e65f:0xbdda8f042b73d482",
    "unnamed": false,
    "geocoded": false,
-   "id": "s278"
+   "id": "g1jlv5mh"
   },
   {
    "name": "Colline Brunch Cafe",
@@ -3349,7 +3421,7 @@
    "url": "https://www.google.com/maps/place/Colline+Brunch+Cafe/data=!4m2!3m1!1s0x357c98d015389b67:0xfbeeeba45e88d03b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s279"
+   "id": "g14b9d4j"
   },
   {
    "name": "Coralani",
@@ -3361,7 +3433,7 @@
    "url": "https://www.google.com/maps/place/Coralani/data=!4m2!3m1!1s0x35688df485e6a96d:0x4c3d5c7d24dddb6",
    "unnamed": false,
    "geocoded": false,
-   "id": "s280"
+   "id": "g17rfoa7"
   },
   {
    "name": "Dasique Flagship Store",
@@ -3373,7 +3445,7 @@
    "url": "https://www.google.com/maps/place/Dasique+Flagship+Store/data=!4m2!3m1!1s0x357ca5f38f8aade7:0x7105931401647631",
    "unnamed": false,
    "geocoded": false,
-   "id": "s281"
+   "id": "g1wcjy7d"
   },
   {
    "name": "DongBaek Bakery soufflé pancakes",
@@ -3385,7 +3457,7 @@
    "url": "https://www.google.com/maps/place/DongBaek+Bakery+souffl%C3%A9+pancakes/data=!4m2!3m1!1s0x357ca2ddb1c7e9b3:0x1f99025fc10c2e67",
    "unnamed": false,
    "geocoded": false,
-   "id": "s282"
+   "id": "gq1vpw9"
   },
   {
    "name": "Gamcheon Culture Village Asteroid B612 Cafe",
@@ -3397,7 +3469,7 @@
    "url": "https://www.google.com/maps/place/Gamcheon+Culture+Village+Asteroid+B612+Cafe/data=!4m2!3m1!1s0x3568e98e12efa397:0x60eda7536572e1d3",
    "unnamed": false,
    "geocoded": false,
-   "id": "s283"
+   "id": "giljnj3"
   },
   {
    "name": "Gray Penguin Coffee",
@@ -3409,7 +3481,7 @@
    "url": "https://www.google.com/maps/place/Gray+Penguin+Coffee/data=!4m2!3m1!1s0x357ca500736edb45:0x8b4017c248eae955",
    "unnamed": false,
    "geocoded": false,
-   "id": "s284"
+   "id": "g1lk3joq"
   },
   {
    "name": "HAN JUNG SUN",
@@ -3421,7 +3493,7 @@
    "url": "https://www.google.com/maps/place/HAN+JUNG+SUN/data=!4m2!3m1!1s0x357ca500659ea3e3:0x63f2feeed9344627",
    "unnamed": false,
    "geocoded": false,
-   "id": "s285"
+   "id": "g136gjii"
   },
   {
    "name": "HanJungSun",
@@ -3433,7 +3505,7 @@
    "url": "https://www.google.com/maps/place/HanJungSun/data=!4m2!3m1!1s0x357c9f000a94f9dd:0x29e5563bf8455a02",
    "unnamed": false,
    "geocoded": false,
-   "id": "s286"
+   "id": "giqg6b8"
   },
   {
    "name": "Heol Coffee Roasters",
@@ -3445,7 +3517,7 @@
    "url": "https://www.google.com/maps/place/Heol+Coffee+Roasters/data=!4m2!3m1!1s0x357b5d2d461fc1a3:0x5ac4d6658cb95bf7",
    "unnamed": false,
    "geocoded": false,
-   "id": "s287"
+   "id": "g1s7c3xr"
   },
   {
    "name": "Hidden Gem 히든젬",
@@ -3457,7 +3529,7 @@
    "url": "https://www.google.com/maps/place/Hidden+Gem+%ED%9E%88%EB%93%A0%EC%A0%AC/data=!4m2!3m1!1s0x357ca3f7543b4b0d:0xfd53184a07ba202a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s288"
+   "id": "g11xbpg3"
   },
   {
    "name": "Ki bakery",
@@ -3469,7 +3541,7 @@
    "url": "https://www.google.com/maps/place/Ki+bakery/data=!4m2!3m1!1s0x357ca5f516460e75:0x1aff9001f86035cd",
    "unnamed": false,
    "geocoded": false,
-   "id": "s289"
+   "id": "gfs5nks"
   },
   {
    "name": "Kitchen 205 Hongik Univ. Branch",
@@ -3481,7 +3553,7 @@
    "url": "https://www.google.com/maps/place/Kitchen+205+Hongik+Univ.+Branch/data=!4m2!3m1!1s0x357c990015276d05:0x9e0578ae3108e565",
    "unnamed": false,
    "geocoded": false,
-   "id": "s290"
+   "id": "ggbjm9q"
   },
   {
    "name": "La Feuille",
@@ -3493,7 +3565,7 @@
    "url": "https://www.google.com/maps/place/La+Feuille/data=!4m2!3m1!1s0x3568ed0063bd4423:0x56887ca1ba1b33d",
    "unnamed": false,
    "geocoded": false,
-   "id": "s291"
+   "id": "giqu0vr"
   },
   {
    "name": "La Feuille Croissant Bakery 라푀유크로와상",
@@ -3505,7 +3577,7 @@
    "url": "https://www.google.com/maps/place/La+Feuille+Croissant+Bakery+%EB%9D%BC%ED%91%80%EC%9C%A0%ED%81%AC%EB%A1%9C%EC%99%80%EC%83%81/data=!4m2!3m1!1s0x3568eb6543962b95:0xe18200dd7b4f2fea",
    "unnamed": false,
    "geocoded": false,
-   "id": "s292"
+   "id": "gadodj6"
   },
   {
    "name": "Layer Studio",
@@ -3517,7 +3589,7 @@
    "url": "https://www.google.com/maps/place/Layer+Studio/data=!4m2!3m1!1s0x357ca410c04181a3:0xaa2c15db7357dab4",
    "unnamed": false,
    "geocoded": false,
-   "id": "s293"
+   "id": "grcgc3d"
   },
   {
    "name": "Layered Yeonnam",
@@ -3529,7 +3601,7 @@
    "url": "https://www.google.com/maps/place/Layered+Yeonnam/data=!4m2!3m1!1s0x357c9944f86e3a45:0xdad88fd812c19604",
    "unnamed": false,
    "geocoded": false,
-   "id": "s294"
+   "id": "g15s591"
   },
   {
    "name": "Le Style Bar",
@@ -3541,7 +3613,7 @@
    "url": "https://www.google.com/maps/place/Le+Style+Bar/data=!4m2!3m1!1s0x357ca3854499907d:0x7c59bd384977ce4b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s295"
+   "id": "gge60xa"
   },
   {
    "name": "LEEDORIM Coffee & Bakery Gyeongbokgung Cafe",
@@ -3553,7 +3625,7 @@
    "url": "https://www.google.com/maps/place/LEEDORIM+Coffee+%26+Bakery+Gyeongbokgung+Cafe/data=!4m2!3m1!1s0x357ca3f76fd6016b:0xd8db32cd07b59050",
    "unnamed": false,
    "geocoded": false,
-   "id": "s296"
+   "id": "gtmg0ul"
   },
   {
    "name": "METCHA",
@@ -3565,7 +3637,7 @@
    "url": "https://www.google.com/maps/place/METCHA/data=!4m2!3m1!1s0x357ca345eac5ce71:0xd8a797ac9b97d9c5",
    "unnamed": false,
    "geocoded": false,
-   "id": "s297"
+   "id": "gp5bk5r"
   },
   {
    "name": "MIRROROOM",
@@ -3577,7 +3649,7 @@
    "url": "https://www.google.com/maps/place/MIRROROOM/data=!4m2!3m1!1s0x357ca2c41bf64e55:0xbdebd4ef7fe7ee99",
    "unnamed": false,
    "geocoded": false,
-   "id": "s298"
+   "id": "g19coq4m"
   },
   {
    "name": "Mil Toast Ikseon",
@@ -3589,7 +3661,7 @@
    "url": "https://www.google.com/maps/place/Mil+Toast+Ikseon/data=!4m2!3m1!1s0x357ca3cbc94318ad:0xd34d71116ad10c19",
    "unnamed": false,
    "geocoded": false,
-   "id": "s299"
+   "id": "g1b4ag7a"
   },
   {
    "name": "Nakwon",
@@ -3601,7 +3673,7 @@
    "url": "https://www.google.com/maps/place/Nakwon/data=!4m2!3m1!1s0x357ca30c7f40cabf:0xf163fdf19d590405",
    "unnamed": false,
    "geocoded": false,
-   "id": "s300"
+   "id": "g18diolf"
   },
   {
    "name": "Noop Cafe",
@@ -3613,7 +3685,7 @@
    "url": "https://www.google.com/maps/place/Noop+Cafe/data=!4m2!3m1!1s0x357ca310f05fc9b1:0xc9ec7a03b4212b83",
    "unnamed": false,
    "geocoded": false,
-   "id": "s301"
+   "id": "g1rr0hk2"
   },
   {
    "name": "NUDAKE Haus Dosan",
@@ -3625,7 +3697,7 @@
    "url": "https://www.google.com/maps/place/NUDAKE+Haus+Dosan/data=!4m2!3m1!1s0x357ca3217764e2b7:0x5e6a3142423a4c2b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s302"
+   "id": "grthxfh"
   },
   {
    "name": "Onion Cafe Gwangjang Market Branch",
@@ -3637,7 +3709,7 @@
    "url": "https://www.google.com/maps/place/Onion+Cafe+Gwangjang+Market+Branch/data=!4m2!3m1!1s0x357ca3f047f10edb:0xe4bf62157b966116",
    "unnamed": false,
    "geocoded": false,
-   "id": "s303"
+   "id": "gbw64j7"
   },
   {
    "name": "Overdeep",
@@ -3649,7 +3721,7 @@
    "url": "https://www.google.com/maps/place/Overdeep/data=!4m2!3m1!1s0x357c99a2f886ad93:0xc6c94cebf65185aa",
    "unnamed": false,
    "geocoded": false,
-   "id": "s304"
+   "id": "g1ir5sdr"
   },
   {
    "name": "Pick Bake 픽 베이크 신촌점",
@@ -3661,7 +3733,7 @@
    "url": "https://www.google.com/maps/place/Pick+Bake+%ED%94%BD+%EB%B2%A0%EC%9D%B4%ED%81%AC+%EC%8B%A0%EC%B4%8C%EC%A0%90/data=!4m2!3m1!1s0x357c99005a248749:0xc72403cf56db53c2",
    "unnamed": false,
    "geocoded": false,
-   "id": "s305"
+   "id": "g8pnuw0"
   },
   {
    "name": "Plant Bakery Cafe (HBC)",
@@ -3673,7 +3745,7 @@
    "url": "https://www.google.com/maps/place/Plant+Bakery+Cafe+(HBC)/data=!4m2!3m1!1s0x357ca3ea2dc5dac1:0xcfd68f9092fdcaec",
    "unnamed": false,
    "geocoded": false,
-   "id": "s306"
+   "id": "genuoto"
   },
   {
    "name": "Rain Report Gyeongridan",
@@ -3685,7 +3757,19 @@
    "url": "https://www.google.com/maps/place/Rain+Report+Gyeongridan/data=!4m2!3m1!1s0x357ca345db4e1fc1:0x6121c99deb06cfbf",
    "unnamed": false,
    "geocoded": false,
-   "id": "s307"
+   "id": "g1ko149f"
+  },
+  {
+   "name": "Rain Report rainbow",
+   "note": "",
+   "address": "33-7 Supyo-ro 28-gil, Jongno District, Seoul, South Korea",
+   "category": "Kafe",
+   "lat": 37.5734454,
+   "lng": 126.9900693,
+   "url": "https://www.google.com/maps/place/Rain+Report+rainbow/data=!4m2!3m1!1s0x357ca3005eaeacb1:0x87053cbf3fcdecd6",
+   "unnamed": false,
+   "geocoded": false,
+   "id": "g1hj6dcu"
   },
   {
    "name": "Rain Report Seongsu",
@@ -3697,7 +3781,7 @@
    "url": "https://www.google.com/maps/place/Rain+Report+Seongsu/data=!4m2!3m1!1s0x357ca5005b3edb9b:0x998ee929e5d3a812",
    "unnamed": false,
    "geocoded": false,
-   "id": "s308"
+   "id": "g1eu9d6a"
   },
   {
    "name": "Rami Scone Cafe",
@@ -3709,7 +3793,7 @@
    "url": "https://www.google.com/maps/place/Rami+Scone+Cafe/data=!4m2!3m1!1s0x357ca36bef130fbd:0x30b98bba2d88d293",
    "unnamed": false,
    "geocoded": false,
-   "id": "s309"
+   "id": "gpfa8p0"
   },
   {
    "name": "Ryan Cafe",
@@ -3721,7 +3805,7 @@
    "url": "https://www.google.com/maps/place/Ryan+Cafe/data=!4m2!3m1!1s0x357c99609cd97567:0xf8a8ee1c7ae7e134",
    "unnamed": false,
    "geocoded": false,
-   "id": "s310"
+   "id": "g1tc7r2d"
   },
   {
    "name": "SECHAWAN Coffee & Tea",
@@ -3733,7 +3817,19 @@
    "url": "https://www.google.com/maps/place/SECHAWAN+Coffee+%26+Tea/data=!4m2!3m1!1s0x357ca300631465c9:0xf880edbd67a46502",
    "unnamed": false,
    "geocoded": false,
-   "id": "s311"
+   "id": "ggd366b"
+  },
+  {
+   "name": "Sulbing",
+   "note": "",
+   "address": "42 Teheran-ro 1-gil, Gangnam District, Seoul, South Korea",
+   "category": "Kafe",
+   "lat": 37.5010877,
+   "lng": 127.0271314,
+   "url": "https://www.google.com/maps/place/Sulbing/data=!4m2!3m1!1s0x357ca1587b534547:0xe405a42dc3227e21",
+   "unnamed": false,
+   "geocoded": false,
+   "id": "g1phdf31"
   },
   {
    "name": "Sulbing",
@@ -3745,7 +3841,7 @@
    "url": "https://www.google.com/maps/place/Sulbing/data=!4m2!3m1!1s0x357ca3665ced4fed:0x3c2b5a5bf9e705b8",
    "unnamed": false,
    "geocoded": false,
-   "id": "s312"
+   "id": "g54cjef"
   },
   {
    "name": "Sulbing Daechi Branch",
@@ -3757,7 +3853,7 @@
    "url": "https://www.google.com/maps/place/Sulbing+Daechi+Branch/data=!4m2!3m1!1s0x357ca50434ac723d:0xa76c2740c1128a63",
    "unnamed": false,
    "geocoded": false,
-   "id": "s313"
+   "id": "g1720iap"
   },
   {
    "name": "SUPER MATCHA SEONGSU",
@@ -3769,7 +3865,7 @@
    "url": "https://www.google.com/maps/place/SUPER+MATCHA+SEONGSU/data=!4m2!3m1!1s0x357ca524f55f3d1b:0x5b4981dd50c9fa70",
    "unnamed": false,
    "geocoded": false,
-   "id": "s314"
+   "id": "g6tntgz"
   },
   {
    "name": "Thanks Nature Cafe",
@@ -3781,7 +3877,7 @@
    "url": "https://www.google.com/maps/place/Thanks+Nature+Cafe/data=!4m2!3m1!1s0x357c98c49c51ca9d:0x4974846e844e4c1e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s315"
+   "id": "guohlj7"
   },
   {
    "name": "The Original Pancake House Dogok",
@@ -3793,7 +3889,7 @@
    "url": "https://www.google.com/maps/place/The+Original+Pancake+House+Dogok/data=!4m2!3m1!1s0x357ca6ae43c23f89:0xecb585cbe22c46ae",
    "unnamed": false,
    "geocoded": false,
-   "id": "s316"
+   "id": "gaqhmoz"
   },
   {
    "name": "THRILL ON THE MUG!",
@@ -3805,7 +3901,7 @@
    "url": "https://www.google.com/maps/place/THRILL+ON+THE+MUG!/data=!4m2!3m1!1s0x3568ef006d4f9e15:0xe1d5574370037581",
    "unnamed": false,
    "geocoded": false,
-   "id": "s317"
+   "id": "g17ypn4"
   },
   {
    "name": "Upper and Under",
@@ -3817,7 +3913,7 @@
    "url": "https://www.google.com/maps/place/Upper+and+Under/data=!4m2!3m1!1s0x357ca3e12f160dc5:0xe871cca0c3f5874e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s318"
+   "id": "g13xli9o"
   },
   {
    "name": "Yeonnam-dong",
@@ -3829,7 +3925,7 @@
    "url": "https://www.google.com/maps/place/Yeonnam-dong/data=!4m2!3m1!1s0x357c98e8a188c921:0x32b07eaf374b9ae",
    "unnamed": false,
    "geocoded": false,
-   "id": "s319"
+   "id": "g1gfbnzq"
   },
   {
    "name": "로앤엄 성수(RO&UM Seongsu)",
@@ -3841,7 +3937,7 @@
    "url": "https://www.google.com/maps/place/%EB%A1%9C%EC%95%A4%EC%97%84+%EC%84%B1%EC%88%98(RO%26UM+Seongsu)/data=!4m2!3m1!1s0x357ca5cf8e7ccf17:0x72b7d4b489c468c2",
    "unnamed": false,
    "geocoded": false,
-   "id": "s320"
+   "id": "gngz2h6"
   },
   {
    "name": "온지심 익선동 맛집 | 브런치 | Onjisim Ikseon Cafe | Hanok | 益善洞 カフェ | ベーグル | 益善洞 咖啡廳 | \n韓屋",
@@ -3853,7 +3949,7 @@
    "url": "https://www.google.com/maps/place/%EC%98%A8%EC%A7%80%EC%8B%AC+%EC%9D%B5%EC%84%A0%EB%8F%99+%EB%A7%9B%EC%A7%91+%7C+%EB%B8%8C%EB%9F%B0%EC%B9%98+%7C+Onjisim+Ikseon+Cafe+%7C+Hanok+%7C+%E7%9B%8A%E5%96%84%E6%B4%9E+%E3%82%AB%E3%83%95%E3%82%A7+%7C+%E3%83%99%E3%83%BC%E3%82%B0%E3%83%AB+%7C+%E7%9B%8A%E5%96%84%E6%B4%9E+%E5%92%96%E5%95%A1%E5%BB%B3+%7C+%0A%E9%9F%93%E5%B1%8B/data=!4m2!3m1!1s0x357ca30052f521f3:0x300aa190a03a4f45",
    "unnamed": false,
    "geocoded": false,
-   "id": "s321"
+   "id": "grqtgrh"
   },
   {
    "name": "카페 레이어드 더현대서울점",
@@ -3865,7 +3961,7 @@
    "url": "https://www.google.com/maps/place/%EC%B9%B4%ED%8E%98+%EB%A0%88%EC%9D%B4%EC%96%B4%EB%93%9C+%EB%8D%94%ED%98%84%EB%8C%80%EC%84%9C%EC%9A%B8%EC%A0%90/data=!4m2!3m1!1s0x357c9f949f9e5ff7:0x4a549e508d8142a7",
    "unnamed": false,
    "geocoded": false,
-   "id": "s322"
+   "id": "g14yssh3"
   },
   {
    "name": "픽베이크 PICKBAKE",
@@ -3877,7 +3973,7 @@
    "url": "https://www.google.com/maps/place/%ED%94%BD%EB%B2%A0%EC%9D%B4%ED%81%AC+PICKBAKE/data=!4m2!3m1!1s0x357ca5cc3ee91745:0x82a9094a1be2aab7",
    "unnamed": false,
    "geocoded": false,
-   "id": "s323"
+   "id": "g1i4q04f"
   },
   {
    "name": "BTS MURAL",
@@ -3889,7 +3985,7 @@
    "url": "https://www.google.com/maps/place/BTS+MURAL/data=!4m2!3m1!1s0x3568e9001e39fd87:0x679c0d3a1a447159",
    "unnamed": false,
    "geocoded": false,
-   "id": "s324"
+   "id": "g6ijbz"
   },
   {
    "name": "Cube Entertainment",
@@ -3901,7 +3997,7 @@
    "url": "https://www.google.com/maps/place/Cube+Entertainment/data=!4m2!3m1!1s0x357ca464b349d913:0x319caa42c36ad3b2",
    "unnamed": false,
    "geocoded": false,
-   "id": "s325"
+   "id": "gknh3qf"
   },
   {
    "name": "DUEX HONGDAE",
@@ -3913,7 +4009,7 @@
    "url": "https://www.google.com/maps/place/DUEX+HONGDAE/data=!4m2!3m1!1s0x357c995b6e47e1ed:0x46342344c12599b7",
    "unnamed": false,
    "geocoded": false,
-   "id": "s326"
+   "id": "gi38v6q"
   },
   {
    "name": "Gwanghwamun Square",
@@ -3925,7 +4021,7 @@
    "url": "https://www.google.com/maps/place/Gwanghwamun+Square/data=!4m2!3m1!1s0x357ca2eb421c44ad:0xe955a50c118085f8",
    "unnamed": false,
    "geocoded": false,
-   "id": "s327"
+   "id": "g1pbc7ab"
   },
   {
    "name": "Hocheon Cultural Platform",
@@ -3937,7 +4033,7 @@
    "url": "https://www.google.com/maps/place/Hocheon+Cultural+Platform/data=!4m2!3m1!1s0x3568ebb8859ba4c1:0xa195a8272925944b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s328"
+   "id": "g2j59hm"
   },
   {
    "name": "Hocheon Village Entrance",
@@ -3949,7 +4045,7 @@
    "url": "https://www.google.com/maps/place/Hocheon+Village+Entrance/data=!4m2!3m1!1s0x3568eb98aa0e0bcf:0xb7d11a485f0f6aff",
    "unnamed": false,
    "geocoded": false,
-   "id": "s329"
+   "id": "gj5lfz5"
   },
   {
    "name": "Hybe Headquarters",
@@ -3961,7 +4057,7 @@
    "url": "https://www.google.com/maps/place/Hybe+Headquarters/data=!4m2!3m1!1s0x357ca1adbde4193d:0xb66b720a6871a40a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s330"
+   "id": "geizkhe"
   },
   {
    "name": "Jellyfish Entertainment",
@@ -3973,7 +4069,7 @@
    "url": "https://www.google.com/maps/place/Jellyfish+Entertainment/data=!4m2!3m1!1s0x357ca3007446e0b1:0xbf45034344e9d21b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s331"
+   "id": "gohzcs7"
   },
   {
    "name": "JYP ENTERTAINMENT",
@@ -3985,7 +4081,7 @@
    "url": "https://www.google.com/maps/place/JYP+ENTERTAINMENT/data=!4m2!3m1!1s0x357ca47a55555555:0x83f404863f3fb36a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s332"
+   "id": "g1jro5or"
   },
   {
    "name": "JYP Entertainment",
@@ -3997,7 +4093,7 @@
    "url": "https://www.google.com/maps/place/JYP+Entertainment/data=!4m2!3m1!1s0x357cb10048520cdd:0x6496c7eae885a316",
    "unnamed": false,
    "geocoded": false,
-   "id": "s333"
+   "id": "g1e4jcr5"
   },
   {
    "name": "K-POP Square",
@@ -4009,7 +4105,7 @@
    "url": "https://www.google.com/maps/place/K-POP+Square/data=!4m2!3m1!1s0x357ca55ba8faf475:0xd3aa93a2a8fe94cc",
    "unnamed": false,
    "geocoded": false,
-   "id": "s334"
+   "id": "g3ajhsw"
   },
   {
    "name": "K-Star Road",
@@ -4021,7 +4117,7 @@
    "url": "https://www.google.com/maps/place/K-Star+Road/data=!4m2!3m1!1s0x357ca5439c957f6f:0xc11e740e8a966ef5",
    "unnamed": false,
    "geocoded": false,
-   "id": "s335"
+   "id": "gb0erfb"
   },
   {
    "name": "Line Friends Square",
@@ -4033,7 +4129,7 @@
    "url": "https://www.google.com/maps/place/Line+Friends+Square/data=!4m2!3m1!1s0x357ca3f1214a93d7:0x8ff2dda8b0ddead3",
    "unnamed": false,
    "geocoded": false,
-   "id": "s336"
+   "id": "gcksl42"
   },
   {
    "name": "Lotte Star Avenue",
@@ -4045,7 +4141,7 @@
    "url": "https://www.google.com/maps/place/Lotte+Star+Avenue/data=!4m2!3m1!1s0x357ca383504ee0a1:0x59e59fbca8c4e4a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s337"
+   "id": "gy4alwh"
   },
   {
    "name": "MBC Munhwa Broadcasting Corporation Headquarters",
@@ -4057,7 +4153,7 @@
    "url": "https://www.google.com/maps/place/MBC+Munhwa+Broadcasting+Corporation+Headquarters/data=!4m2!3m1!1s0x357c990d12720f23:0xe26e3a1ad3266fef",
    "unnamed": false,
    "geocoded": false,
-   "id": "s338"
+   "id": "g1xr5zlc"
   },
   {
    "name": "POCA SPOT 2층",
@@ -4069,7 +4165,7 @@
    "url": "https://www.google.com/maps/place/POCA+SPOT+2%EC%B8%B5/data=!4m2!3m1!1s0x357c999ada53ec03:0x9af2ab60d9669652",
    "unnamed": false,
    "geocoded": false,
-   "id": "s339"
+   "id": "gzdig9a"
   },
   {
    "name": "SM Entertainment",
@@ -4081,7 +4177,7 @@
    "url": "https://www.google.com/maps/place/SM+Entertainment/data=!4m2!3m1!1s0x357ca46e21c25855:0xb969fc2b68758946",
    "unnamed": false,
    "geocoded": false,
-   "id": "s340"
+   "id": "gki1y30"
   },
   {
    "name": "SM Entertainment Studio Center",
@@ -4093,7 +4189,7 @@
    "url": "https://www.google.com/maps/place/SM+Entertainment+Studio+Center/data=!4m2!3m1!1s0x357ca47916d6cee9:0xaf7f92be5acffa56",
    "unnamed": false,
    "geocoded": false,
-   "id": "s341"
+   "id": "gmpfzjl"
   },
   {
    "name": "Source Music",
@@ -4105,7 +4201,7 @@
    "url": "https://www.google.com/maps/place/Source+Music/data=!4m2!3m1!1s0x357ca3ec37829993:0x81fc7bc6038e88cc",
    "unnamed": false,
    "geocoded": false,
-   "id": "s342"
+   "id": "g5if9bq"
   },
   {
    "name": "Starship Entertainment",
@@ -4117,7 +4213,7 @@
    "url": "https://www.google.com/maps/place/Starship+Entertainment/data=!4m2!3m1!1s0x357ca3fb12d9a8ff:0x2ad651283d3c7bce",
    "unnamed": false,
    "geocoded": false,
-   "id": "s343"
+   "id": "g1a0aixg"
   },
   {
    "name": "Statue of King Sejong the Great",
@@ -4129,7 +4225,7 @@
    "url": "https://www.google.com/maps/place/Statue+of+King+Sejong+the+Great/data=!4m2!3m1!1s0x357b4573fff9186b:0xaf16019daad848d0",
    "unnamed": false,
    "geocoded": false,
-   "id": "s344"
+   "id": "g1kb5t2k"
   },
   {
    "name": "T팩토리",
@@ -4141,7 +4237,7 @@
    "url": "https://www.google.com/maps/place/T%ED%8C%A9%ED%86%A0%EB%A6%AC/data=!4m2!3m1!1s0x357c99746a484f69:0x346ec38012fe2064",
    "unnamed": false,
    "geocoded": false,
-   "id": "s345"
+   "id": "genfaao"
   },
   {
    "name": "YG Entertainment",
@@ -4153,7 +4249,7 @@
    "url": "https://www.google.com/maps/place/YG+Entertainment/data=!4m2!3m1!1s0x357c992bb3f6a887:0x6058954f87325221",
    "unnamed": false,
    "geocoded": false,
-   "id": "s346"
+   "id": "g1yr1jvg"
   },
   {
    "name": "Busan station Marant Residence Hotel, Busan",
@@ -4165,7 +4261,7 @@
    "url": "https://www.google.com/maps/place/Busan+station+Marant+Residence+Hotel,+Busan/data=!4m2!3m1!1s0x3568e9632fa3ef63:0xba42a2e36fa1b47",
    "unnamed": false,
    "geocoded": false,
-   "id": "s347"
+   "id": "gx2qjqx"
   },
   {
    "name": "Central View Suite Residence",
@@ -4177,7 +4273,7 @@
    "url": "https://www.google.com/maps/place/Central+View+Suite+Residence/data=!4m2!3m1!1s0x357ca3555bfc9155:0xb3a26a59521155b4",
    "unnamed": false,
    "geocoded": false,
-   "id": "s348"
+   "id": "g1mlfbj7"
   },
   {
    "name": "Cheongsapo",
@@ -4189,7 +4285,7 @@
    "url": "https://www.google.com/maps/place/Cheongsapo/data=!4m2!3m1!1s0x35688d274cdcc019:0x7db1edcb573ce2a2",
    "unnamed": false,
    "geocoded": false,
-   "id": "s349"
+   "id": "g1l3toiz"
   },
   {
    "name": "Cheongsapo Daritdol Skywalk",
@@ -4201,7 +4297,7 @@
    "url": "https://www.google.com/maps/place/Cheongsapo+Daritdol+Skywalk/data=!4m2!3m1!1s0x35688d1b56030b51:0xe4a1a51c78468e26",
    "unnamed": false,
    "geocoded": false,
-   "id": "s350"
+   "id": "gqt59xu"
   },
   {
    "name": "Elmomento Songdo",
@@ -4213,7 +4309,7 @@
    "url": "https://www.google.com/maps/place/Elmomento+Songdo/data=!4m2!3m1!1s0x3568e94213789421:0x67bdc77ebee9c9e2",
    "unnamed": false,
    "geocoded": false,
-   "id": "s351"
+   "id": "g1tjutol"
   },
   {
    "name": "Hotel Stay Inn",
@@ -4225,7 +4321,31 @@
    "url": "https://www.google.com/maps/place/Hotel+Stay+Inn/data=!4m2!3m1!1s0x357ca300270117d1:0x2ed9d942c29f0fba",
    "unnamed": false,
    "geocoded": false,
-   "id": "s352"
+   "id": "g2cbzg2"
+  },
+  {
+   "name": "7-Eleven",
+   "note": "",
+   "address": "11-11 Yeouido-dong, Yeongdeungpo District, Seoul, South Korea",
+   "category": "Yemek",
+   "lat": 37.530804,
+   "lng": 126.9247652,
+   "url": "https://www.google.com/maps/place/7-Eleven/data=!4m2!3m1!1s0x357c9f3086cbfc71:0x38f515a8af526c07",
+   "unnamed": false,
+   "geocoded": false,
+   "id": "g1ijkz1i"
+  },
+  {
+   "name": "7-Eleven",
+   "note": "",
+   "address": "Seoul, South Korea",
+   "category": "Yemek",
+   "lat": 37.5233448,
+   "lng": 126.9332251,
+   "url": "https://www.google.com/maps/place/7-Eleven/data=!4m2!3m1!1s0x357c9f475abbbb7b:0xc844e7d004533e34",
+   "unnamed": false,
+   "geocoded": false,
+   "id": "g13163wt"
   },
   {
    "name": "Asian Family Restaurant Dongmoon",
@@ -4237,7 +4357,7 @@
    "url": "https://www.google.com/maps/place/Asian+Family+Restaurant+Dongmoon/data=!4m2!3m1!1s0x356326e5cd1b7177:0x9fdd6d8ec34bca99",
    "unnamed": false,
    "geocoded": false,
-   "id": "s353"
+   "id": "g1mmjqnc"
   },
   {
    "name": "Ayla Kebab",
@@ -4249,7 +4369,7 @@
    "url": "https://www.google.com/maps/place/Ayla+Kebab/data=!4m2!3m1!1s0x3568ed0017842493:0xaba25a8847a8ba3d",
    "unnamed": false,
    "geocoded": false,
-   "id": "s354"
+   "id": "g1vworor"
   },
   {
    "name": "Baa LAMB",
@@ -4261,7 +4381,7 @@
    "url": "https://www.google.com/maps/place/Baa+LAMB/data=!4m2!3m1!1s0x3568eb71f45f50e1:0x4272c5c7e50cfe36",
    "unnamed": false,
    "geocoded": false,
-   "id": "s355"
+   "id": "g7dflcc"
   },
   {
    "name": "Bakso Bejo Korea",
@@ -4273,7 +4393,7 @@
    "url": "https://www.google.com/maps/place/Bakso+Bejo+Korea/data=!4m2!3m1!1s0x3568e96c61457b67:0x5eab72519e4dd16c",
    "unnamed": false,
    "geocoded": false,
-   "id": "s356"
+   "id": "gpj8nxc"
   },
   {
    "name": "Bakso Bejo Korea Halal Restaurant Myeongdong",
@@ -4285,7 +4405,7 @@
    "url": "https://www.google.com/maps/place/Bakso+Bejo+Korea+Halal+Restaurant+Myeongdong/data=!4m2!3m1!1s0x357ca3fd9a138229:0x2e9406bee7803cd1",
    "unnamed": false,
    "geocoded": false,
-   "id": "s357"
+   "id": "gfwjhlt"
   },
   {
    "name": "Bakso Rindu Kampung",
@@ -4297,7 +4417,7 @@
    "url": "https://www.google.com/maps/place/Bakso+Rindu+Kampung/data=!4m2!3m1!1s0x357ca3fc49713c3b:0x60ef17b14ccabff8",
    "unnamed": false,
    "geocoded": false,
-   "id": "s358"
+   "id": "g1herskv"
   },
   {
    "name": "Bengal Cuisine",
@@ -4309,7 +4429,7 @@
    "url": "https://www.google.com/maps/place/Bengal+Cuisine/data=!4m2!3m1!1s0x3568ed0041d8bddb:0x18c8fd8b573e6e17",
    "unnamed": false,
    "geocoded": false,
-   "id": "s359"
+   "id": "gzo8e66"
   },
   {
    "name": "Bongchu Jjimdak",
@@ -4321,7 +4441,7 @@
    "url": "https://www.google.com/maps/place/Bongchu+Jjimdak/data=!4m2!3m1!1s0x357ca2f138a8619b:0xc6578d183c130204",
    "unnamed": false,
    "geocoded": false,
-   "id": "s360"
+   "id": "g6l2g5q"
   },
   {
    "name": "BSJ Chicken - Halal Restaurant",
@@ -4333,7 +4453,7 @@
    "url": "https://www.google.com/maps/place/BSJ+Chicken+-+Halal+Restaurant/data=!4m2!3m1!1s0x357c9984333811e9:0xabaa51b1b43e68d5",
    "unnamed": false,
    "geocoded": false,
-   "id": "s361"
+   "id": "goi6znc"
   },
   {
    "name": "BSJ Chicken & WOK - Halal Restaurant",
@@ -4345,7 +4465,7 @@
    "url": "https://www.google.com/maps/place/BSJ+Chicken+%26+WOK+-+Halal+Restaurant/data=!4m2!3m1!1s0x357ca379b90aa87d:0x7469421a58e19620",
    "unnamed": false,
    "geocoded": false,
-   "id": "s362"
+   "id": "g81icoa"
   },
   {
    "name": "Busan Jib",
@@ -4357,7 +4477,7 @@
    "url": "https://www.google.com/maps/place/Busan+Jib/data=!4m2!3m1!1s0x357ca2f03f23a2bb:0xf036edbcce4cf8b0",
    "unnamed": false,
    "geocoded": false,
-   "id": "s363"
+   "id": "g1oc1x57"
   },
   {
    "name": "BUSANJIB",
@@ -4369,7 +4489,19 @@
    "url": "https://www.google.com/maps/place/BUSANJIB/data=!4m2!3m1!1s0x357ca32dc7b70331:0x8cd826cd29d4bbf4",
    "unnamed": false,
    "geocoded": false,
-   "id": "s364"
+   "id": "ggvcz75"
+  },
+  {
+   "name": "Busanjib Hongdae Branch - Halalfood",
+   "note": "",
+   "address": "South Korea, Seoul, Mapo-gu, Eoulmadang-ro, 100-6 2층",
+   "category": "Yemek",
+   "lat": 37.5536857,
+   "lng": 126.9224747,
+   "url": "https://www.google.com/maps/place/Busanjib+Hongdae+Branch+-+Halalfood/data=!4m2!3m1!1s0x357c99a632e83f39:0x72cbdea88ae6a993",
+   "unnamed": false,
+   "geocoded": false,
+   "id": "gwdjy4n"
   },
   {
    "name": "Casablanca Sandwicherie مطعم مغربي",
@@ -4381,7 +4513,7 @@
    "url": "https://www.google.com/maps/place/Casablanca+Sandwicherie+%D9%85%D8%B7%D8%B9%D9%85+%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%E2%80%AD/data=!4m2!3m1!1s0x357ca24f68af0965:0x6220438fa8bbcd40",
    "unnamed": false,
    "geocoded": false,
-   "id": "s365"
+   "id": "g3eh3uj"
   },
   {
    "name": "CHAEUM KOREAN TRADITIONAL RESTAURANT",
@@ -4393,7 +4525,7 @@
    "url": "https://www.google.com/maps/place/CHAEUM+KOREAN+TRADITIONAL+RESTAURANT/data=!4m2!3m1!1s0x357ca3f8f92ef375:0x66931f13a69971a2",
    "unnamed": false,
    "geocoded": false,
-   "id": "s366"
+   "id": "g1wlwen5"
   },
   {
    "name": "Cherry Garden",
@@ -4405,7 +4537,7 @@
    "url": "https://www.google.com/maps/place/Cherry+Garden/data=!4m2!3m1!1s0x357ca30d43c87ed1:0xccd127eb9cdac56b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s367"
+   "id": "ghbx62q"
   },
   {
    "name": "Cherry Garden Restaurant (Halal) Insadong",
@@ -4417,7 +4549,7 @@
    "url": "https://www.google.com/maps/place/Cherry+Garden+Restaurant+(Halal)+Insadong/data=!4m2!3m1!1s0x357ca3004f5f5f9f:0xa10557b5ba81f53a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s368"
+   "id": "gds0fk8"
   },
   {
    "name": "City food Noodles",
@@ -4429,7 +4561,7 @@
    "url": "https://www.google.com/maps/place/City+food+Noodles/data=!4m2!3m1!1s0x357ca368ba78f7e5:0x91eaac1f0050e4d7",
    "unnamed": false,
    "geocoded": false,
-   "id": "s369"
+   "id": "g1xmykgc"
   },
   {
    "name": "CU Ramyun Library",
@@ -4441,7 +4573,7 @@
    "url": "https://www.google.com/maps/place/CU+Ramyun+Library/data=!4m2!3m1!1s0x357c9900752a7a27:0x12d376a17d64b86a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s370"
+   "id": "g1x7kfdt"
   },
   {
    "name": "CU 여의파크원점",
@@ -4453,7 +4585,7 @@
    "url": "https://www.google.com/maps/place/CU+%EC%97%AC%EC%9D%98%ED%8C%8C%ED%81%AC%EC%9B%90%EC%A0%90/data=!4m2!3m1!1s0x357c9fab946d21f5:0xd587e9eba86cad6",
    "unnamed": false,
    "geocoded": false,
-   "id": "s371"
+   "id": "gpwyluh"
   },
   {
    "name": "Das'Han Uyghur Halal Restaurant",
@@ -4465,7 +4597,7 @@
    "url": "https://www.google.com/maps/place/Das'Han+Uyghur+Halal+Restaurant/data=!4m2!3m1!1s0x357ca30054d10e5f:0x6d4f91c516723f76",
    "unnamed": false,
    "geocoded": false,
-   "id": "s372"
+   "id": "g1as6cuc"
   },
   {
    "name": "Dongdaemun Special Duck",
@@ -4477,7 +4609,7 @@
    "url": "https://www.google.com/maps/place/Dongdaemun+Special+Duck/data=!4m2!3m1!1s0x357ca33a560b3bbb:0xcca9f81ec557e2ca",
    "unnamed": false,
    "geocoded": false,
-   "id": "s373"
+   "id": "gepbxfk"
   },
   {
    "name": "EID Halal Korean Food",
@@ -4489,7 +4621,7 @@
    "url": "https://www.google.com/maps/place/EID+Halal+Korean+Food/data=!4m2!3m1!1s0x357ca3b50d6d456b:0xebf553fbb5b91fab",
    "unnamed": false,
    "geocoded": false,
-   "id": "s374"
+   "id": "g1cpzvjn"
   },
   {
    "name": "Eid Halal Korean Food (Hongdae Branch)",
@@ -4501,7 +4633,7 @@
    "url": "https://www.google.com/maps/place/Eid+Halal+Korean+Food+(Hongdae+Branch)/data=!4m2!3m1!1s0x357c990a6e0e498d:0x88dab069968c2ab1",
    "unnamed": false,
    "geocoded": false,
-   "id": "s375"
+   "id": "g1ugtuqa"
   },
   {
    "name": "Fortune Restaurant",
@@ -4513,7 +4645,7 @@
    "url": "https://www.google.com/maps/place/Fortune+Restaurant/data=!4m2!3m1!1s0x357ca318f4e2a94f:0xc8eb4bd8f48ac4b7",
    "unnamed": false,
    "geocoded": false,
-   "id": "s376"
+   "id": "g12itj2"
   },
   {
    "name": "Gosame",
@@ -4525,7 +4657,7 @@
    "url": "https://www.google.com/maps/place/Gosame/data=!4m2!3m1!1s0x357c98948e0c7a9b:0xed19a8494e6aa364",
    "unnamed": false,
    "geocoded": false,
-   "id": "s377"
+   "id": "g1gss9w8"
   },
   {
    "name": "Gwangjang Market",
@@ -4537,7 +4669,7 @@
    "url": "https://www.google.com/maps/place/Gwangjang+Market/data=!4m2!3m1!1s0x357ca2ed7e74759b:0xd656a34831089f44",
    "unnamed": false,
    "geocoded": false,
-   "id": "s378"
+   "id": "g1esulpa"
   },
   {
    "name": "HAJJkoreahalalfood",
@@ -4549,7 +4681,7 @@
    "url": "https://www.google.com/maps/place/HAJJkoreahalalfood/data=!4m2!3m1!1s0x357ca3b1a051255f:0x88712941038b7f91",
    "unnamed": false,
    "geocoded": false,
-   "id": "s379"
+   "id": "g8q7r70"
   },
   {
    "name": "Halal Korean Restaurant (Home Cooked Meal Gim Soensaeng",
@@ -4561,7 +4693,7 @@
    "url": "https://www.google.com/maps/place/Halal+Korean+Restaurant+(Home+Cooked+Meal+Gim+Soensaeng/data=!4m2!3m1!1s0x357ca32b35a5c233:0xd022aae2840cb7c5",
    "unnamed": false,
    "geocoded": false,
-   "id": "s380"
+   "id": "g16uc20b"
   },
   {
    "name": "Halal Pizza & Burger (수제버거&피자) PB+",
@@ -4573,7 +4705,7 @@
    "url": "https://www.google.com/maps/place/Halal+Pizza+%26+Burger+(%EC%88%98%EC%A0%9C%EB%B2%84%EA%B1%B0%26%ED%94%BC%EC%9E%90)+PB%2B/data=!4m2!3m1!1s0x357ca235592bffa1:0x11c2790333fd0d0f",
    "unnamed": false,
    "geocoded": false,
-   "id": "s381"
+   "id": "ghe2602"
   },
   {
    "name": "Half Moon Meat",
@@ -4585,7 +4717,19 @@
    "url": "https://www.google.com/maps/place/Half+Moon+Meat/data=!4m2!3m1!1s0x3568e90069cae937:0xe350a4fa5eb0c659",
    "unnamed": false,
    "geocoded": false,
-   "id": "s382"
+   "id": "g1dxhz89"
+  },
+  {
+   "name": "Hi asia Indonesian restaurant",
+   "note": "",
+   "address": "2nd Floor, 31 Gunam-ro, Haeundae-gu, Busan, South Korea",
+   "category": "Yemek",
+   "lat": 35.1613805,
+   "lng": 129.1610228,
+   "url": "https://www.google.com/maps/place/Hi+asia+Indonesian+restaurant/data=!4m2!3m1!1s0x35688d7e86404a2d:0xc91cd7d3b9dce371",
+   "unnamed": false,
+   "geocoded": false,
+   "id": "gr8ty4j"
   },
   {
    "name": "Hi asia Pakistani & Indian halal restaurant 펀자브",
@@ -4597,7 +4741,7 @@
    "url": "https://www.google.com/maps/place/Hi+asia+Pakistani+%26+Indian+halal+restaurant+%ED%8E%80%EC%9E%90%EB%B8%8C/data=!4m2!3m1!1s0x35688d5dbfb12a2b:0x19c030fe4791f1fd",
    "unnamed": false,
    "geocoded": false,
-   "id": "s383"
+   "id": "g1bzgbpa"
   },
   {
    "name": "HojiBobo Restaurant | Itaewon Seoul",
@@ -4609,7 +4753,7 @@
    "url": "https://www.google.com/maps/place/HojiBobo+Restaurant+%7C+Itaewon+Seoul/data=!4m2!3m1!1s0x357ca37ae1df2b6b:0x727c210f4e0f0a2c",
    "unnamed": false,
    "geocoded": false,
-   "id": "s384"
+   "id": "gm3m832"
   },
   {
    "name": "IFTAR",
@@ -4621,7 +4765,7 @@
    "url": "https://www.google.com/maps/place/IFTAR/data=!4m2!3m1!1s0x357ca3671c2c8859:0x1665c3af6a075097",
    "unnamed": false,
    "geocoded": false,
-   "id": "s385"
+   "id": "gatz2p"
   },
   {
    "name": "Insadong Sujebi",
@@ -4633,7 +4777,7 @@
    "url": "https://www.google.com/maps/place/Insadong+Sujebi/data=!4m2!3m1!1s0x357ca2c2cbc35f45:0xb7a1dd763c58aa80",
    "unnamed": false,
    "geocoded": false,
-   "id": "s386"
+   "id": "gugputs"
   },
   {
    "name": "Itaewon Kitchen",
@@ -4645,7 +4789,7 @@
    "url": "https://www.google.com/maps/place/Itaewon+Kitchen/data=!4m2!3m1!1s0x357ca24a96574769:0x6ef4729868c814ba",
    "unnamed": false,
    "geocoded": false,
-   "id": "s387"
+   "id": "g1a0wkxg"
   },
   {
    "name": "Jagalchi Market",
@@ -4657,7 +4801,7 @@
    "url": "https://www.google.com/maps/place/Jagalchi+Market/data=!4m2!3m1!1s0x3568e90a142bd9b9:0x47b390376ab3b06d",
    "unnamed": false,
    "geocoded": false,
-   "id": "s388"
+   "id": "grdbb8"
   },
   {
    "name": "Jilhal Bros Cheongdam",
@@ -4669,7 +4813,19 @@
    "url": "https://www.google.com/maps/place/Jilhal+Bros+Cheongdam/data=!4m2!3m1!1s0x357ca47b3be21afb:0xb34210c588f3c04e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s389"
+   "id": "g1uxzo9m"
+  },
+  {
+   "name": "Kampungku Halal Mart",
+   "note": "",
+   "address": "23 Toegye-ro 20-gil, Jung District, Seoul, South Korea",
+   "category": "Yemek",
+   "lat": 37.5591155,
+   "lng": 126.9859639,
+   "url": "https://www.google.com/maps/place/Kampungku+Halal+Mart/data=!4m2!3m1!1s0x357ca39bf222607f:0x19da59784a8ebe0b",
+   "unnamed": false,
+   "geocoded": false,
+   "id": "g1ffker"
   },
   {
    "name": "Kampungku Restaurant",
@@ -4681,7 +4837,7 @@
    "url": "https://www.google.com/maps/place/Kampungku+Restaurant/data=!4m2!3m1!1s0x357ca336b5dfac7b:0x394e02932d97f58a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s390"
+   "id": "g1yf20e1"
   },
   {
    "name": "KANTIPUR RESTURENT NEPALI",
@@ -4693,7 +4849,7 @@
    "url": "https://www.google.com/maps/place/KANTIPUR+RESTURENT+NEPALI/data=!4m2!3m1!1s0x3568ed001944362d:0xfea11e02168fc3e8",
    "unnamed": false,
    "geocoded": false,
-   "id": "s391"
+   "id": "go3uqcy"
   },
   {
    "name": "Lepak Laa Restaurant",
@@ -4705,7 +4861,7 @@
    "url": "https://www.google.com/maps/place/Lepak+Laa+Restaurant/data=!4m2!3m1!1s0x357ca30054c1fa3b:0x500c61c4724d9691",
    "unnamed": false,
    "geocoded": false,
-   "id": "s392"
+   "id": "g1ffv31e"
   },
   {
    "name": "Mangwon Market",
@@ -4717,7 +4873,7 @@
    "url": "https://www.google.com/maps/place/Mangwon+Market/data=!4m2!3m1!1s0x357c9928af31a803:0xf6cfdd1b789bf926",
    "unnamed": false,
    "geocoded": false,
-   "id": "s393"
+   "id": "gk476ts"
   },
   {
    "name": "Mari Meokja [마리먹자] Halal Korean & Malaysian",
@@ -4729,7 +4885,7 @@
    "url": "https://www.google.com/maps/place/Mari+Meokja+%5B%EB%A7%88%EB%A6%AC%EB%A8%B9%EC%9E%90%5D+Halal+Korean+%26+Malaysian/data=!4m2!3m1!1s0x357ca36d7c1e0551:0x7ff837f339b354bd",
    "unnamed": false,
    "geocoded": false,
-   "id": "s394"
+   "id": "g1lh6rul"
   },
   {
    "name": "Maru Jayeonsik Gimbap",
@@ -4741,7 +4897,7 @@
    "url": "https://www.google.com/maps/place/Maru+Jayeonsik+Gimbap/data=!4m2!3m1!1s0x357ca39b7958b105:0x7bf1adaf941e6305",
    "unnamed": false,
    "geocoded": false,
-   "id": "s395"
+   "id": "gtd0a2p"
   },
   {
    "name": "Motto",
@@ -4753,7 +4909,7 @@
    "url": "https://www.google.com/maps/place/Motto/data=!4m2!3m1!1s0x357ca30037110a29:0x8ab9494b015667dd",
    "unnamed": false,
    "geocoded": false,
-   "id": "s396"
+   "id": "gkdeaov"
   },
   {
    "name": "Myeongdong Night Market",
@@ -4765,7 +4921,7 @@
    "url": "https://www.google.com/maps/place/Myeongdong+Night+Market/data=!4m2!3m1!1s0x357ca2f07ba7bfa9:0x738decadf187ec47",
    "unnamed": false,
    "geocoded": false,
-   "id": "s397"
+   "id": "g1xmiq51"
   },
   {
    "name": "Myeongdongchungmu Gimbap",
@@ -4777,7 +4933,7 @@
    "url": "https://www.google.com/maps/place/Myeongdongchungmu+Gimbap/data=!4m2!3m1!1s0x357ca2f019a87e4b:0x6487e7953b31eb75",
    "unnamed": false,
    "geocoded": false,
-   "id": "s398"
+   "id": "ge8k2yz"
   },
   {
    "name": "Namsan Garden Halal Korean BBQ",
@@ -4789,7 +4945,7 @@
    "url": "https://www.google.com/maps/place/Namsan+Garden+Halal+Korean+BBQ/data=!4m2!3m1!1s0x357ca3174afd3e1f:0x56925bfe9aa66c2",
    "unnamed": false,
    "geocoded": false,
-   "id": "s399"
+   "id": "gziisht"
   },
   {
    "name": "New Little India",
@@ -4801,7 +4957,7 @@
    "url": "https://www.google.com/maps/place/New+Little+India/data=!4m2!3m1!1s0x3568e97d54ea1945:0x2e6504fb7f0d6c4a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s400"
+   "id": "g1gpqhyk"
   },
   {
    "name": "Nirvana Halal Indian Kitchen",
@@ -4813,7 +4969,7 @@
    "url": "https://www.google.com/maps/place/Nirvana+Halal+Indian+Kitchen/data=!4m2!3m1!1s0x357ca3dcc1939bf7:0x638df04438b127dd",
    "unnamed": false,
    "geocoded": false,
-   "id": "s401"
+   "id": "g111rtzo"
   },
   {
    "name": "Okay Turkish Kebab - Halal Street Food - 터키 케밥 - 할랄 스트리트 푸드",
@@ -4825,7 +4981,7 @@
    "url": "https://www.google.com/maps/place/Okay+Turkish+Kebab+-+Halal+Street+Food+-+%ED%84%B0%ED%82%A4+%EC%BC%80%EB%B0%A5+-+%ED%95%A0%EB%9E%84+%EC%8A%A4%ED%8A%B8%EB%A6%AC%ED%8A%B8+%ED%91%B8%EB%93%9C/data=!4m2!3m1!1s0x3568e9b40a067ead:0x4fb06e711488b451",
    "unnamed": false,
    "geocoded": false,
-   "id": "s402"
+   "id": "g2ilwnx"
   },
   {
    "name": "Osegye Hyang",
@@ -4837,7 +4993,7 @@
    "url": "https://www.google.com/maps/place/Osegye+Hyang/data=!4m2!3m1!1s0x357ca2c2c36e1aad:0x3500e83fe1a366d5",
    "unnamed": false,
    "geocoded": false,
-   "id": "s403"
+   "id": "g3h9ztj"
   },
   {
    "name": "Pancakes Original Story",
@@ -4849,7 +5005,7 @@
    "url": "https://www.google.com/maps/place/Pancakes+Original+Story/data=!4m2!3m1!1s0x357ca3ba76a976b9:0x81ea20abbf2892b9",
    "unnamed": false,
    "geocoded": false,
-   "id": "s404"
+   "id": "g1yg3mz"
   },
   {
    "name": "Petra",
@@ -4861,7 +5017,7 @@
    "url": "https://www.google.com/maps/place/Petra/data=!4m2!3m1!1s0x357ca237c2ab7c65:0xb9fefefe18a95f7",
    "unnamed": false,
    "geocoded": false,
-   "id": "s405"
+   "id": "g1qea7qa"
   },
   {
    "name": "Plantude",
@@ -4873,7 +5029,7 @@
    "url": "https://www.google.com/maps/place/Plantude/data=!4m2!3m1!1s0x357ca5983171f619:0xd2cad6bb6658ec7c",
    "unnamed": false,
    "geocoded": false,
-   "id": "s406"
+   "id": "god2w3s"
   },
   {
    "name": "Rama & Bavana",
@@ -4885,7 +5041,7 @@
    "url": "https://www.google.com/maps/place/Rama+%26+Bavana/data=!4m2!3m1!1s0x3568eb7100000001:0x9e8b7097b2d5c81f",
    "unnamed": false,
    "geocoded": false,
-   "id": "s407"
+   "id": "g1vxyrz8"
   },
   {
    "name": "SAFFRON",
@@ -4897,7 +5053,7 @@
    "url": "https://www.google.com/maps/place/SAFFRON/data=!4m2!3m1!1s0x357ca2f1d0858ee7:0x943fc0ad8c26c0b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s408"
+   "id": "g1mkws3l"
   },
   {
    "name": "Samarkand (Halal)",
@@ -4909,7 +5065,7 @@
    "url": "https://www.google.com/maps/place/Samarkand+(Halal)/data=!4m2!3m1!1s0x3568e97ce30f7695:0x30ea78e352a89db3",
    "unnamed": false,
    "geocoded": false,
-   "id": "s409"
+   "id": "g3xxus2"
   },
   {
    "name": "Seoraewon (Lotus Flower Noodle House)",
@@ -4921,7 +5077,7 @@
    "url": "https://www.google.com/maps/place/Seoraewon+(Lotus+Flower+Noodle+House)/data=!4m2!3m1!1s0x357ca5172a00e8e3:0xbb429cde24110eaf",
    "unnamed": false,
    "geocoded": false,
-   "id": "s410"
+   "id": "gd4fcql"
   },
   {
    "name": "Seoul-iya",
@@ -4933,7 +5089,7 @@
    "url": "https://www.google.com/maps/place/Seoul-iya/data=!4m2!3m1!1s0x357c998b2208ed89:0x28ee4afaff7e1e6e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s411"
+   "id": "g1fi39jv"
   },
   {
    "name": "Sinchon Burger",
@@ -4945,7 +5101,7 @@
    "url": "https://www.google.com/maps/place/Sinchon+Burger/data=!4m2!3m1!1s0x357c991543090019:0x9e812dfa9288b586",
    "unnamed": false,
    "geocoded": false,
-   "id": "s412"
+   "id": "g173dr9o"
   },
   {
    "name": "Siti Sarah Korean Melayu & Egyptian Halal Food",
@@ -4957,7 +5113,7 @@
    "url": "https://www.google.com/maps/place/Siti+Sarah+Korean+Melayu+%26+Egyptian+Halal+Food/data=!4m2!3m1!1s0x357ca24abeebf71b:0x7d3d8a1362ac1de4",
    "unnamed": false,
    "geocoded": false,
-   "id": "s413"
+   "id": "g1g6fj5p"
   },
   {
    "name": "Star Samarkand (Halal)",
@@ -4969,7 +5125,7 @@
    "url": "https://www.google.com/maps/place/Star+Samarkand+(Halal)/data=!4m2!3m1!1s0x357ca3229cb21dcd:0x76a6f35281478836",
    "unnamed": false,
    "geocoded": false,
-   "id": "s414"
+   "id": "g14a1maa"
   },
   {
    "name": "the halal fitzza",
@@ -4981,7 +5137,7 @@
    "url": "https://www.google.com/maps/place/the+halal+fitzza/data=!4m2!3m1!1s0x357c9976115fe499:0xac8faeb8e2869ce3",
    "unnamed": false,
    "geocoded": false,
-   "id": "s415"
+   "id": "gtqit3q"
   },
   {
    "name": "THE HALAL OPPA",
@@ -4993,7 +5149,7 @@
    "url": "https://www.google.com/maps/place/THE+HALAL+OPPA/data=!4m2!3m1!1s0x357c995b5c0c4db9:0xcbf25c898f1df636",
    "unnamed": false,
    "geocoded": false,
-   "id": "s416"
+   "id": "g1n6onre"
   },
   {
    "name": "THE HALAL STATION",
@@ -5005,7 +5161,7 @@
    "url": "https://www.google.com/maps/place/THE+HALAL+STATION/data=!4m2!3m1!1s0x357c999cfbfb9661:0xdef7dccd61815c7b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s417"
+   "id": "g6rcse5"
   },
   {
    "name": "The Original Pancake House Garosugil",
@@ -5017,7 +5173,7 @@
    "url": "https://www.google.com/maps/place/The+Original+Pancake+House+Garosugil/data=!4m2!3m1!1s0x357ca3eb0478fcdb:0x47df3147b1820eef",
    "unnamed": false,
    "geocoded": false,
-   "id": "s418"
+   "id": "g1dim9tr"
   },
   {
    "name": "The Original Pancake House Itaewon",
@@ -5029,7 +5185,7 @@
    "url": "https://www.google.com/maps/place/The+Original+Pancake+House+Itaewon/data=!4m2!3m1!1s0x357ca249e53a0b31:0x880dd7167854bd31",
    "unnamed": false,
    "geocoded": false,
-   "id": "s419"
+   "id": "g1icpgur"
   },
   {
    "name": "The Original Pancake House Jamwon Pastel",
@@ -5041,7 +5197,7 @@
    "url": "https://www.google.com/maps/place/The+Original+Pancake+House+Jamwon+Pastel/data=!4m2!3m1!1s0x357ca34960d75945:0xfc5ed68855ef2b01",
    "unnamed": false,
    "geocoded": false,
-   "id": "s420"
+   "id": "ge1ibpo"
   },
   {
    "name": "The Original Pancake House Sejong Center for the Performing Arts",
@@ -5053,7 +5209,7 @@
    "url": "https://www.google.com/maps/place/The+Original+Pancake+House+Sejong+Center+for+the+Performing+Arts/data=!4m2!3m1!1s0x357ca32f609271d7:0x61d8651fb6b64f41",
    "unnamed": false,
    "geocoded": false,
-   "id": "s421"
+   "id": "g160yir1"
   },
   {
    "name": "Warung Jaya Mbak Tia(Halal food)",
@@ -5065,7 +5221,7 @@
    "url": "https://www.google.com/maps/place/Warung+Jaya+Mbak+Tia(Halal+food)/data=!4m2!3m1!1s0x3568e908b5a83121:0x92816d38842c7797",
    "unnamed": false,
    "geocoded": false,
-   "id": "s422"
+   "id": "g8ps1ok"
   },
   {
    "name": "Wingstop",
@@ -5077,7 +5233,7 @@
    "url": "https://www.google.com/maps/place/Wingstop/data=!4m2!3m1!1s0x357ca3398c79e87b:0xf3a1c4812cf3ec5a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s423"
+   "id": "gub3ie0"
   },
   {
    "name": "Yang Good",
@@ -5089,7 +5245,7 @@
    "url": "https://www.google.com/maps/place/Yang+Good/data=!4m2!3m1!1s0x357ca3fe802ed7c9:0x290107784b5fd8d2",
    "unnamed": false,
    "geocoded": false,
-   "id": "s424"
+   "id": "g1s4ov4a"
   },
   {
    "name": "Yell-o! Chicken",
@@ -5101,7 +5257,7 @@
    "url": "https://www.google.com/maps/place/Yell-o!+Chicken/data=!4m2!3m1!1s0x357ca300174f3731:0x32b6c29a1874e9a6",
    "unnamed": false,
    "geocoded": false,
-   "id": "s425"
+   "id": "gamcyhy"
   },
   {
    "name": "Yoogane Chicken Galbi Hongdae branch",
@@ -5113,7 +5269,7 @@
    "url": "https://www.google.com/maps/place/Yoogane+Chicken+Galbi+Hongdae+branch/data=!4m2!3m1!1s0x357c98c35af115e3:0xde6f54e1672dd97d",
    "unnamed": false,
    "geocoded": false,
-   "id": "s426"
+   "id": "g1hbr2zm"
   },
   {
    "name": "Yoogane Chicken Galbi(Myeongdong 2nd Branch)",
@@ -5125,7 +5281,7 @@
    "url": "https://www.google.com/maps/place/Yoogane+Chicken+Galbi(Myeongdong+2nd+Branch)/data=!4m2!3m1!1s0x357ca2f100000001:0x3d54b0bd111fc4c7",
    "unnamed": false,
    "geocoded": false,
-   "id": "s427"
+   "id": "g1c3hny5"
   },
   {
    "name": "Zaiqa Restaurant",
@@ -5137,7 +5293,7 @@
    "url": "https://www.google.com/maps/place/Zaiqa+Restaurant/data=!4m2!3m1!1s0x357ca24ab8fa0ad3:0x2cc4fba3a814425b",
    "unnamed": false,
    "geocoded": false,
-   "id": "s428"
+   "id": "gl7vhu6"
   },
   {
    "name": "누산타라쿠 Nusantaraku Korea Halal Restaurant",
@@ -5149,7 +5305,7 @@
    "url": "https://www.google.com/maps/place/%EB%88%84%EC%82%B0%ED%83%80%EB%9D%BC%EC%BF%A0+Nusantaraku+Korea+Halal+Restaurant/data=!4m2!3m1!1s0x357c9974f933ac11:0xecc7622c5277d951",
    "unnamed": false,
    "geocoded": false,
-   "id": "s429"
+   "id": "g804t2w"
   },
   {
    "name": "매화양꼬치 명동점 (Halal)",
@@ -5161,7 +5317,7 @@
    "url": "https://www.google.com/maps/place/%EB%A7%A4%ED%99%94%EC%96%91%EA%BC%AC%EC%B9%98+%EB%AA%85%EB%8F%99%EC%A0%90+(Halal)/data=!4m2!3m1!1s0x357ca3fa756e0dab:0x646f2d43a320b3d9",
    "unnamed": false,
    "geocoded": false,
-   "id": "s430"
+   "id": "gq5th6q"
   },
   {
    "name": "삼미미식당",
@@ -5173,7 +5329,7 @@
    "url": "https://www.google.com/maps/place/%EC%82%BC%EB%AF%B8%EB%AF%B8%EC%8B%9D%EB%8B%B9/data=!4m2!3m1!1s0x357ca100072c5417:0x18c24ab554081cef",
    "unnamed": false,
    "geocoded": false,
-   "id": "s431"
+   "id": "g1qqxfkp"
   },
   {
    "name": "양인환대 북창 مطعم حلال City Hall Halal Korean bbq Restaurant وجبات حلال",
@@ -5185,7 +5341,7 @@
    "url": "https://www.google.com/maps/place/%EC%96%91%EC%9D%B8%ED%99%98%EB%8C%80+%EB%B6%81%EC%B0%BD+%D9%85%D8%B7%D8%B9%D9%85+%D8%AD%D9%84%D8%A7%D9%84+City+Hall+Halal+Korean+bbq+Restaurant+%D9%88%D8%AC%D8%A8%D8%A7%D8%AA+%D8%AD%D9%84%D8%A7%D9%84%E2%80%AD/data=!4m2!3m1!1s0x357ca3e4a0bbb5e3:0xb2ef2dbf6d1c8142",
    "unnamed": false,
    "geocoded": false,
-   "id": "s432"
+   "id": "gp3vj44"
   },
   {
    "name": "원조할매복국",
@@ -5197,7 +5353,7 @@
    "url": "https://www.google.com/maps/place/%EC%9B%90%EC%A1%B0%ED%95%A0%EB%A7%A4%EB%B3%B5%EA%B5%AD/data=!4m2!3m1!1s0x35688d6a4b0010f9:0x44ac076d0f3d665a",
    "unnamed": false,
    "geocoded": false,
-   "id": "s433"
+   "id": "g12z9y36"
   },
   {
    "name": "유가네닭갈비 해운대점(Yoogane Haeundae)",
@@ -5209,7 +5365,7 @@
    "url": "https://www.google.com/maps/place/%EC%9C%A0%EA%B0%80%EB%84%A4%EB%8B%AD%EA%B0%88%EB%B9%84+%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90(Yoogane+Haeundae)/data=!4m2!3m1!1s0x35688d6e1198626d:0x8cdc1c8c4a17348e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s434"
+   "id": "g1dt6d2l"
   },
   {
    "name": "질할브로스 이태원점 (Jilhal Bros Itaewon)",
@@ -5221,7 +5377,7 @@
    "url": "https://www.google.com/maps/place/%EC%A7%88%ED%95%A0%EB%B8%8C%EB%A1%9C%EC%8A%A4+%EC%9D%B4%ED%83%9C%EC%9B%90%EC%A0%90+(Jilhal+Bros+Itaewon)/data=!4m2!3m1!1s0x357ca3023ef4aa4b:0xbb04a5039f2d8b37",
    "unnamed": false,
    "geocoded": false,
-   "id": "s435"
+   "id": "g1oak5ok"
   },
   {
    "name": "킹케밥 이태원점 - King Kebab Itaewon - Halal",
@@ -5233,7 +5389,7 @@
    "url": "https://www.google.com/maps/place/%ED%82%B9%EC%BC%80%EB%B0%A5+%EC%9D%B4%ED%83%9C%EC%9B%90%EC%A0%90+-+King+Kebab+Itaewon+-+Halal/data=!4m2!3m1!1s0x357ca24c2f390b6f:0x395baa4b310e0016",
    "unnamed": false,
    "geocoded": false,
-   "id": "s436"
+   "id": "g5wydvn"
   },
   {
    "name": "할랄 코리아 주식회사/Halal Korea Co Ltd",
@@ -5245,7 +5401,7 @@
    "url": "https://www.google.com/maps/place/%ED%95%A0%EB%9E%84+%EC%BD%94%EB%A6%AC%EC%95%84+%EC%A3%BC%EC%8B%9D%ED%9A%8C%EC%82%AC%2FHalal+Korea+Co+Ltd/data=!4m2!3m1!1s0x357c98a0fe482f0d:0x1b70af4af0ab752e",
    "unnamed": false,
    "geocoded": false,
-   "id": "s437"
+   "id": "g1gydv7f"
   },
   {
    "name": "할랄스텍스(HALAL STACKS)",
@@ -5257,7 +5413,7 @@
    "url": "https://www.google.com/maps/place/%ED%95%A0%EB%9E%84%EC%8A%A4%ED%85%8D%EC%8A%A4(HALAL+STACKS)/data=!4m2!3m1!1s0x357c99a09cfd6c51:0x910c0a94bb0cf6fb",
    "unnamed": false,
    "geocoded": false,
-   "id": "s438"
+   "id": "g1x6663f"
   }
  ]
 }

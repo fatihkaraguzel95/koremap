@@ -24,26 +24,45 @@ Kaydetme adımı ortadan kalkıyor, zaman kaybının asıl kaynağı olan
 ## İçindeki liste
 
 `data/places.json` uygulamayla birlikte geliyor: Google Takeout'taki Kore
-listelerinden çözülmüş **438 yer**. İlk açılışta kendiliğinden yüklenir, telefonda
+listelerinden çözülmüş **451 yer**. İlk açılışta kendiliğinden yüklenir, telefonda
 dosya seçmeye gerek yok.
 
 | Kategori | Adet | | Bölge | Adet |
 |---|--:|---|---|--:|
-| Gezilecek | 95 | | Seul | 356 |
-| Aktivite | 86 | | Busan | 74 |
-| Yemek | 86 | | Diğer | 8 |
-| Alışveriş | 69 | | | |
-| Kafe | 57 | | | |
+| Gezilecek | 95 | | Seul | 368 |
+| Yemek | 91 | | Busan | 76 |
+| Aktivite | 89 | | Diğer | 7 |
+| Alışveriş | 72 | | | |
+| Kafe | 59 | | | |
 | KPOP | 23 | | | |
 | Cami | 10 | | | |
 | Otel | 6 | | | |
 | Etkinlik | 6 | | | |
 
-Takeout'un liste CSV'lerinde koordinat yok — yalnızca Google `ftid`'si var. Bunlar
-başsız tarayıcıyla tek tek çözüldü (Google Maps yer URL'i `!3d<lat>!4d<lng>` hâline
-gelene kadar beklenip okundu), adresler de aynı geçişte alındı. 438 kaydın 431'inde
-adres var. Kore dışındaki kayıtlar (Japonya, Hollanda, Almanya listeleri) koordinat
-filtresiyle elendi.
+451 kaydın 444'ünde adres var.
+
+### Koordinatlar nereden geldi
+
+Takeout'un liste CSV'lerinde koordinat yok — yalnızca Google'ın `ftid` feature
+kimliği var. Her kayıt başsız Chromium ile tek tek çözüldü: yer sayfası açılıp
+URL `!3d<lat>!4d<lng>` hâline gelene kadar beklendi, adres de aynı geçişte alındı.
+Google bir oturumu ~100 istekten sonra kısıyor, bu yüzden toplayıcı her 60 kayıtta
+tarayıcı bağlamını yeniliyor.
+
+Takeout'taki **777 kaydın tamamı** işlendi ve hesabı çıkarıldı:
+
+| | |
+|---|--:|
+| Kore'de, listeye giren | **451** |
+| Kore dışı (Japonya, Hollanda, Almanya listeleri) | 302 |
+| Aynı yerin birden çok listede tekrarı | 10 |
+| `ftid` içermeyen (başlığı koordinat olan Japonya otelleri) | 4 |
+| Çözülemeyen (Almanya adresi + Japonya kayıtları) | 10 |
+
+Kayıtlar Google feature id'siyle anahtarlandı: `liste + başlık` kullanılsaydı aynı
+listedeki aynı isimli farklı şubeler (3× `7-Eleven`, 2× `UNIQLO`) birbirinin
+üzerine yazılırdı. Tekilleştirme de koordinatı 5 haneye (~1 m) bakıp isme de
+bakıyor; 4 hane (~11 m) aynı binadaki ayrı mekanları birleştiriyordu.
 
 ## Özellikler
 

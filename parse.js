@@ -238,13 +238,18 @@ export function parseFile(filename, text) {
   return fromCSV(text, category);
 }
 
-/** Ayni yeri iki kez eklememek icin: koordinat (~11 m) + isim anahtari. */
+const normName = (s) => (s || '').toLowerCase().replace(/\s+/g, ' ').trim();
+
+/** Ayni yeri iki kez eklememek icin: koordinat + isim.
+   Koordinat 5 haneye (~1 m) bakiyor ve isim de anahtara giriyor; aksi halde
+   ayni binadaki iki ayri mekan (ust kattaki mescit ile marketi gibi) tek
+   kayda dusuyordu. Ayni yer iki listede duruyorsa yine tek kalir. */
 export function dedupe(places) {
   const seen = new Set(), out = [];
   for (const p of places) {
     const key = Number.isFinite(p.lat)
-      ? `${p.lat.toFixed(4)},${p.lng.toFixed(4)}`
-      : 'n:' + p.name.toLowerCase().replace(/\s+/g, '');
+      ? `${p.lat.toFixed(5)},${p.lng.toFixed(5)}|${normName(p.name)}`
+      : 'n:' + normName(p.name);
     if (seen.has(key)) continue;
     seen.add(key);
     out.push(p);

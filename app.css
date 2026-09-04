@@ -74,7 +74,8 @@ input{font:inherit;color:inherit}
 .chip.on{background:var(--text);color:var(--bg);border-color:var(--text)}
 
 /* ---------- fabs ---------- */
-.fabs{position:fixed;right:12px;z-index:600;display:flex;flex-direction:column;gap:9px;
+.fabs{position:fixed;right:12px;bottom:calc(130px + var(--safe-b));z-index:600;
+  display:flex;flex-direction:column;gap:9px;
   transition:bottom .28s cubic-bezier(.32,.72,0,1)}
 .fab{
   width:44px;height:44px;border-radius:14px;background:var(--surface);
@@ -90,7 +91,7 @@ input{font:inherit;color:inherit}
   background:var(--surface);border-top:1px solid var(--border);
   border-radius:20px 20px 0 0;box-shadow:var(--shadow);
   display:flex;flex-direction:column;
-  height:88vh;
+  height:88vh; height:88dvh;
   transition:transform .28s cubic-bezier(.32,.72,0,1);
   touch-action:none
 }
